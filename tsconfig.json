@@ -1,0 +1,29 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "public/config.js"
+  ],
+  "compilerOptions": {
+    "ignoreDeprecations": "5.0",
+    "strict": true,
+    "baseUrl": ".",
+    "target": "ES2020", // 必须是 ES2020 或更高
+    "lib": [
+      "ES2020",
+      "DOM"
+    ], // 添加 ES2020 支持
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
