@@ -4,7 +4,7 @@ export default [
     quality: '白',
     cost: 0,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_jichuxing.jpg', import.meta.url),
     data: [
       [7, 7, '/'],
       [8, 8, '/'],
@@ -22,7 +22,7 @@ export default [
     quality: '白',
     cost: 0,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/lingnengzhadan.jpg', import.meta.url),
     data: [
       [0, 1, '【隐形】、【守军】、【魔免】、充能时爆炸:英雄受到14点伤害，所有相邻友军受到5点伤害'],
       [0, 1, '【隐形】、【守军】、【魔免】、充能时爆炸:英雄受到16点伤害，所有相邻友军受到6点伤害'],
@@ -40,7 +40,7 @@ export default [
     quality: '白',
     cost: 1,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/chenmoshu.jpg', import.meta.url),
     data: [
       [0, 0, '目标区域坠落12点伤害，并沉默目标单位'],
       [0, 0, '目标区域坠落13点伤害，并沉默目标单位'],
@@ -58,7 +58,7 @@ export default [
     quality: '白',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/huanxiangjushe.jpg', import.meta.url),
     data: [
       [13, 13, '【幻象】'],
       [14, 14, '【幻象】'],
@@ -76,7 +76,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/jixiexixuetu.jpg', import.meta.url),
     data: [
       [8, 8, '【穿透】'],
       [9, 9, '【穿透】'],
@@ -94,7 +94,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_fatiaoxing.jpg', import.meta.url),
     data: [
       [12, 12, '死亡:随机友军+4/+4'],
       [13, 13, '死亡:随机友军+5/+5'],
@@ -112,7 +112,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/niuquzhili.jpg', import.meta.url),
     data: [
       [0, 0, '目标单位+12/-12'],
       [0, 0, '目标单位+13/-13'],
@@ -130,7 +130,7 @@ export default [
     quality: '白',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_liannengxing.jpg', import.meta.url),
     data: [
       [12, 6, '攻击前:随机敌军受到2点伤害'],
       [13, 6, '攻击前:随机敌军受到3点伤害'],
@@ -148,7 +148,7 @@ export default [
     quality: '白',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_zengqiangxing.jpg', import.meta.url),
     data: [
       [13, 13, '登场:随机友军+4/+4'],
       [14, 14, '登场:随机友军+5/+5'],
@@ -166,7 +166,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xieyuebianfu.jpg', import.meta.url),
     data: [
       [10, 4, '攻击前:本回合你每使用过一个法术，自身攻击+6，若为传记则获得【隐形】1回合'],
       [11, 4, '攻击前:本回合你每使用过一个法术，自身攻击+7，若为传记则获得【隐形】1回合'],
@@ -184,7 +184,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/yuyanxijiaoshou.jpg', import.meta.url),
     data: [
       [7, 7, '登场:抓一张牌、死亡:英雄生命+9'],
       [8, 8, '登场:抓一张牌、死亡:英雄生命+10'],
@@ -202,7 +202,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/fangjianmobei.jpg', import.meta.url),
     data: [
       [0, 18, '【守军】、敌方法力上限-1、回合结束:60%几率【洞察1】'],
       [0, 20, '【守军】、敌方法力上限-1、回合结束:60%几率【洞察1】'],
@@ -220,7 +220,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/leihuogongzu.jpg', import.meta.url),
     data: [
       [8, 18, '回合开始:你每有1点法力，敌方随机区域坠落2点伤害'],
       [9, 21, '回合开始:你每有1点法力，敌方随机区域坠落2点伤害'],
@@ -238,7 +238,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xieyueyaomao.jpg', import.meta.url),
     data: [
       [13, 9, '攻击前:本回合你每使用过一个法术，自身+3/+3，若为传记获得【践踏】1回合'],
       [15, 10, '攻击前:本回合你每使用过一个法术，自身+3/+3，若为传记获得【践踏】1回合'],
@@ -256,7 +256,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/chenzhongfouding.jpg', import.meta.url),
     data: [
       [0, 0, '目标敌军攻击-35，并沉默、70%获得《真理碎片》'],
       [0, 0, '目标敌军攻击-40，并沉默、70%获得《真理碎片》'],
@@ -274,7 +274,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_guancexing.jpg', import.meta.url),
     data: [
       [9, 15, '洞察时：自身+2/+3、死亡：【洞察1】，英雄恢复生命（等同攻击力）'],
       [10, 17, '洞察时：自身+2/+3、死亡：【洞察1】，英雄恢复生命（等同攻击力）'],
@@ -292,7 +292,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/huanxiangxuezhe.jpg', import.meta.url),
     data: [
       [11, 9, '登场:获得《幻象巨蛇》-lv12'],
       [12, 10, '登场:获得《幻象巨蛇》-lv13'],
@@ -310,7 +310,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/yumoshu.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+4/+4、获得【魔防7】、抽一张牌'],
       [0, 0, '目标友军+4/+5、获得【魔防8】、抽一张牌'],
@@ -328,7 +328,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/cuxindehuaxuejia.jpg', import.meta.url),
     data: [
       [8, 13, '攻击前:相邻一个友军受到1点伤害，随机敌军受到3点伤害'],
       [9, 15, '攻击前:相邻一个友军受到1点伤害，随机敌军受到3点伤害'],
@@ -346,7 +346,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/wanshengjiecaoren.jpg', import.meta.url),
     data: [
       [0, 13, '回合结束:45%几率敌方一张手牌法力+1、死亡:原地召唤幻象蛇-lv12'],
       [0, 15, '回合结束:50%几率敌方一张手牌法力+1、死亡:原地召唤幻象蛇-lv13'],
@@ -364,7 +364,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/lingnengbukong.jpg', import.meta.url),
     data: [
       [0, 0, '回合结束:在敌方区域召唤灵能炸弹-lv12、抽一张牌'],
       [0, 0, '回合结束:在敌方区域召唤灵能炸弹-lv13、抽一张牌'],
@@ -382,7 +382,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_bujixing.jpg', import.meta.url),
     data: [
       [5, 30, '回合结束:你每有1点法力，自身+2/+3'],
       [6, 32, '回合结束:你每有1点法力，自身+2/+3'],
@@ -400,7 +400,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/moyaoxixueshi.jpg', import.meta.url),
     data: [
       [9, 17, '登场:获得卡牌《扭曲之力》-lv12'],
       [10, 19, '登场:获得卡牌《扭曲之力》-lv13'],
@@ -418,7 +418,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/shengminggongzu.jpg', import.meta.url),
     data: [
       [9, 26, '回合开始:你每有1点法力，英雄生命+3'],
       [10, 28, '回合开始:你每有1点法力，英雄生命+4'],
@@ -436,7 +436,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_toushexing.jpg', import.meta.url),
     data: [
       [13, 13, '攻击前:投射5点伤害'],
       [14, 14, '攻击前:投射6点伤害'],
@@ -454,7 +454,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuhuashu.jpg', import.meta.url),
     data: [
       [0, 0, '目标单位+10/+16，并获得【穿透】'],
       [0, 0, '目标单位+12/+18，并获得【穿透】'],
@@ -472,7 +472,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/quanshufouding.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、横排敌军攻击-12'],
       [0, 0, '【洞察1】、横排敌军攻击-14'],
@@ -490,7 +490,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/yinmihexing.jpg', import.meta.url),
     data: [
       [0, 35, '【守军】、【隐形】、法力上限+2'],
       [0, 35, '【守军】、【隐形】、法力上限+3'],
@@ -504,11 +504,11 @@ export default [
     ]
   },
   {
-    name: '睡眠系教授',
+    name: '催眠系教授',
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/cuimianxijiaoshou.jpg', import.meta.url),
     data: [
       [8, 16, '回合开始:每使用过一个法术，随机敌军攻击-6，若是传记，随机敌军不能攻击1回合'],
       [9, 19, '回合开始:每使用过一个法术，随机敌军攻击-6，若是传记，随机敌军不能攻击1回合'],
@@ -526,7 +526,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuhuayinji.jpg', import.meta.url),
     data: [
       [0, 0, '目标敌军攻击-27，获得【隐形】'],
       [0, 0, '目标敌军攻击-30，获得【隐形】'],
@@ -544,7 +544,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/ziyangshouwei.jpg', import.meta.url),
     data: [
       [8, 33, '攻击前:你每有1点法力，吸取随机敌军2点攻击'],
       [9, 36, '攻击前:你每有1点法力，吸取随机敌军2点攻击'],
@@ -562,7 +562,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/huanxiangxiong.jpg', import.meta.url),
     data: [
       [22, 22, '【践踏】、【幻象】'],
       [24, 24, '【践踏】、【幻象】'],
@@ -580,7 +580,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_fenhuaxing.jpg', import.meta.url),
     data: [
       [7, 27, '回合开始:其他所有生物受到1点伤害、充能:敌方所有生物受到3点伤害'],
       [8, 31, '回合开始:其他所有生物受到1点伤害、充能:敌方所有生物受到3点伤害'],
@@ -598,7 +598,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_shentouxing.jpg', import.meta.url),
     data: [
       [16, 16, '【洞察1】、【穿透】、【护甲4】'],
       [17, 17, '【洞察1】、【穿透】、【护甲5】'],
@@ -616,7 +616,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_mozhuxing.jpg', import.meta.url),
     data: [
       [14, 11, '【先攻】、攻击前：本回合每使用过一个法术自身+5/+2'],
       [15, 13, '【先攻】、攻击前：本回合每使用过一个法术自身+5/+3'],
@@ -634,7 +634,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/heiyaoshixianggui.jpg', import.meta.url),
     data: [
       [12, 30, '【迟缓】、敌方法力上限-1、登场回合具有【护甲12】'],
       [13, 33, '【迟缓】、敌方法力上限-1、登场回合具有【护甲14】'],
@@ -652,7 +652,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_zhandouxing.jpg', import.meta.url),
     data: [
       [19, 19, '充能:自身-1/-1，随机敌军受到8点伤害'],
       [20, 20, '充能:自身-1/-1，随机敌军受到9点伤害'],
@@ -670,7 +670,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_nengyuanxing.jpg', import.meta.url),
     data: [
       [8, 23, '【护甲5】、法力上限+2'],
       [10, 24, '【护甲6】、法力上限+2'],
@@ -688,7 +688,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/mozhoulaoyu.jpg', import.meta.url),
     data: [
       [9, 15, '登场:对手弃一张牌，对手无手牌，随机敌军-20/-4，被沉默'],
       [10, 16, '登场:对手弃一张牌，对手无手牌，随机敌军-20/-5，被沉默'],
@@ -706,7 +706,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/qingshiyinmizhe.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、抽2张牌、随机友军生命+25、充能:多抽一张牌'],
       [0, 0, '【洞察1】、抽2张牌、随机友军生命+30、充能:多抽一张牌'],
@@ -724,7 +724,7 @@ export default [
     quality: '紫',
     cost: 1,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/yinxingshu.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、目标单位+8/+8，获得【隐形】'],
       [0, 0, '【洞察1】、目标单位+9/+10，获得【隐形】'],
@@ -742,7 +742,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_chongfengxing.jpg', import.meta.url),
     data: [
       [11, 9, '【先攻】、攻击前:你每有1点法力，自身+2/+1'],
       [12, 11, '【先攻】、攻击前:你每有1点法力，自身+2/+1'],
@@ -760,7 +760,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/zhoushuxixueshi.jpg', import.meta.url),
     data: [
       [4, 17, '回合结束:若本回合你使用过法术，抓一张牌，英雄生命+12，若为传记则自身+4/+4'],
       [5, 19, '回合结束:若本回合你使用过法术，抓一张牌，英雄生命+13，若为传记则自身+4/+4'],
@@ -778,7 +778,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/pomoxijiaoshou.jpg', import.meta.url),
     data: [
       [7, 13, '【洞察1】、登场:沉默随机敌军、命中时:40%几率【洞察1】、回合结束:25%几率沉默随机敌军'],
       [8, 14, '【洞察1】、登场:沉默随机敌军、命中时:40%几率【洞察1】、回合结束:30%几率沉默随机敌军'],
@@ -796,7 +796,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/kelongshu.jpg', import.meta.url),
     data: [
       [0, 0, '复制目标单位到手上，英雄生命+20'],
       [0, 0, '复制目标单位到手上，英雄生命+22'],
@@ -814,7 +814,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/fanghuxijiaoshou.jpg', import.meta.url),
     data: [
       [6, 24, '回合开始:随机敌军攻击-3，随机友军生命+3'],
       [7, 26, '回合开始:随机敌军攻击-3，随机友军生命+4'],
@@ -832,7 +832,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/moxiang_yuzhoutiewei.jpg', import.meta.url),
     data: [
       [13, 13, '【护甲6】、攻击前:本回合你每使用过一个法术，自身+3/+3，护甲+1，若为传记则护甲额外+1'],
       [14, 15, '【护甲6】、攻击前:本回合你每使用过一个法术，自身+3/+4，护甲+1，若为传记则护甲额外+1'],
@@ -850,7 +850,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/jianyanfashi.jpg', import.meta.url),
     data: [
       [15, 6, '登场:获得卡牌《沉默术》-lv6、死亡:获得《沉默术》-lv6'],
       [16, 8, '登场:获得卡牌《沉默术》-lv6、死亡:获得《沉默术》-lv6'],
@@ -868,7 +868,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_mengqinxing.jpg', import.meta.url),
     data: [
       [12, 3, '【先攻】、命中时：【洞察1】、洞察时：全体先攻友军攻击+5'],
       [13, 3, '【先攻】、命中时：【洞察1】、洞察时：全体先攻友军攻击+5'],
@@ -886,7 +886,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_maichongxing.jpg', import.meta.url),
     data: [
       [7, 14, '【洞察1】、洞察时：自身+1/+6，射击英雄'],
       [8, 15, '【洞察1】、洞察时：自身+1/+6，射击英雄'],
@@ -900,11 +900,11 @@ export default [
     ]
   },
   {
-    name: '夜幕灵宠',
+    name: '夜幕魔宠',
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/yemumochong.jpg', import.meta.url),
     data: [
       [11, 7, '【魔防10】、登场、命中英雄:敌方一张手牌法力+1'],
       [12, 8, '【魔防11】、登场、命中英雄:敌方一张手牌法力+1'],
@@ -922,7 +922,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/baishoumogen.jpg', import.meta.url),
     data: [
       [6, 30, '【洞察1】、【魔免】、回合结束:自身攻击加倍'],
       [7, 33, '【洞察1】、【魔免】、回合结束:自身攻击加倍'],
@@ -940,7 +940,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/huanyumishu.jpg', import.meta.url),
     data: [
       [0, 32, '【洞察1】、法力上限+2、回合开始:随机敌军-x/-x(x为你的法力)'],
       [0, 33, '【洞察1】、【魔防2】、法力上限+2、回合开始:随机敌军-x/-x(x为你的法力)'],
@@ -958,7 +958,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/gaizaomojuan.jpg', import.meta.url),
     data: [
       [0, 0, '消灭敌方单位，获得7/7量产型学仆-lv12'],
       [0, 0, '消灭敌方单位，获得8/8量产型学仆-lv13、0/1量产型学仆-lv1'],
@@ -976,7 +976,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/shiyanshiliujiang.jpg', import.meta.url),
     data: [
       [10, 27, '回合结束:若本回合受到过伤害，在相邻位置复制一个自己'],
       [11, 30, '回合结束:若本回合受到过伤害，在相邻位置复制一个自己'],
@@ -994,7 +994,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_sugangxing.jpg', import.meta.url),
     data: [
       [18, 19, '【磐龙】、【护甲7】、洞察时：自身+2/+5，护甲+1'],
       [20, 20, '【磐龙】、【护甲8】、洞察时：自身+2/+5，护甲+1'],
@@ -1012,7 +1012,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/huanxiangxijiaoshou.jpg', import.meta.url),
     data: [
       [11, 12, '登场:前方位置召唤5/5幻象蛇-lv6、回合开始:随机幻象友军+7/+7，获得【回命】'],
       [13, 13, '登场:前方位置召唤7/7幻象蛇-lv7、回合开始:随机幻象友军+8/+8，获得【回命】'],
@@ -1030,7 +1030,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/moxiang_shufafengbao.jpg', import.meta.url),
     data: [
       [16, 30, '【践踏】、【磐龙】、攻击前:本回你每施放过一个法术，自身+5/+5，若为传记则获得【连击】1回合'],
       [18, 33, '【践踏】、【磐龙】、攻击前:本回你每施放过一个法术，自身+6/+6，若为传记则获得【连击】1回合'],
@@ -1048,7 +1048,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/zhaoxionghuanshushi.jpg', import.meta.url),
     data: [
       [5, 5, '登场、回合结束:召唤22/22幻象熊-lv12'],
       [6, 6, '登场、回合结束:召唤24/24幻象熊-lv13'],
@@ -1066,7 +1066,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/guanxingtaidayuyanjia.jpg', import.meta.url),
     data: [
       [6, 18, '【洞察1】、【魔防6】、洞察时：抽一张牌'],
       [7, 19, '【洞察1】、【魔防7】、洞察时：抽一张牌'],
@@ -1084,7 +1084,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/yumoshifensi.jpg', import.meta.url),
     data: [
       [19, 15, '【先攻】、登场：全体先攻友军魔防+12，获得【神佑】1回合'],
       [21, 16, '【先攻】、登场：全体先攻友军魔防+13，获得【神佑】1回合'],
@@ -1102,7 +1102,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/gedouxijiaoshou.jpg', import.meta.url),
     data: [
       [14, 35, '回合开始:相邻一个友军获得【先攻】1回合，先攻友军+2/+4'],
       [16, 38, '回合开始:相邻一个友军获得【先攻】1回合，先攻友军+2/+4'],
@@ -1120,7 +1120,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xuepu_fenliexing.jpg', import.meta.url),
     data: [
       [20, 27, '攻击前:投射10点伤害、充能:召唤6/6学仆投射型-lv6'],
       [23, 30, '攻击前:投射11点伤害、充能:召唤7/7学仆投射型-lv7'],
@@ -1138,7 +1138,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/huanxiangjulong.jpg', import.meta.url),
     data: [
       [40, 40, '【魔免】、【幻象】、登场:全体敌军攻击-5'],
       [45, 45, '【魔免】、【幻象】、登场:全体敌军攻击-5'],
@@ -1156,7 +1156,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/juxingshixianggui.jpg', import.meta.url),
     data: [
       [34, 34, '【迟缓】、敌方法力上限永久-1、登场:吹回随机敌军，本回合具有【护甲20】'],
       [38, 38, '【迟缓】、敌方法力上限永久-1、登场:吹回随机敌军，本回合具有【护甲22】'],
@@ -1174,7 +1174,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/ruizhishifensi.jpg', import.meta.url),
     data: [
       [15, 49, '充能:随机友军+1/+12、回合结束:抽1张牌，若本回合你有充能，多抽1张牌'],
       [17, 52, '充能:随机友军+1/+13、回合结束:抽1张牌，若本回合你有充能，多抽1张牌'],
@@ -1192,7 +1192,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/xinlingcaokong.jpg', import.meta.url),
     data: [
       [0, 0, '英雄生命-2，目标单位+9/+9，被你操控'],
       [0, 0, '英雄生命-2，目标单位+10/+10，被你操控'],
@@ -1210,7 +1210,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/milafangzhou.jpg', import.meta.url),
     data: [
       [20, 40, '【洞察1】、【磐龙】、【穿透】、【护甲7】、【魔防7】、洞察时：获得《渗透型》lv11、护甲友军死亡：自身+6/+12'],
       [22, 45, '【洞察1】、【磐龙】、【穿透】、【护甲8】、【魔防8】、洞察时：获得《渗透型》lv13、护甲友军死亡：自身+6/+13'],
@@ -1228,7 +1228,7 @@ export default [
     quality: '紫',
     cost: 8,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/mogang.jpg', import.meta.url),
     data: [
       [45, 45, '【护甲5】、【磐龙】、充能:护甲+3、攻击前:本回合你使用过法术，自身+7/+7'],
       [49, 49, '【护甲6】、【磐龙】、充能:护甲+3、攻击前:本回合你使用过法术，自身+8/+8'],
@@ -1246,7 +1246,7 @@ export default [
     quality: '紫',
     cost: 9,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/moxiang_gangyizhongcaizhe.jpg', import.meta.url),
     data: [
       [40, 30, '登场:消灭随机敌军、充能:随机敌军受到40点伤害'],
       [45, 35, '登场:消灭随机敌军、充能:随机敌军受到45点伤害'],
@@ -1264,7 +1264,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/zhuanji_haishishenloushe.jpg', import.meta.url),
     data: [
       [0, 0, '横排随机位置，召唤幻象蛇-lv12，获得【传记·海市蜃楼·熊】'],
       [0, 0, '横排随机位置，召唤幻象蛇-lv13，获得【传记·海市蜃楼·熊】'],
@@ -1282,7 +1282,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/zhuanji_haishishenlouxiong.jpg', import.meta.url),
     data: [
       [0, 0, '横排随机位置，召唤幻象熊-lv12，获得【传记·海市蜃楼·龙】'],
       [0, 0, '横排随机位置，召唤幻象熊-lv13，获得【传记·海市蜃楼·龙】'],
@@ -1300,7 +1300,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/zhuanji_haishishenloulong.jpg', import.meta.url),
     data: [
       [0, 0, '横排随机位置，召唤幻象龙-lv12'],
       [0, 0, '横排随机位置，召唤幻象龙-lv13'],
@@ -1318,7 +1318,7 @@ export default [
     quality: '橙',
     cost: 0,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/No7_guitongsaiwen.jpg', import.meta.url),
     data: [
       [6, 6, '回合结束:若本回合已充能，则修复《鬼童-7号》lv12，回到手上'],
       [7, 7, '回合结束:若本回合已充能，则修复《鬼童-7号》lv13，回到手上'],
@@ -1336,7 +1336,7 @@ export default [
     quality: '橙',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/No8_leimingtaidela.jpg', import.meta.url),
     data: [
       [12, 16, '回合开始、攻击前、回合结束:敌方随机区域坠落x点伤害(x为剩余法力)'],
       [14, 18, '回合开始、攻击前、回合结束:敌方随机区域坠落x点伤害(x为剩余法力)'],
@@ -1354,7 +1354,7 @@ export default [
     quality: '橙',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/No4_xierbote.jpg', import.meta.url),
     data: [
       [7, 21, '【护甲2】、【魔防2】、回合结束:敌方区域召唤灵能炸弹-lv12'],
       [8, 23, '【护甲3】、【魔防3】、回合结束:敌方区域召唤灵能炸弹-lv13'],
@@ -1372,7 +1372,7 @@ export default [
     quality: '橙',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/No5_zhourenbuleike.jpg', import.meta.url),
     data: [
       [6, 22, '【魔免】、【先攻】、【二连击】、【护甲3】、攻击前:本回合你每使用过一个法术或传记，自身攻击+1'],
       [7, 23, '【魔免】、【先攻】、【二连击】、【护甲3】、攻击前:本回合你每使用过一个法术或传记，自身攻击+2'],
@@ -1390,7 +1390,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/guitongqihao.jpg', import.meta.url),
     data: [
       [13, 13, '登场:随机敌军受到13点伤害、攻击前:随机敌军受到5点伤害、死亡:召唤6/6赛文-lv12'],
       [14, 15, '登场:随机敌军受到14点伤害、攻击前:随机敌军受到5点伤害、死亡:召唤7/7赛文-lv13'],
@@ -1408,7 +1408,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/No2_shiguangmila.jpg', import.meta.url),
     data: [
       [8, 13, '法力上限+3，你的法术卡使用后，移回手上、死亡:自身回手，70%概率获得沉默术-lv5'],
       [10, 16, '法力上限+3，你的法术卡使用后，移回手上、死亡:自身回手，75%概率获得沉默术-lv5'],
@@ -1426,7 +1426,7 @@ export default [
     quality: '橙',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/No9_dining.jpg', import.meta.url),
     data: [
       [9, 9, '【魔防8】、【先攻】、回合开始：全体先攻友军+2/+1、获得【连击】1回合'],
       [10, 10, '【魔防8】、【先攻】、回合开始：全体先攻友军+2/+2、获得【连击】1回合'],
@@ -1444,7 +1444,7 @@ export default [
     quality: '橙',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/No6_wofanruila.jpg', import.meta.url),
     data: [
       [26, 18, '登场:前方竖排召唤三个13/13幻象巨蛇-lv12、回合结束:获得两个13/13幻象巨蛇-lv12'],
       [28, 22, '登场:前方竖排召唤三个14/14幻象巨蛇-lv13、回合结束:获得两个14/14幻象巨蛇-lv13'],
@@ -1462,7 +1462,7 @@ export default [
     quality: '橙',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/No3_yisiduoweier.jpg', import.meta.url),
     data: [
       [15, 15, '回合开始:心灵操控随机敌军，另一友军+11/+11'],
       [16, 16, '登场：获得【磐龙】1回合、回合开始:心灵操控随机敌军，另一友军+11/+11'],
@@ -1480,7 +1480,7 @@ export default [
     quality: '橙',
     cost: 1,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/zhuanji_huangwuwangexu.jpg', import.meta.url),
     data: [
       [0, 0, '随机敌军攻击-6，荒芜随机敌方区域，获得【传记·荒芜挽歌·破】'],
       [0, 0, '随机敌军攻击-7，荒芜随机敌方区域，获得【传记·荒芜挽歌·破】'],
@@ -1498,7 +1498,7 @@ export default [
     quality: '橙',
     cost: 2,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/zhuanji_huangwuwangepo.jpg', import.meta.url),
     data: [
       [0, 0, '在目标区域和随机区域召唤2个10/10幻想蛇-lv9，获得【传记·荒芜挽歌·终】'],
       [0, 0, '在目标区域和随机区域召唤2个11/11幻想蛇-lv10，获得【传记·荒芜挽歌·终】'],
@@ -1516,7 +1516,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/yinmizhe/zhuanji_huangwuwangezhong.jpg', import.meta.url),
     data: [
       [0, 0, '所有幻象生物+9/+9(无视魔免)'],
       [0, 0, '所有幻象生物+10/+10(无视魔免)'],

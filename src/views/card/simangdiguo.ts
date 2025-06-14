@@ -4,7 +4,7 @@ export default [
     quality: '白',
     cost: 1,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/xiaozhenminbing.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/xiaozhenminbing.jpg', import.meta.url),
     data: [
       [7, 7, '/'],
       [8, 8, '/'],
@@ -22,7 +22,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/jingwei.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/jingwei.jpg', import.meta.url),
     data: [
       [12, 6, '/'],
       [13, 7, '/'],
@@ -40,7 +40,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/shibingzhanyi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shibingzhanyi.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+2/+16'],
       [0, 0, '目标友军+3/+17'],
@@ -58,7 +58,7 @@ export default [
     quality: '白',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengtangmenwei.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengtangmenwei.jpg', import.meta.url),
     data: [
       [1, 25, '【护甲2】'],
       [1, 30, '【护甲2】'],
@@ -76,7 +76,7 @@ export default [
     quality: '白',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/minbingyongshi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/minbingyongshi.jpg', import.meta.url),
     data: [
       [14, 5, '/'],
       [16, 5, '/'],
@@ -92,7 +92,7 @@ export default [
     quality: '白',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/xianfengqishou.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/xianfengqishou.jpg', import.meta.url),
     data: [
       [6, 12, '登场:对面横排无敌军，自身+3/-2'],
       [7, 15, '登场:对面横排无敌军，自身+4/-2'],
@@ -110,7 +110,7 @@ export default [
     quality: '白',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/diguozhongchuibing.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/diguozhongchuibing.jpg', import.meta.url),
     data: [
       [23, 7, '/'],
       [26, 8, '/'],
@@ -128,7 +128,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengdianchihou.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengdianchihou.jpg', import.meta.url),
     data: [
       [9, 6, '【洞察1】、【协战4】'],
       [10, 8, '【洞察1】、【协战4】'],
@@ -146,7 +146,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/lvxingbeibao.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/lvxingbeibao.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+5/+10，获得【回命】'],
       [0, 0, '目标友军+5/+12，获得【回命】'],
@@ -164,7 +164,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/zhongzhuanggushou.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zhongzhuanggushou.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+2/+12，若他有护甲，则护甲+2并获得【磐龙】、抽一张牌'],
       [0, 0, '目标友军+3/+12，若他有护甲，则护甲+3并获得【磐龙】、抽一张牌'],
@@ -182,7 +182,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/fangyugongshi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/fangyugongshi.jpg', import.meta.url),
     data: [
       [0, 30, '【守军】、回合结束:自身生命+6'],
       [0, 35, '【守军】、回合结束:自身生命+7'],
@@ -200,7 +200,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengdianweishi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengdianweishi.jpg', import.meta.url),
     data: [
       [10, 15, '【洞察1】、【回命】'],
       [12, 15, '【洞察1】、【回命】'],
@@ -218,7 +218,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/xiunv.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/xiunv.jpg', import.meta.url),
     data: [
       [6, 13, '登场:英雄生命+15、回合结束:75%几率，英雄生命+10'],
       [7, 15, '登场:英雄生命+18、回合结束:75%几率，英雄生命+10'],
@@ -236,7 +236,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/huanlenainiu.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/huanlenainiu.jpg', import.meta.url),
     data: [
       [2, 20, '回合结束::85%几率，恢复英雄生命，等同于自身防御'],
       [3, 21, '回合结束::90%几率，恢复英雄生命，等同于自身防御'],
@@ -254,7 +254,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/xuanmushenguang.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/xuanmushenguang.jpg', import.meta.url),
     data: [
       [0, 0, '两个随机敌军，本回合不能进行攻击、英雄生命+20、获得《真理碎片》'],
       [0, 0, '两个随机敌军，本回合不能进行攻击、英雄生命+25、获得《真理碎片》'],
@@ -272,7 +272,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/tianshiqiongjiang.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/tianshiqiongjiang.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、英雄生命+28、抓一张牌、75%几率获得《真理碎片》'],
       [0, 0, '【洞察1】、英雄生命+32、抓一张牌、75%几率获得《真理碎片》'],
@@ -290,7 +290,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengjiaxianfeng.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengjiaxianfeng.jpg', import.meta.url),
     data: [
       [12, 12, '【护甲3】、命中英雄:手上一张护甲生物卡法力-1（次数上限:2）'],
       [13, 13, '【护甲3】、命中英雄:手上一张护甲生物卡法力-1（次数上限:2）'],
@@ -308,7 +308,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/minbingduizhang.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/minbingduizhang.jpg', import.meta.url),
     data: [
       [7, 7, '【协战4】、登场:相邻区域召唤5/5小镇民兵-lv10'],
       [8, 8, '【协战4】、登场:相邻区域召唤6/6小镇民兵-lv11'],
@@ -326,7 +326,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/dunjiajinwei.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/dunjiajinwei.jpg', import.meta.url),
     data: [
       [13, 11, '【护甲6】'],
       [14, 12, '【护甲7】'],
@@ -344,7 +344,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/diguohouqinguan.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/diguohouqinguan.jpg', import.meta.url),
     data: [
       [10, 24, '回合结束:恢复英雄生命，等同自身攻击'],
       [11, 27, '回合结束:恢复英雄生命，等同自身攻击'],
@@ -362,7 +362,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengdiannushou.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengdiannushou.jpg', import.meta.url),
     data: [
       [7, 16, '【协战4】、回合开始:射击敌方英雄'],
       [8, 17, '【协战4】、回合开始:射击敌方英雄'],
@@ -380,7 +380,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/daxingnuche.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/daxingnuche.jpg', import.meta.url),
     data: [
       [0, 26, '【洞察1】、【协战11】'],
       [0, 30, '【洞察1】、【协战12】'],
@@ -398,7 +398,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/wuweibaoposhou.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/wuweibaoposhou.jpg', import.meta.url),
     data: [
       [10, 27, '回合结束:投掷炸弹，15点伤害、死亡:炸伤你的英雄'],
       [11, 30, '回合结束:投掷炸弹，16点伤害、死亡:炸伤你的英雄'],
@@ -416,7 +416,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/zengyuanzhanxian.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zengyuanzhanxian.jpg', import.meta.url),
     data: [
       [0, 0, '召唤3个4/5民兵-lv8，60%概率再召唤一个'],
       [0, 0, '【洞察1】、召唤3个5/5民兵-lv9，60%概率再召唤一个'],
@@ -434,7 +434,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/xinniandiaoxiang.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/xinniandiaoxiang.jpg', import.meta.url),
     data: [
       [7, 22, '【守军】、【护甲3】、回合开始:另一友军生命+X（等同攻击）'],
       [8, 23, '【守军】、【护甲4】、回合开始:另一友军生命+X（等同攻击）'],
@@ -452,7 +452,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/talougongshou.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/talougongshou.jpg', import.meta.url),
     data: [
       [13, 7, '【先攻】、洞察时:自身+3/+2、死亡:【洞察1】'],
       [15, 7, '【先攻】、洞察时:自身+3/+2、死亡:【洞察1】'],
@@ -470,7 +470,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/shenshenghuohua.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shenshenghuohua.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+12/+12，失去【守军】'],
       [0, 0, '目标友军+13/+14，失去【守军】'],
@@ -488,7 +488,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengdianjingying.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengdianjingying.jpg', import.meta.url),
     data: [
       [9, 24, '【协战8】、【护甲1】'],
       [10, 26, '【协战8】、【护甲2】'],
@@ -506,7 +506,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/baitoushijiu.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/baitoushijiu.jpg', import.meta.url),
     data: [
       [15, 8, '【回命】、攻击前:65%几率，吹飞对面首位敌军。'],
       [16, 9, '【回命】、攻击前:70%几率，吹飞对面首位敌军。'],
@@ -524,7 +524,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/jianlouche.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/jianlouche.jpg', import.meta.url),
     data: [
       [4, 40, '回合结束:射击随机敌军3点伤害，随机另一名友军+2/+2'],
       [4, 45, '回合结束:射击随机敌军4点伤害，随机另一名友军+2/+2'],
@@ -542,7 +542,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/diguolaobing.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/diguolaobing.jpg', import.meta.url),
     data: [
       [11, 25, '登场:召唤7/7小镇民兵-lv12'],
       [12, 26, '登场:召唤8/8小镇民兵-lv13'],
@@ -560,7 +560,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/simangyingzhang.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/simangyingzhang.jpg', import.meta.url),
     data: [
       [0, 38, '【守军】、登场、回合结束:召唤4/5小镇民兵-lv8'],
       [0, 42, '【守军】、登场、回合结束:召唤5/5小镇民兵-lv9'],
@@ -578,7 +578,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/diguozhongpao.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/diguozhongpao.jpg', import.meta.url),
     data: [
       [15, 37, '【守军】、回合结束:炮击敌横排随机区域'],
       [16, 42, '【守军】、回合结束:炮击敌横排随机区域'],
@@ -596,7 +596,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/jinshendehuoqiangshou.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/jinshendehuoqiangshou.jpg', import.meta.url),
     data: [
       [10, 25, '攻击前、回合结束:若友军更多，枪击随机敌军(5点伤害)'],
       [11, 28, '攻击前、回合结束:若友军更多，枪击随机敌军(6点伤害)'],
@@ -614,7 +614,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/shengmingzhiguang.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengmingzhiguang.jpg', import.meta.url),
     data: [
       [0, 0, '英雄生命+40，若生命高于敌方英雄:召唤6/6小镇民兵-lv10'],
       [0, 0, '英雄生命+48，若生命高于敌方英雄:召唤6/6小镇民兵-lv10'],
@@ -632,7 +632,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/simangmushi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/simangmushi.jpg', import.meta.url),
     data: [
       [7, 20, '回合开始:另一友军生命+10'],
       [8, 22, '回合开始:另一友军生命+11'],
@@ -650,7 +650,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/jingyingsheshou.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/jingyingsheshou.jpg', import.meta.url),
     data: [
       [15, 10, '【洞察1】、【先攻】、【协战4】'],
       [16, 12, '【洞察1】、【先攻】、【协战5】'],
@@ -668,7 +668,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/diguochongfengqishi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/diguochongfengqishi.jpg', import.meta.url),
     data: [
       [27, 12, '登场:若对面首位敌军为新进场，则将其消灭'],
       [30, 14, '登场:若对面首位敌军为新进场，则将其消灭'],
@@ -686,7 +686,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/zhanchangchuanjiaoshi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zhanchangchuanjiaoshi.jpg', import.meta.url),
     data: [
       [15, 13, '登场:全体其他友军+4/+4'],
       [16, 15, '登场:全体其他友军+5/+4'],
@@ -704,7 +704,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/guangmingchenjie.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/guangmingchenjie.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、横排所有敌军受到75点伤害'],
       [0, 0, '【洞察1】、横排所有敌军受到80点伤害、30%概率获得《真理碎片》'],
@@ -722,7 +722,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 3,
-    img: new URL('@/assets/zhongzu/diguo/zhuanji_shengmingxuqu.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zhuanji_shengmingxuqu.jpg', import.meta.url),
     data: [
       [0, 0, '英雄生命+12，获得【传记·生命赞歌】'],
       [0, 0, '英雄生命+13，获得【传记·生命赞歌】'],
@@ -740,7 +740,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 3,
-    img: new URL('@/assets/zhongzu/diguo/zhuanji_shengmingzange.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zhuanji_shengmingzange.jpg', import.meta.url),
     data: [
       [0, 0, '英雄生命+19，获得【传记·生命咏叹调】'],
       [0, 0, '英雄生命+21，获得【传记·生命咏叹调】'],
@@ -758,7 +758,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 3,
-    img: new URL('@/assets/zhongzu/diguo/zhuanji_shengmingyongtandiao.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zhuanji_shengmingyongtandiao.jpg', import.meta.url),
     data: [
       [0, 0, '英雄生命+29'],
       [0, 0, '英雄生命+32'],
@@ -776,7 +776,7 @@ export default [
     quality: '紫',
     cost: 1,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/simangjunqi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/simangjunqi.jpg', import.meta.url),
     data: [
       [0, 20, '【守军】、【魔免】、登场:全体友军+4/+4、当前回合:护甲和魔防+3、回合结束:四个友军+1/+3'],
       [0, 22, '【守军】、【魔免】、登场:全体友军+4/+4、当前回合:护甲和魔防+4、回合结束:四个友军+1/+4'],
@@ -794,7 +794,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengdianyuwei.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengdianyuwei.jpg', import.meta.url),
     data: [
       [10, 14, '【洞察1】、命中英雄:召唤5/3警卫-lv6'],
       [11, 17, '【洞察1】、命中英雄:召唤6/4警卫-lv7'],
@@ -812,7 +812,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/liuxingdoushi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/liuxingdoushi.jpg', import.meta.url),
     data: [
       [11, 12, '【护甲2】、【协战4】、死亡:向对面横排，投掷流星锤'],
       [13, 13, '【护甲2】、【协战4】、死亡:向对面横排，投掷流星锤'],
@@ -830,7 +830,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/rexuemaoxianjia.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/rexuemaoxianjia.jpg', import.meta.url),
     data: [
       [11, 14, '【魔防3】、攻击前：若英雄生命高于敌方，自身+2/+3，否则获得【回命】1回合'],
       [12, 16, '【魔防4】、攻击前：若英雄生命高于敌方，自身+2/+3，否则获得【回命】1回合'],
@@ -848,7 +848,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengdianqishi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengdianqishi.jpg', import.meta.url),
     data: [
       [11, 24, '【护甲3】、【回命】、【协战5】'],
       [13, 26, '【护甲3】、【回命】、【协战5】'],
@@ -866,7 +866,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/baipaozhujiao.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/baipaozhujiao.jpg', import.meta.url),
     data: [
       [9, 19, '回合开始:另一个随机友军+4/+4，其他友军+1/+2'],
       [10, 22, '回合开始:另一个随机友军+4/+4，其他友军+1/+2'],
@@ -884,7 +884,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/bianjinggaoqiang.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/bianjinggaoqiang.jpg', import.meta.url),
     data: [
       [0, 50, '【守军】、【磐龙】、【护甲3】、回合结束:【洞察1】，若场上有冰封，自身生命+6'],
       [0, 52, '【守军】、【磐龙】、【护甲4】、回合结束:【洞察1】，若场上有冰封，自身生命+7'],
@@ -902,7 +902,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/chongfengzhuangbei.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/chongfengzhuangbei.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+12/+16、并获得【护甲8】'],
       [0, 0, '【洞察1】、目标友军+13/+18、并获得【护甲8】'],
@@ -920,7 +920,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/wangchengjiubalaoban.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/wangchengjiubalaoban.jpg', import.meta.url),
     data: [
       [12, 17, '【回命】、回合开始:若英雄生命高于敌方，随机友军+2/+7并获得【魂歌】'],
       [13, 19, '【回命】、回合开始:若英雄生命高于敌方，随机友军+3/+7并获得【魂歌】'],
@@ -938,7 +938,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/yueguangjisi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/yueguangjisi.jpg', import.meta.url),
     data: [
       [4, 17, '登场:眩晕两个非帝国与禅意的敌军、回合结束:英雄生命+30'],
       [5, 18, '登场:眩晕两个非帝国与禅意的敌军、回合结束:英雄生命+33'],
@@ -956,7 +956,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengdianweiduizhang.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengdianweiduizhang.jpg', import.meta.url),
     data: [
       [14, 31, '【回命】、命中英雄:召唤6/8圣殿卫士-lv8'],
       [16, 34, '【回命】、命中英雄:召唤7/9圣殿卫士-lv9'],
@@ -974,7 +974,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/guangzhizange.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/guangzhizange.jpg', import.meta.url),
     data: [
       [0, 0, '所有友军+8/+8，魔防+4'],
       [0, 0, '所有友军+8/+9，魔防+6'],
@@ -992,7 +992,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/duoquzhendi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/duoquzhendi.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、将横排敌军移回玩家手上、友军横排召唤9/5警卫-lv10'],
       [0, 0, '【洞察1】、将横排敌军移回玩家手上、友军横排召唤10/6警卫-lv11'],
@@ -1010,7 +1010,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/gangtiedashi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/gangtiedashi.jpg', import.meta.url),
     data: [
       [10, 35, '【护甲4】、回合结束:全体护甲友军攻击+6'],
       [12, 36, '【护甲5】、回合结束:全体护甲友军攻击+6'],
@@ -1028,7 +1028,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/zhaojihuwei.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zhaojihuwei.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、在目标位置和随机位置，召唤1/25圣堂门卫-lv12、护甲友军攻击+5，获得【磐龙】1回合'],
       [0, 0, '【洞察1】、在目标位置和随机位置，召唤1/30圣堂门卫-lv13、护甲友军攻击+5，获得【磐龙】1回合'],
@@ -1046,7 +1046,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/mingguangzhujiao.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/mingguangzhujiao.jpg', import.meta.url),
     data: [
       [14, 15, '登场:横排敌军不能攻击1回合、回合开始:友军数多于敌军，随机敌军不能攻击1回合'],
       [16, 16, '登场:横排敌军不能攻击1回合、回合开始:友军数多于敌军，随机敌军不能攻击1回合'],
@@ -1064,7 +1064,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/chiyangzhuiluo.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/chiyangzhuiluo.jpg', import.meta.url),
     data: [
       [0, 0, '横排敌军受到27点伤害，英雄生命+27'],
       [0, 0, '横排敌军受到30点伤害，英雄生命+30'],
@@ -1082,7 +1082,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/jinweibaifuzhang.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/jinweibaifuzhang.jpg', import.meta.url),
     data: [
       [16, 25, '【磐龙】、【护甲9】、【协战6】'],
       [18, 28, '【磐龙】、【护甲10】、【协战6】'],
@@ -1100,7 +1100,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 2,
-    img: new URL('@/assets/zhongzu/diguo/tianyuanbaoweizhan.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/tianyuanbaoweizhan.jpg', import.meta.url),
     data: [
       [0, 0, '回合结束:召唤4个4/15田野农夫-lv12、抓一张牌、英雄生命+35'],
       [0, 0, '回合结束:召唤4个4/18田野农夫-lv13、抓一张牌、英雄生命+40'],
@@ -1118,7 +1118,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengguangzhujiao.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengguangzhujiao.jpg', import.meta.url),
     data: [
       [7, 19, '登场:英雄生命+12、英雄获得生命时:另一友军+5/+10'],
       [8, 21, '登场:英雄生命+13、英雄获得生命时:另一友军+6/+10'],
@@ -1136,7 +1136,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/chenjietianshi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/chenjietianshi.jpg', import.meta.url),
     data: [
       [18, 36, '【回命】、【洞察3】、登场:消灭对面横排首位新进场敌军'],
       [20, 40, '【回命】、【洞察3】、登场:消灭对面横排首位新进场敌军'],
@@ -1154,7 +1154,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/guangmingshengqishi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/guangmingshengqishi.jpg', import.meta.url),
     data: [
       [20, 20, '【护甲6】、登场:英雄生命+20'],
       [23, 23, '【护甲6】、登场:英雄生命+23'],
@@ -1172,7 +1172,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/jinweizhihuiguan.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/jinweizhihuiguan.jpg', import.meta.url),
     data: [
       [15, 33, '【洞察1】、【护甲4】、洞察时：全体友军+3/+3'],
       [17, 35, '【洞察1】、【护甲5】、洞察时：全体友军+3/+3'],
@@ -1190,7 +1190,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/huangjiashijiu.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/huangjiashijiu.jpg', import.meta.url),
     data: [
       [18, 12, '【回命】、【护甲4】、登场:召唤15/8白头狮鹫-lv12，吹飞随机敌军'],
       [21, 15, '【回命】、【护甲5】、登场:召唤16/9白头狮鹫-lv13，吹飞随机敌军'],
@@ -1208,7 +1208,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/pochengzheajiliusi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/pochengzheajiliusi.jpg', import.meta.url),
     data: [
       [0, 80, '【迟缓】、【磐龙】、【践踏】、【护甲9】、【协战22】'],
       [0, 90, '【迟缓】、【磐龙】、【践踏】、【护甲10】、【协战25】'],
@@ -1226,7 +1226,7 @@ export default [
     quality: '紫',
     cost: 8,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/rongguangbaolei.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/rongguangbaolei.jpg', import.meta.url),
     data: [
       [0, 100, '【磐龙】、【守军】、【护甲4】、回合结束:炮击敌横排随机区域15点伤害，炮击2次'],
       [0, 110, '【磐龙】、【守军】、【护甲5】、回合结束:炮击敌横排随机区域16点伤害，炮击2次'],
@@ -1244,7 +1244,7 @@ export default [
     quality: '紫',
     cost: 1,
     type: 3,
-    img: new URL('@/assets/zhongzu/diguo/zhuanji_gangtieshouwei.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zhuanji_gangtieshouwei.jpg', import.meta.url),
     data: [
       [0, 0, '前排位置召唤圣堂门卫-lv10、获得【传记·钢铁赞歌】'],
       [0, 0, '前排位置召唤圣堂门卫-lv11、获得【传记·钢铁赞歌】'],
@@ -1262,7 +1262,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 3,
-    img: new URL('@/assets/zhongzu/diguo/zhuanji_gangtiezange.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zhuanji_gangtiezange.jpg', import.meta.url),
     data: [
       [0, 0, '召唤圣堂门卫-lv12，随机护甲友军获得【魂歌】、获得【传记·钢铁意志】'],
       [0, 0, '召唤圣堂门卫-lv13，随机护甲友军获得【魂歌】、获得【传记·钢铁意志】'],
@@ -1280,7 +1280,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 3,
-    img: new URL('@/assets/zhongzu/diguo/zhuanji_gangtieyizhi.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zhuanji_gangtieyizhi.jpg', import.meta.url),
     data: [
       [0, 0, '全体护甲友军+8/+8，护甲+3，获得【神佑】1回合'],
       [0, 0, '全体护甲友军+9/+9，护甲+3，获得【神佑】1回合'],
@@ -1298,7 +1298,7 @@ export default [
     quality: '橙',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shuguang_annabeier.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shuguang_annabeier.jpg', import.meta.url),
     data: [
       [8, 15, '【洞察2】、攻击前:所有友军+3/+4'],
       [10, 16, '【洞察2】、攻击前:所有友军+3/+4'],
@@ -1316,7 +1316,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/shengqiang_kaluolin.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/shengqiang_kaluolin.jpg', import.meta.url),
     data: [
       [14, 18, '【回命】、【神佑】、【护甲6】'],
       [16, 20, '【回命】、【神佑】、【护甲6】'],
@@ -1334,7 +1334,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/mingrizhiyin_luna.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/mingrizhiyin_luna.jpg', import.meta.url),
     data: [
       [0, 7, '【魔防7】、同横排其他单位不会攻击（无视神佑和魔免）、回合结束:【洞察1】、另一友军+2/+4'],
       [0, 8, '【魔防8】、同横排其他单位不会攻击（无视神佑和魔免）、回合结束:【洞察1】、另一友军+2/+5'],
@@ -1352,7 +1352,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/diguojunhun_laihate.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/diguojunhun_laihate.jpg', import.meta.url),
     data: [
       [13, 29, '【磐龙】、【践踏】、【护甲4】、【协战10】'],
       [15, 32, '【磐龙】、【践踏】、【护甲5】、【协战10】'],
@@ -1370,7 +1370,7 @@ export default [
     quality: '橙',
     cost: 6,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/zhengyangdazhujiao_yien.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/zhengyangdazhujiao_yien.jpg', import.meta.url),
     data: [
       [8, 25, '登场:英雄生命+30、英雄获得生命:回复效果加倍，自身+1/+8，其他友军+2/+3'],
       [9, 27, '登场:英雄生命+35、英雄获得生命:回复效果加倍，自身+1/+9，其他友军+2/+3'],
@@ -1388,7 +1388,7 @@ export default [
     quality: '橙',
     cost: 7,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/xuanmutianshi_leina.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/xuanmutianshi_leina.jpg', import.meta.url),
     data: [
       [18, 40, '登场:英雄生命+28，所有敌军本回合不能攻击，另一友军+7/+7'],
       [21, 45, '登场:英雄生命+30，所有敌军本回合不能攻击，另一友军+7/+7'],
@@ -1406,7 +1406,7 @@ export default [
     quality: '橙',
     cost: 8,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/gangtietongshuai_leimengde.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/gangtietongshuai_leimengde.jpg', import.meta.url),
     data: [
       [16, 40, '【磐龙】、【护甲3】、回合开始:全体护甲友军+5/+5，获得【连击】3回合'],
       [18, 45, '【磐龙】、【护甲4】、回合开始:全体护甲友军+5/+6，获得【连击】3回合'],
@@ -1424,7 +1424,7 @@ export default [
     quality: '橙',
     cost: 9,
     type: 1,
-    img: new URL('@/assets/zhongzu/diguo/simosideguangmingyaosai.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/simangdiguo/simosideguangmingyaosai.jpg', import.meta.url),
     data: [
       [0, 130, '【魔免】、【护甲7】、回合结束:炮击横排随机区域40点伤害（无视【神佑】和【魔免】）'],
       [0, 145, '【魔免】、【护甲8】、回合结束:炮击横排随机区域45点伤害（无视【神佑】和【魔免】）'],
