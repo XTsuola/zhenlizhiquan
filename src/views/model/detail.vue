@@ -39,7 +39,7 @@
                     图片
                 </a-col>
                 <a-col class="aCol" :span="18">
-                    <img :src="prop.detailData.img" />
+                    <img style="width: 70px;height: 70px;" :src="prop.detailData.img" />
                 </a-col>
             </a-row>
             <a-row type="flex" style="border-bottom: 1px solid #ccc;">
