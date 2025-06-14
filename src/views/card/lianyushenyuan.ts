@@ -4,7 +4,7 @@ export default [
     quality: '白',
     cost: 0,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/honghaishimo.jpg', import.meta.url),
     data: [
       [9, 6, '/'],
       [10, 7, '/'],
@@ -22,7 +22,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/ranshaoguiguai.jpg', import.meta.url),
     data: [
       [6, 6, '登场:对面首位敌军受到6点伤害'],
       [7, 7, '登场:对面首位敌军受到7点伤害'],
@@ -40,7 +40,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/shixuezu.jpg', import.meta.url),
     data: [
       [6, 8, '命中英雄:自身攻击+6'],
       [7, 9, '命中英雄:自身攻击+6'],
@@ -58,7 +58,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/xionghongpucong.jpg', import.meta.url),
     data: [
       [8, 8, '死亡:敌方英雄受到伤害，等同自身攻击'],
       [9, 9, '死亡:敌方英雄受到伤害，等同自身攻击'],
@@ -76,7 +76,7 @@ export default [
     quality: '白',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/hunluanegui.jpg', import.meta.url),
     data: [
       [13, 7, '登场:双方英雄生命-13'],
       [14, 8, '登场:双方英雄生命-14'],
@@ -94,7 +94,7 @@ export default [
     quality: '白',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/liehuoshu.jpg', import.meta.url),
     data: [
       [0, 0, '对横排所有敌军造成8点伤害，敌方英雄生命-12'],
       [0, 0, '对横排所有敌军造成8点伤害，敌方英雄生命-13'],
@@ -112,7 +112,7 @@ export default [
     quality: '白',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/jiaodushiqian.jpg', import.meta.url),
     data: [
       [12, 12, '命中英雄:敌方英雄生命-12'],
       [13, 13, '命中英雄:敌方英雄生命-13'],
@@ -130,7 +130,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/mingheshouwei.jpg', import.meta.url),
     data: [
       [12, 8, '玩家充能时，该玩家生命-6'],
       [13, 9, '玩家充能时，该玩家生命-7'],
@@ -148,7 +148,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/luoleiji.jpg', import.meta.url),
     data: [
       [0, 0, '目标区域坠落21点伤害'],
       [0, 0, '目标区域坠落23点伤害'],
@@ -166,7 +166,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/feitengxueren.jpg', import.meta.url),
     data: [
       [0, 0, '目标单位攻击+18，生命-9'],
       [0, 0, '目标单位攻击+20，生命-10'],
@@ -184,7 +184,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/diyudaoli.jpg', import.meta.url),
     data: [
       [16, 4, '【洞察1】、回合开始时:若你无手牌，自身攻击+6'],
       [18, 4, '【洞察1】、回合开始时:若你无手牌，自身攻击+6'],
@@ -202,7 +202,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/xieyanmo.jpg', import.meta.url),
     data: [
       [9, 3, '登场:敌方英雄生命-6、死亡:对手弃掉一张牌'],
       [10, 4, '登场:敌方英雄生命-7、死亡:对手弃掉一张牌'],
@@ -220,7 +220,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/canbaozhuagou.jpg', import.meta.url),
     data: [
       [14, 8, '命中英雄:双方英雄生命-5'],
       [15, 9, '命中英雄:双方英雄生命-6'],
@@ -238,7 +238,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/yanqiu.jpg', import.meta.url),
     data: [
       [0, 0, '向敌方横排，投射25点伤害'],
       [0, 0, '向敌方横排，投射28点伤害'],
@@ -256,7 +256,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/duyejiachong.jpg', import.meta.url),
     data: [
       [14, 14, '【护甲3】、死亡:向敌方随机区域喷吐毒液(坠落伤害)'],
       [16, 15, '【护甲3】、死亡:向敌方随机区域喷吐毒液(坠落伤害)'],
@@ -274,7 +274,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/rehuochongfeng.jpg', import.meta.url),
     data: [
       [0, 0, '目标区域坠落13点伤害，随机友军攻击+13'],
       [0, 0, '目标区域坠落14点伤害，随机友军攻击+14'],
@@ -292,7 +292,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/baoranxiegui.jpg', import.meta.url),
     data: [
       [13, 11, '【践踏】、登场:手上一张践踏生物卡法力-1'],
       [15, 12, '【践踏】、登场:手上一张践踏生物卡法力-1'],
@@ -310,7 +310,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/shixueyaoe.jpg', import.meta.url),
     data: [
       [11, 9, '【洞察1】、敌方玩家受到伤害时:自身攻击+1'],
       [12, 11, '【洞察1】、敌方玩家受到伤害时:自身攻击+1'],
@@ -328,7 +328,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/xionghongyongshi.jpg', import.meta.url),
     data: [
       [16, 6, '【洞察1】、死亡:投掷长枪攻击英雄'],
       [18, 6, '【洞察1】、死亡:投掷长枪攻击英雄'],
@@ -346,7 +346,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/jianjiaoxiegui.jpg', import.meta.url),
     data: [
       [12, 9, '命中玩家:对手弃一张牌，若敌方无手牌，自身攻击+5'],
       [13, 11, '命中玩家:对手弃一张牌，若敌方无手牌，自身攻击+5'],
@@ -364,7 +364,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/ningxuezhichi.jpg', import.meta.url),
     data: [
       [0, 29, '【守军】、回合结束:英雄生命-5，抓一张牌'],
       [0, 32, '【守军】、回合结束:英雄生命-6，抓一张牌'],
@@ -382,7 +382,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/xueyanjiaomu.jpg', import.meta.url),
     data: [
       [9, 20, '敌方英雄受到伤害:自身+1/+1'],
       [10, 23, '敌方英雄受到伤害:自身+1/+1'],
@@ -400,7 +400,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/fengkuangzhanyi.jpg', import.meta.url),
     data: [
       [0, 0, '目标单位+8/+8，场上每有一个敌军，再+2/+3'],
       [0, 0, '目标单位+10/+10，场上每有一个敌军，再+2/+3'],
@@ -418,7 +418,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/kuangbaoyanqiu.jpg', import.meta.url),
     data: [
       [0, 0, '目标敌军受到125点伤害，60%几率获得《真理碎片》'],
       [0, 0, '目标敌军受到150点伤害，65%几率获得《真理碎片》'],
@@ -436,7 +436,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/shuangtouduchong.jpg', import.meta.url),
     data: [
       [6, 20, '死亡、攻击前:敌方随机位置，坠落6点伤害'],
       [7, 22, '死亡、攻击前:敌方随机位置，坠落7点伤害'],
@@ -454,7 +454,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/wumiankuangbenzhe.jpg', import.meta.url),
     data: [
       [16, 6, '【践踏】、登场：毒液攻击前排敌军（5点伤害）'],
       [18, 6, '【践踏】、登场：毒液攻击前排敌军（5点伤害）'],
@@ -472,7 +472,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/edumoyan.jpg', import.meta.url),
     data: [
       [18, 3, '【魔防4】、每当一个炼狱或冬神友军死亡时：攻击+5'],
       [20, 3, '【魔防5】、每当一个炼狱或冬神友军死亡时：攻击+5'],
@@ -490,7 +490,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/ronglushiqian.jpg', import.meta.url),
     data: [
       [10, 26, '【法力封锁2】、攻击前:若敌方或自己没有手牌，自身+2/+3'],
       [11, 30, '【法力封锁2】、攻击前:若敌方或自己没有手牌，自身+2/+3'],
@@ -508,7 +508,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/diyushuangtouquan.jpg', import.meta.url),
     data: [
       [9, 22, '【洞察1】、【二连击】'],
       [10, 25, '【洞察1】、【二连击】'],
@@ -526,7 +526,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/jiaoyanyimo.jpg', import.meta.url),
     data: [
       [16, 12, '攻击前:随机敌军受到7点伤害'],
       [18, 13, '攻击前:随机敌军受到8点伤害'],
@@ -544,7 +544,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/tanshizhiyi.jpg', import.meta.url),
     data: [
       [5, 30, '【穿透】、敌方英雄受到伤害:50%几率，自身+3/+3'],
       [6, 31, '【穿透】、敌方英雄受到伤害:50%几率，自身+3/+4'],
@@ -562,7 +562,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/lieyanfengbao.jpg', import.meta.url),
     data: [
       [0, 0, '对横排所有敌军造成16点伤害，对英雄造成16点伤害'],
       [0, 0, '对横排所有敌军造成19点伤害，对英雄造成19点伤害'],
@@ -580,7 +580,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/echougonghai.jpg', import.meta.url),
     data: [
       [16, 22, '【护甲7】、回合开始:英雄受到3点伤害'],
       [18, 24, '【护甲7】、回合开始:英雄受到3点伤害'],
@@ -598,7 +598,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/feipangdujun.jpg', import.meta.url),
     data: [
       [15, 25, '【践踏】、登场：全体践踏友军获得【磐龙】1回合'],
       [16, 30, '【践踏】、登场：全体践踏友军获得【磐龙】1回合'],
@@ -616,7 +616,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/xieguicaoren.jpg', import.meta.url),
     data: [
       [0, 22, '登场：敌方玩家弃掉一张牌、回合结束：若敌方没有手牌，自身攻击+7'],
       [0, 25, '登场：敌方玩家弃掉一张牌、回合结束：若敌方没有手牌，自身攻击+8'],
@@ -634,7 +634,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/wumiantufu.jpg', import.meta.url),
     data: [
       [9, 25, '登场:横排所有敌军受到9点伤害'],
       [9, 30, '登场:横排所有敌军受到9点伤害'],
@@ -652,7 +652,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/zhuanji_huodan.jpg', import.meta.url),
     data: [
       [0, 0, '向敌方横排投射12点伤害，获得【传记·炎弹】'],
       [0, 0, '向敌方横排投射13点伤害，获得【传记·炎弹】'],
@@ -670,7 +670,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/zhuanji_yandan.jpg', import.meta.url),
     data: [
       [0, 0, '向敌方横排投射12点伤害'],
       [0, 0, '向敌方横排投射13点伤害'],
@@ -688,7 +688,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/suilumo.jpg', import.meta.url),
     data: [
       [13, 18, '【践踏】、登场:英雄生命-12'],
       [15, 19, '【践踏】、登场:英雄生命-13'],
@@ -706,7 +706,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/mishidazuishou.jpg', import.meta.url),
     data: [
       [8, 22, '【践踏】、敌方英雄受到伤害自身+1/+1'],
       [9, 25, '【践踏】、敌方英雄受到伤害自身+1/+1'],
@@ -724,7 +724,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/kutongshouwangzhe.jpg', import.meta.url),
     data: [
       [7, 17, '回合结束:自身+5/+5，敌方每有一张手牌，再-1/-1'],
       [8, 19, '回合结束:自身+5/+5，敌方每有一张手牌，再-1/-1'],
@@ -742,7 +742,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/kexuedujiaxie.jpg', import.meta.url),
     data: [
       [9, 14, '【护甲4】、对英雄伤害+4、敌方英雄受到伤害时：自身生命+1'],
       [11, 14, '【护甲5】、对英雄伤害+4、敌方英雄受到伤害时：自身生命+1'],
@@ -760,7 +760,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/yukaizhanhun.jpg', import.meta.url),
     data: [
       [10, 4, '【洞察1】、【护甲14】'],
       [11, 4, '【洞察1】、【护甲16】'],
@@ -778,7 +778,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/juewanglianmo.jpg', import.meta.url),
     data: [
       [16, 18, '双方玩家无法获得生命、攻击前:若你无手牌，自身+4/+4'],
       [18, 20, '双方玩家无法获得生命、攻击前:若你无手牌，自身+4/+4'],
@@ -796,7 +796,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/yanjiangqiu.jpg', import.meta.url),
     data: [
       [0, 0, '回合开始阶段，敌方禁疗1回合、向敌方横排，投射40点伤害'],
       [0, 0, '回合开始阶段，敌方禁疗1回合、向敌方横排，投射44点伤害'],
@@ -814,7 +814,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/zhujiarongyanmo.jpg', import.meta.url),
     data: [
       [13, 19, '【护甲5】、回合开始：全体有践踏的友军+2/+4，获得【护甲1】'],
       [15, 22, '【护甲6】、回合开始：全体有践踏的友军+2/+4，获得【护甲1】'],
@@ -832,7 +832,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/baorantuxi.jpg', import.meta.url),
     data: [
       [0, 0, '全体敌军和玩家受到3点伤害，召唤爆燃邪鬼-lv12'],
       [0, 0, '全体敌军和玩家受到3点伤害，召唤爆燃邪鬼-lv13'],
@@ -850,7 +850,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/moguishengyan.jpg', import.meta.url),
     data: [
       [0, 0, '回合结束:召唤3个红海使魔-lv10，你的英雄生命-10'],
       [0, 0, '回合结束:召唤3个红海使魔-lv11，你的英雄生命-11'],
@@ -868,7 +868,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/xueyanguimei.jpg', import.meta.url),
     data: [
       [15, 12, '回合结束:对手弃掉一张牌，若其无手牌，则敌军受到15点伤害'],
       [16, 14, '回合结束:对手弃掉一张牌，若其无手牌，则敌军受到16点伤害'],
@@ -886,7 +886,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/shixuepomian.jpg', import.meta.url),
     data: [
       [18, 18, '【践踏】、命中英雄:自身+3/+3'],
       [20, 20, '【践踏】、命中英雄:自身+3/+3'],
@@ -904,7 +904,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/duohunzuzhou.jpg', import.meta.url),
     data: [
       [0, 0, '随机敌军受到21点伤害，对手弃掉1张牌，若无手牌，英雄也收到伤害'],
       [0, 0, '随机敌军受到24点伤害，对手弃掉1张牌，若无手牌，英雄也收到伤害'],
@@ -922,7 +922,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/xianxuedujun.jpg', import.meta.url),
     data: [
       [20, 10, '登场:相邻随机一个友军，攻击加倍！(帝国、禅意友军无效)'],
       [22, 11, '登场:相邻随机一个友军，攻击加倍！(帝国、禅意友军无效)'],
@@ -940,7 +940,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/rongyanshushi.jpg', import.meta.url),
     data: [
       [12, 16, '回合开始:向对面横排投射火球(12点伤害)'],
       [13, 19, '回合开始:向对面横排投射火球(13点伤害)'],
@@ -958,7 +958,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/zhuoshenshuangyan.jpg', import.meta.url),
     data: [
       [0, 0, '向敌方横排投射16点伤害，两次（无视【神佑】和【魔免】）'],
       [0, 0, '向敌方横排投射19点伤害，两次（无视【神佑】和【魔免】）'],
@@ -976,7 +976,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/diyutufu.jpg', import.meta.url),
     data: [
       [15, 25, '登场:随机消灭一个敌军、死亡:对手抓一张牌'],
       [16, 30, '登场:随机消灭一个敌军、死亡:对手抓一张牌'],
@@ -994,7 +994,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/diyusantouquan.jpg', import.meta.url),
     data: [
       [10, 32, '【洞察2】、【三连击】'],
       [11, 35, '【洞察2】、【三连击】'],
@@ -1012,7 +1012,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/shixinmochong.jpg', import.meta.url),
     data: [
       [16, 36, '【践踏】、命中时:对手弃掉一张牌、攻击前:若其无手牌则自身+6/+6'],
       [18, 39, '【践踏】、命中时:对手弃掉一张牌、攻击前:若其无手牌则自身+6/+6'],
@@ -1030,7 +1030,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/leiguanglianyu.jpg', import.meta.url),
     data: [
       [0, 0, '对横排所有敌军造成25点伤害，对敌方英雄造成25点伤害'],
       [0, 0, '对横排所有敌军造成25点伤害，对敌方英雄造成30点伤害'],
@@ -1048,7 +1048,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/duohunsilian.jpg', import.meta.url),
     data: [
       [25, 9, '敌方英雄受到伤害:自身攻击+5、攻击大于50、100获得【连击】'],
       [29, 10, '敌方英雄受到伤害:自身攻击+5、攻击大于50、100获得【连击】'],
@@ -1066,7 +1066,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/kuangbaotiebi.jpg', import.meta.url),
     data: [
       [25, 24, '【护甲3】、攻击前:全体护甲友军+2/+2、登场回合具有【磐龙】和【魂歌】'],
       [27, 25, '【护甲3】、攻击前:全体护甲友军+3/+2、登场回合具有【磐龙】和【魂歌】'],
@@ -1084,7 +1084,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/moyanxieniu.jpg', import.meta.url),
     data: [
       [23, 23, '登场:随机敌军生命-13、攻击前:若你无手牌，随机敌军生命-13'],
       [25, 25, '登场:随机敌军生命-15、攻击前:若你无手牌，随机敌军生命-15'],
@@ -1102,7 +1102,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/heiyanliefeng.jpg', import.meta.url),
     data: [
       [0, 66, '登场、回合结束:召唤5/4猩红仆从-lv8、若你无手牌，改为召唤10/5猩红勇士-lv8'],
       [0, 73, '登场、回合结束:召唤5/6猩红仆从-lv9、若你无手牌，改为召唤11/5猩红勇士-lv9'],
@@ -1120,7 +1120,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/elingmoyan.jpg', import.meta.url),
     data: [
       [0, 0, '目标区域坠落50点伤害，若你无手牌，则坠落65点伤害'],
       [0, 0, '目标区域坠落55点伤害，若你无手牌，则坠落70点伤害'],
@@ -1138,7 +1138,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/manhuangmoshen.jpg', import.meta.url),
     data: [
       [27, 27, '【磐龙】、【践踏】、登场：其他有践踏的友军+8/+8，获得【磐龙】'],
       [31, 31, '【磐龙】、【践踏】、登场：其他有践踏的友军+8/+8，获得【磐龙】'],
@@ -1156,7 +1156,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/shenyuanjudushou.jpg', import.meta.url),
     data: [
       [20, 54, '攻击前:对敌军喷射毒液6次(2点伤害)，若敌方无手牌，自身+5/+5'],
       [20, 55, '攻击前:对敌军喷射毒液6次(2点伤害)，若敌方无手牌，自身+6/+6'],
@@ -1174,7 +1174,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/diyujukou.jpg', import.meta.url),
     data: [
       [18, 45, '【磐龙】、【践踏】、登场:横排敌军受到13点伤害，每当一个敌军死亡:自身+4/+4'],
       [20, 50, '【磐龙】、【践踏】、登场:横排敌军受到13点伤害，每当一个敌军死亡:自身+5/+5'],
@@ -1192,7 +1192,7 @@ export default [
     quality: '紫',
     cost: 1,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/zhuanji_liuxingluo.jpg', import.meta.url),
     data: [
       [0, 0, '敌方随机区域坠落12点伤害，获得【传记·火尘落】'],
       [0, 0, '敌方随机区域坠落13点伤害，获得【传记·火尘落】'],
@@ -1210,7 +1210,7 @@ export default [
     quality: '紫',
     cost: 1,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/zhuanji_huochenluo.jpg', import.meta.url),
     data: [
       [0, 0, '目标区域坠落12点伤害，获得【传记·流星火陨】'],
       [0, 0, '目标区域坠落13点伤害，获得【传记·流星火陨】'],
@@ -1228,7 +1228,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/zhuanji_liuxinghuoyun.jpg', import.meta.url),
     data: [
       [0, 0, '目标及随机敌方区域各坠落12点伤害'],
       [0, 0, '目标及随机敌方区域各坠落13点伤害'],
@@ -1246,7 +1246,7 @@ export default [
     quality: '橙',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/tongkuzhixin.jpg', import.meta.url),
     data: [
       [0, 0, '对手弃掉一张牌，你获得《痛苦之心-lv12》、若其无手牌:改为召唤7/17苦痛守望者-lv12'],
       [0, 0, '对手弃掉一张牌，你获得《痛苦之心-lv13》、若其无手牌:改为召唤8/19苦痛守望者-lv13'],
@@ -1264,7 +1264,7 @@ export default [
     quality: '橙',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/xueying.jpg', import.meta.url),
     data: [
       [20, 7, '敌方英雄受到伤害:随机敌军生命-2、死亡:回到手牌'],
       [22, 9, '敌方英雄受到伤害:随机敌军生命-2、死亡:回到手牌'],
@@ -1282,7 +1282,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/bakebaluo.jpg', import.meta.url),
     data: [
       [10, 27, '【连击】、【践踏】、【护甲4】、攻击前：全体敌军受到3点伤害'],
       [12, 29, '【连击】、【践踏】、【护甲4】、攻击前：全体敌军受到3点伤害'],
@@ -1300,7 +1300,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/yuanhuntaotieshou.jpg', import.meta.url),
     data: [
       [16, 30, '登场:吸取敌方玩家25点生命、死亡:归还敌方玩家25点生命'],
       [18, 32, '登场:吸取敌方玩家30点生命、死亡:归还敌方玩家30点生命'],
@@ -1318,7 +1318,7 @@ export default [
     quality: '橙',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/xueyi_lilisi.jpg', import.meta.url),
     data: [
       [29, 19, '【先攻】、回合开始:若你无手牌，消灭随机敌军，英雄生命-4'],
       [32, 22, '【先攻】、回合开始:若你无手牌，消灭随机敌军，英雄生命-5'],
@@ -1336,7 +1336,7 @@ export default [
     quality: '橙',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/ronglumengyan.jpg', import.meta.url),
     data: [
       [23, 13, '登场:敌方玩家弃掉3张牌、回合结束:若敌方没有手牌，召唤熔炉尸嵌-lv12'],
       [25, 15, '登场:敌方玩家弃掉3张牌、回合结束:若敌方没有手牌，召唤熔炉尸嵌-lv13'],
@@ -1354,7 +1354,7 @@ export default [
     quality: '橙',
     cost: 8,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/jinhoudiyumo.jpg', import.meta.url),
     data: [
       [25, 72, '回合开始、攻击前、回合结束:随机敌军生命-9，否则敌方英雄生命-9'],
       [27, 75, '回合开始、攻击前、回合结束:随机敌军生命-10，否则敌方英雄生命-10'],
@@ -1372,7 +1372,7 @@ export default [
     quality: '橙',
     cost: 9,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/lianyushenyuan/xinghonglingzhu_balake.jpg', import.meta.url),
     data: [
       [36, 36, '【践踏】、登场:召唤四个5/4猩红仆从-lv8、攻击前:所有其他友军攻击+6'],
       [38, 38, '【践踏】、登场:召唤四个5/6猩红仆从-lv9、攻击前:所有其他友军攻击+6'],

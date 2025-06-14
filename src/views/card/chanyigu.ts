@@ -4,7 +4,7 @@ export default [
     quality: '白',
     cost: 1,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/xiantao.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xiantao.jpg', import.meta.url),
     data: [
       [0, 0, '目标单位+4/+9'],
       [0, 0, '目标单位+4/+10，魔防+2'],
@@ -22,7 +22,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/luxingzhe.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/luxingzhe.jpg', import.meta.url),
     data: [
       [14, 1, '【传承2】'],
       [15, 2, '【传承2】'],
@@ -40,7 +40,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/lujianke.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/lujianke.jpg', import.meta.url),
     data: [
       [12, 3, '前排登场:自身+0/+3；后排登场:自身+1/+1'],
       [13, 3, '前排登场:自身+0/+6；后排登场:自身+3/+1'],
@@ -58,7 +58,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/renshenguo.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/renshenguo.jpg', import.meta.url),
     data: [
       [0, 0, '己方英雄生命+28'],
       [0, 0, '己方英雄生命+32'],
@@ -76,7 +76,7 @@ export default [
     quality: '白',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/kunlaiyunyouke.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/kunlaiyunyouke.jpg', import.meta.url),
     data: [
       [3, 15, '【传承2】'],
       [3, 17, '【传承2】'],
@@ -94,7 +94,7 @@ export default [
     quality: '白',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/bosongyinzhe.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/bosongyinzhe.jpg', import.meta.url),
     data: [
       [1, 30, '回合结束:英雄生命+7'],
       [1, 33, '回合结束:英雄生命+8'],
@@ -112,7 +112,7 @@ export default [
     quality: '蓝',
     cost: 0,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xiongdabao.jpg', import.meta.url),
     data: [
       [5, 5, '【传承5】'],
       [6, 6, '【传承5】'],
@@ -130,7 +130,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/bumingdaozhang.jpg', import.meta.url),
     data: [
       [9, 6, '【传承3】'],
       [10, 7, '【传承3】'],
@@ -148,7 +148,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/jianzhushouwei.jpg', import.meta.url),
     data: [
       [9, 2, '登场:向敌横排投掷竹矛，6点伤害、攻击前:向敌前排投掷竹矛，3点伤害'],
       [10, 3, '登场:向敌横排投掷竹矛，7点伤害、攻击前:向敌前排投掷竹矛，3点伤害'],
@@ -166,7 +166,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xuelucaoren.jpg', import.meta.url),
     data: [
       [0, 1, '【传承6】、死亡：英雄生命+20，若脚下已冰封，抽一张牌'],
       [0, 1, '【传承7】、死亡：英雄生命+22，若脚下已冰封，抽一张牌'],
@@ -184,7 +184,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xiongerbao.jpg', import.meta.url),
     data: [
       [7, 2, '【传承3】、【践踏】'],
       [8, 2, '【传承3】、【践踏】'],
@@ -202,7 +202,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/baiyangyaoshi.jpg', import.meta.url),
     data: [
       [11, 11, '前排登场:英雄生命+11；后排登场:敌方英雄生命-11'],
       [13, 13, '前排登场:英雄生命+13；后排登场:敌方英雄生命-13'],
@@ -220,7 +220,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/juma.jpg', import.meta.url),
     data: [
       [8, 23, '【守军】、【荆棘】'],
       [9, 25, '【守军】、【荆棘】'],
@@ -238,7 +238,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/changerzhuangqiaogu.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/changerzhuangqiaogu.jpg', import.meta.url),
     data: [
       [6, 7, '【洞察1】、【传承6】、法力上限+1'],
       [6, 9, '【洞察1】、【传承6】、法力上限+1'],
@@ -256,7 +256,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/heizhushouwei.jpg', import.meta.url),
     data: [
       [3, 20, '受到传承:自身+5/-1，竹枪投向随机敌军，9点伤害'],
       [3, 23, '受到传承:自身+5/-1，竹枪投向随机敌军，10点伤害'],
@@ -274,7 +274,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/kuxingwuseng.jpg', import.meta.url),
     data: [
       [10, 14, '【传承4】、回合结束:自身+3/+2，魔防+2'],
       [11, 15, '【传承4】、回合结束:自身+3/+3，魔防+2'],
@@ -292,7 +292,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/shumuzhinu.jpg', import.meta.url),
     data: [
       [0, 0, '随机区域敌军、及敌方玩家受到20点伤害'],
       [0, 0, '随机区域敌军、及敌方玩家受到25点伤害'],
@@ -310,7 +310,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/jufengshu.jpg', import.meta.url),
     data: [
       [0, 0, '目标敌军吹回手上、英雄生命+14'],
       [0, 0, '【洞察1】、目标敌军吹回手上、英雄生命+15'],
@@ -328,7 +328,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/suoyaotashouwei.jpg', import.meta.url),
     data: [
       [14, 13, '【洞察1】、【法力封锁1】'],
       [15, 15, '【洞察1】、【法力封锁1】'],
@@ -346,7 +346,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xiongxiaobao.jpg', import.meta.url),
     data: [
       [3, 5, '【传承4】、【连击】'],
       [4, 5, '【传承4】、【连击】'],
@@ -364,7 +364,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/mingyuexin.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+7/+7，获得【魂歌】、抽一张牌'],
       [0, 0, '目标友军+8/+8，获得【魂歌】、抽一张牌'],
@@ -382,7 +382,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/yehuanshi.jpg', import.meta.url),
     data: [
       [20, 1, '【传承5】、登场:和随机相邻友军调换位置'],
       [23, 1, '【传承6】、登场:和随机相邻友军调换位置'],
@@ -400,7 +400,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/guizusengren.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/guizusengren.jpg', import.meta.url),
     data: [
       [10, 17, '【护甲3】、【回命】、获得传承:护甲+4'],
       [12, 18, '【护甲4】、【回命】、获得传承:护甲+4'],
@@ -418,7 +418,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/zhijiandaozhe.jpg', import.meta.url),
     data: [
       [11, 18, '命中玩家:全体友军+2/+2'],
       [13, 19, '命中玩家:全体友军+2/+3'],
@@ -436,7 +436,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/shenshancaiyaoren.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/shenshancaiyaoren.jpg', import.meta.url),
     data: [
       [9, 15, '【传承5】、登场:英雄生命+13'],
       [10, 18, '【传承5】、登场:英雄生命+15'],
@@ -454,7 +454,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/lianji.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+3/+15，魔防+1，获得【二连击】'],
       [0, 0, '目标友军+3/+17，魔防+2，获得【二连击】'],
@@ -472,7 +472,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/tieshankao.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、目标友军加攻，等同其一半生命值、另一友军生命+5、70%几率抽一张牌'],
       [0, 0, '【洞察1】、目标友军加攻，等同其一半生命值、另一友军生命+6、75%几率抽一张牌'],
@@ -490,7 +490,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/weixianjuxiaomei.jpg', import.meta.url),
     data: [
       [10, 11, '前排登场:另一友军攻击+10；后排登场:另一友军生命+16'],
       [12, 12, '前排登场:另一友军攻击+12；后排登场:另一友军生命+18'],
@@ -508,7 +508,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/zuidaoren.jpg', import.meta.url),
     data: [
       [14, 20, '攻击前、死亡:全场其他生物受到1点伤害'],
       [16, 21, '攻击前、死亡:全场其他生物受到1点伤害'],
@@ -526,7 +526,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/mingyuequ.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、7个友军+3/+3、抽一张牌'],
       [0, 0, '【洞察1】、7个友军+3/+4、抽一张牌'],
@@ -544,7 +544,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xuehujianke.jpg', import.meta.url),
     data: [
       [14, 13, '登场：飞剑攻击随机敌军（5点伤害）、攻击前：友方若有冰封，飞剑攻击'],
       [15, 15, '登场：飞剑攻击随机敌军（5点伤害）、攻击前：友方若有冰封，飞剑攻击'],
@@ -562,7 +562,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xueyinguqiaofu.jpg', import.meta.url),
     data: [
       [12, 15, '【传承3】、回合开始：友方若有冰封，传承+3'],
       [13, 18, '【传承4】、回合开始：友方若有冰封，传承+3'],
@@ -580,7 +580,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/jifenglieshou.jpg', import.meta.url),
     data: [
       [16, 11, '登场回合结束:射击敌方英雄'],
       [18, 12, '登场回合结束:射击敌方英雄'],
@@ -598,7 +598,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/miaoyinfangyueshi.jpg', import.meta.url),
     data: [
       [12, 7, '【传承6】、【魂歌】、登场:相邻友军攻击+5，并获得【魂歌】'],
       [13, 8, '【传承7】、【魂歌】、登场:相邻友军攻击+5，并获得【魂歌】'],
@@ -616,7 +616,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/fenglingdaoren.jpg', import.meta.url),
     data: [
       [13, 12, '【洞察1】、登场:吹回随机敌军'],
       [14, 14, '【洞察1】、登场:吹回随机敌军'],
@@ -634,7 +634,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xiangyunshitai.jpg', import.meta.url),
     data: [
       [10, 10, '【传承10】、登场:随机相邻友军生命加倍，获得【护甲1】'],
       [11, 11, '【传承10】、登场:随机相邻友军生命加倍，获得【护甲2】'],
@@ -652,7 +652,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/youguliangcang.jpg', import.meta.url),
     data: [
       [0, 36, '回合开始:另一随机友军+3/+7，魔防+2'],
       [0, 42, '回合开始:另一随机友军+3/+8，魔防+2'],
@@ -670,7 +670,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/fengjuancanyun.jpg', import.meta.url),
     data: [
       [0, 0, '吹回横排所有敌军，英雄生命+15，60%几率获得《真理石碎片》'],
       [0, 0, '吹回横排所有敌军，英雄生命+16，66%几率获得《真理石碎片》'],
@@ -688,7 +688,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/zhuozhuangchengzhang.jpg', import.meta.url),
     data: [
       [0, 0, '目标生物+5/+26、英雄生命+26'],
       [0, 0, '目标生物+5/+30、英雄生命+30'],
@@ -706,7 +706,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/yangzuzhuangshi.jpg', import.meta.url),
     data: [
       [17, 23, '登场:英雄生命+23、受到传承:英雄生命+23'],
       [19, 28, '登场:英雄生命+28、受到传承:英雄生命+28'],
@@ -724,7 +724,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/yongqishifan.jpg', import.meta.url),
     data: [
       [9, 30, '登场:随机相邻友军加攻，等同其一半生命值'],
       [10, 32, '登场:随机相邻友军加攻，等同其一半生命值'],
@@ -742,7 +742,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 3,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/zhuanji_qianshi.jpg', import.meta.url),
     data: [
       [0, 0, '召唤斑毛幼猪-lv12，获得【传记·今生】'],
       [0, 0, '召唤斑毛幼猪-lv13，获得【传记·今生】'],
@@ -760,7 +760,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 3,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/zhuanji_jinsheng.jpg', import.meta.url),
     data: [
       [0, 0, '召唤深山采药人-lv12'],
       [0, 0, '召唤深山采药人-lv13'],
@@ -778,7 +778,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/pantaoyinshi.jpg', import.meta.url),
     data: [
       [0, 22, '【洞察1】、回合结束:获得手牌:仙桃-lv12'],
       [0, 25, '【洞察1】、回合结束:获得手牌:仙桃-lv13'],
@@ -796,7 +796,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xianlingtengwan.jpg', import.meta.url),
     data: [
       [2, 25, '回合结束:自身生命+12，若生命高于50，获得【磐龙】'],
       [3, 28, '回合结束:自身生命+12，若生命高于50，获得【磐龙】'],
@@ -814,7 +814,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/zhijiashi.jpg', import.meta.url),
     data: [
       [12, 15, '【护甲3】、【传承3】、受到传承:全体友军+2/+3，护甲+3'],
       [13, 16, '【护甲3】、【传承3】、受到传承:全体友军+2/+3，护甲+3'],
@@ -832,7 +832,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/saoyeseng.jpg', import.meta.url),
     data: [
       [15, 7, '前排登场:自身获得【传承5】；后排登场:对面首位敌军移回英雄手上'],
       [16, 8, '前排登场:自身获得【传承6】；后排登场:对面首位敌军移回英雄手上'],
@@ -850,7 +850,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xiaoyaoqinshi.jpg', import.meta.url),
     data: [
       [10, 17, '回合开始:魔音攻击全体敌军和英雄2点伤害、回合结束:60%几率，魔音攻击'],
       [12, 19, '回合开始:魔音攻击全体敌军和英雄2点伤害、回合结束:65%几率，魔音攻击'],
@@ -868,7 +868,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/qumodaoren.jpg', import.meta.url),
     data: [
       [10, 14, '【洞察1】、【神佑】、命中时:自身+2/+3'],
       [12, 15, '【洞察1】、【神佑】、命中时:自身+2/+3'],
@@ -886,7 +886,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xueshanfeihu.jpg', import.meta.url),
     data: [
       [16, 11, '【魂歌】、回合开始：若脚下已冰封，攻击+4，获得【先攻】、首次获得传承：获得【连击】'],
       [18, 13, '【魂歌】、回合开始：若脚下已冰封，攻击+5，获得【先攻】、首次获得传承：获得【连击】'],
@@ -904,7 +904,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/bailuxianshi.jpg', import.meta.url),
     data: [
       [14, 14, '前排登场:所有敌军-3/-3；后排登场:所有友军+5/+5'],
       [15, 16, '前排登场:所有敌军-4/-4；后排登场:所有友军+5/+5'],
@@ -922,7 +922,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/yufengwuzhe.jpg', import.meta.url),
     data: [
       [19, 12, '【先攻】、命中英雄时:75%几率吹回随机敌军'],
       [21, 13, '【先攻】、命中英雄时:75%几率吹回随机敌军'],
@@ -940,7 +940,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/moxuanyinshi.jpg', import.meta.url),
     data: [
       [3, 23, '法力上限+1、回合结束:复制场上另一单位，到你手上'],
       [3, 25, '【洞察1】、法力上限+1、回合结束:复制场上另一单位，到你手上'],
@@ -958,7 +958,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/heizhulindi.jpg', import.meta.url),
     data: [
       [0, 0, '随机位置召唤3个3/20黑竹守卫-lv12'],
       [0, 0, '随机位置召唤3个3/23黑竹守卫-lv13'],
@@ -976,7 +976,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/pantaohui.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、抓3张牌，英雄生命+18、随机一个友军+4/+4'],
       [0, 0, '【洞察1】、抓3张牌，英雄生命+19、随机一个友军+5/+5'],
@@ -994,7 +994,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/taishanzhili.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军加攻，等同其一半生命值，并获得【护甲12】、【魔防2】'],
       [0, 0, '目标友军加攻，等同其一半生命值，并获得【护甲13】、【魔防3】'],
@@ -1012,7 +1012,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/longwenzunzhe.jpg', import.meta.url),
     data: [
       [14, 30, '【磐龙】、【护甲5】、受到传承时:自身额外+6/+6'],
       [16, 32, '【磐龙】、【护甲6】、受到传承时:自身额外+6/+6'],
@@ -1030,7 +1030,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/shangjincike.jpg', import.meta.url),
     data: [
       [10, 20, '【连击】、每当一个敌军死亡：自身+1/+7、生命大于30，获得【磐龙】'],
       [11, 24, '【连击】、每当一个敌军死亡：自身+1/+7、生命大于30，获得【磐龙】'],
@@ -1048,7 +1048,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/jifengchuanshuo.jpg', import.meta.url),
     data: [
       [0, 0, '回手目标区域敌军，随机后排位置召唤疾风猎手-lv12'],
       [0, 0, '回手目标区域敌军，随机后排位置召唤疾风猎手-lv13'],
@@ -1066,7 +1066,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/duchuanyinshi.jpg', import.meta.url),
     data: [
       [25, 16, '死亡:抓一张牌，生命+16、获得传承时:在相邻位置召唤渡船隐士'],
       [28, 18, '死亡:抓一张牌，生命+18、获得传承时:在相邻位置召唤渡船隐士'],
@@ -1084,7 +1084,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/hujianxian.jpg', import.meta.url),
     data: [
       [20, 10, '回合开始:飞剑贯穿横排敌军10点伤害'],
       [23, 11, '回合开始:飞剑贯穿横排敌军11点伤害'],
@@ -1098,11 +1098,11 @@ export default [
     ]
   },
   {
-    name: '疾风传说',
+    name: '万物之灵',
     quality: '紫',
     cost: 5,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/wanwuzhiling.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+12/+12并获得【神佑】'],
       [0, 0, '目标友军+13/+14并获得【神佑】'],
@@ -1120,7 +1120,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/yaoqianzunzhe.jpg', import.meta.url),
     data: [
       [7, 55, '【洞察1】、【磐龙】、回合结束:若本回合受到过伤害，抽一张牌'],
       [8, 60, '【洞察1】、【磐龙】、回合结束:若本回合受到过伤害，抽一张牌'],
@@ -1138,7 +1138,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/yunyouwuseng.jpg', import.meta.url),
     data: [
       [23, 26, '【先攻】、登场:相邻一个友军+2/+2，获得【连击】1回合'],
       [26, 28, '【先攻】、登场:相邻一个友军+2/+2，获得【连击】1回合'],
@@ -1156,7 +1156,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/pijialuohan.jpg', import.meta.url),
     data: [
       [29, 29, '【护甲10】、受到传承:自身获得【魔免】、【回命】'],
       [32, 32, '【护甲12】、受到传承:自身获得【魔免】、【回命】'],
@@ -1174,7 +1174,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/badierqi.jpg', import.meta.url),
     data: [
       [0, 0, '在目标区域和随机区域共召唤3个1/30柏松隐者-lv12'],
       [0, 0, '在目标区域和随机区域共召唤3个1/33柏松隐者-lv13'],
@@ -1192,7 +1192,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/menghuzhaidawang.jpg', import.meta.url),
     data: [
       [26, 26, '攻击前，若本方有5个友军:则自身+15/+15获得【践踏】、【磐龙】(每局对战仅触发一次)'],
       [29, 29, '攻击前，若本方有5个友军:则自身+16/+16获得【践踏】、【磐龙】(每局对战仅触发一次)'],
@@ -1210,7 +1210,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/hanshuangsihuyuanseng.jpg', import.meta.url),
     data: [
       [25, 60, '【迟缓】、【磐龙】、【魔防7】、攻击前：若脚已冰封，自身+7/+7，获得【践踏】、受到传承：魔防+7、获得【回命】'],
       [30, 65, '【迟缓】、【磐龙】、【魔防8】、攻击前：若脚已冰封，自身+8/+8，获得【践踏】、受到传承：魔防+8、获得【回命】'],
@@ -1228,7 +1228,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/jiuhao.jpg', import.meta.url),
     data: [
       [14, 39, '【二连击】、登场:横排每有一个敌军，自身+5/+5、【磐龙】1回合'],
       [16, 42, '【二连击】、登场:横排每有一个敌军，自身+6/+6、【磐龙】1回合'],
@@ -1246,7 +1246,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/weixianjuzhangchu.jpg', import.meta.url),
     data: [
       [7, 39, '回合开始:英雄生命+30、登场回合结束:英雄生命加倍'],
       [8, 40, '回合开始:英雄生命+35、登场回合结束:英雄生命加倍'],
@@ -1264,7 +1264,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 3,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/zhuanji_yueluo.jpg', import.meta.url),
     data: [
       [0, 0, '目标区域敌军受到19点伤害，获得【传记·日升】'],
       [0, 0, '目标区域敌军受到21点伤害，获得【传记·日升】'],
@@ -1282,7 +1282,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 3,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/zhuanji_risheng.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+11/+12，获得【神佑】1回合'],
       [0, 0, '目标友军+13/+13，获得【神佑】1回合'],
@@ -1300,7 +1300,7 @@ export default [
     quality: '橙',
     cost: 3,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/liulanren_lin.jpg', import.meta.url),
     data: [
       [12, 17, '【神佑】、受到传承:隐形3回合，攻击次数永久加1'],
       [13, 19, '【神佑】、对英雄伤害+2、受到传承:隐形3回合，攻击次数永久加1'],
@@ -1318,7 +1318,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/shenjixuannv_xuan.jpg', import.meta.url),
     data: [
       [5, 11, '【洞察2】、命中:【洞察1】、洞察时:全体友军+1/+4，全体敌军-1/-1'],
       [7, 13, '【洞察2】、命中:【洞察1】、洞察时:全体友军+1/+4，全体敌军-1/-1'],
@@ -1336,7 +1336,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 2,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/wunengchanzhang.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+10/+10、获得【回命】、【践踏】、【传承10】'],
       [0, 0, '目标友军+11/+11、获得【回命】、【践踏】、【传承11】'],
@@ -1354,7 +1354,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xueyuchunguang_lin.jpg', import.meta.url),
     data: [
       [10, 17, '【魔防12】、【传承6】、受到传承：获得【神佑】2回合、回合开始：友方若有冰封，随机友军+x/+x，失去【守军】或【迟缓】（x为自身传承）'],
       [11, 18, '【魔防13】、【传承7】、受到传承：获得【神佑】2回合、回合开始：友方若有冰封，随机友军+x/+x，失去【守军】或【迟缓】（x为自身传承）'],
@@ -1372,7 +1372,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/sanxiongzhen.jpg', import.meta.url),
     data: [
       [17, 3, '【魂音】、死亡:召唤熊大宝-lv12、召唤熊二宝-lv12、召唤熊小宝-lv12'],
       [19, 3, '【魂音】、死亡:召唤熊大宝-lv13、召唤熊二宝-lv13、召唤熊小宝-lv13'],
@@ -1390,7 +1390,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/xiaoyaojushi_ming.jpg', import.meta.url),
     data: [
       [23, 23, '受到传承:变身为23/23神龙传人-lv12'],
       [26, 26, '受到传承:变身为26/26神龙传人-lv13'],
@@ -1408,7 +1408,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/changshengbulaoshu.jpg', import.meta.url),
     data: [
       [0, 120, '【磐龙】、回合结束:获得手牌:人参果-lv12'],
       [0, 130, '【磐龙】、【魔防10】、回合结束:获得手牌:人参果-lv13'],
@@ -1426,7 +1426,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/shenlongchuanren.jpg', import.meta.url),
     data: [
       [23, 23, '【二连击】、【先攻】、【回命】、【神佑】、【传承13】'],
       [26, 26, '【二连击】、【先攻】、【回命】、【神佑】、【传承14】'],
@@ -1444,7 +1444,7 @@ export default [
     quality: '橙',
     cost: 6,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/haoqingchanshi_wuneng.jpg', import.meta.url),
     data: [
       [30, 30, '【践踏】、【回命】、【传承12】'],
       [35, 35, '【践踏】、【回命】、【传承12】'],
@@ -1462,7 +1462,7 @@ export default [
     quality: '橙',
     cost: 7,
     type: 1,
-    img: new URL('@/assets/zhongzu/z_chanyigu/yumoshifensi1.jpg', import.meta.url),
+    img: new URL('@/assets/zhongzu/chanyigu/yiyunjian_rendashi.jpg', import.meta.url),
     data: [
       [40, 13, '前排登场:对面敌军受到150点伤害；后排登场:7个敌军受到10点伤害'],
       [45, 15, '前排登场:对面敌军受到200点伤害；后排登场:7个敌军受到11点伤害'],

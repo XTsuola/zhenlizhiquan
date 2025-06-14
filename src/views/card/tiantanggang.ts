@@ -4,7 +4,7 @@ export default [
     quality: '白',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/xiongeyouquan.jpg', import.meta.url),
     data: [
       [5, 4, '对英雄伤害+7'],
       [6, 5, '对英雄伤害+7'],
@@ -22,7 +22,7 @@ export default [
     quality: '白',
     cost: 1,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/leilahuodan.jpg', import.meta.url),
     data: [
       [0, 0, '对敌方横排，投射12点伤害'],
       [0, 0, '对敌方横排，投射13点伤害'],
@@ -40,7 +40,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/tianyenongfu.jpg', import.meta.url),
     data: [
       [4, 15, '死亡:英雄生命+4'],
       [4, 18, '死亡:英雄生命+4'],
@@ -58,7 +58,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/shuishou.jpg', import.meta.url),
     data: [
       [9, 9, '/'],
       [10, 10, '/'],
@@ -76,7 +76,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/paijiangongji.jpg', import.meta.url),
     data: [
       [0, 0, '对横排所有敌军造成13点伤害'],
       [0, 0, '对横排所有敌军造成14点伤害'],
@@ -94,7 +94,7 @@ export default [
     quality: '白',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/qinqiededama.jpg', import.meta.url),
     data: [
       [6, 10, '登场:另一友军+6/+6'],
       [7, 12, '登场:另一友军+6/+6'],
@@ -112,7 +112,7 @@ export default [
     quality: '白',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/qiangzhuanggongtou.jpg', import.meta.url),
     data: [
       [10, 20, '/'],
       [11, 22, '/'],
@@ -130,7 +130,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/zousidezhenqishou.jpg', import.meta.url),
     data: [
       [18, 28, '场上有敌军，则无法攻击、死亡:英雄生命+12'],
       [20, 30, '场上有敌军，则无法攻击、死亡:英雄生命+13'],
@@ -148,7 +148,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/xieyuexiaomonv.jpg', import.meta.url),
     data: [
       [8, 6, '攻击前:本回合每使用过一个法术，则随机敌军-4/-4，若是传记，则自身攻击+6'],
       [9, 7, '攻击前:本回合每使用过一个法术，则随机敌军-5/-5，若是传记，则自身攻击+6'],
@@ -166,7 +166,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/xinlingheidong.jpg', import.meta.url),
     data: [
       [0, 0, '目标敌军受到70点伤害，英雄受到伤害等同目标费用*3'],
       [0, 0, '目标敌军受到75点伤害，英雄受到伤害等同目标费用*3'],
@@ -184,7 +184,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/anchaoyongdong.jpg', import.meta.url),
     data: [
       [0, 0, '吸取敌方英雄19点生命'],
       [0, 0, '吸取敌方英雄21点生命'],
@@ -202,7 +202,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/fennunongfu.jpg', import.meta.url),
     data: [
       [8, 13, '回合结束:自身+2/+3'],
       [9, 16, '回合结束:自身+2/+3'],
@@ -220,7 +220,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/jiaozhaxuetu.jpg', import.meta.url),
     data: [
       [12, 8, '【洞察1】、登场:吹回对面首位新进场敌军、洞察时自身攻击+1'],
       [13, 8, '【洞察1】、登场:吹回对面首位新进场敌军、洞察时自身攻击+2'],
@@ -238,7 +238,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/wailaiyinxiuzhe.jpg', import.meta.url),
     data: [
       [7, 19, '受到传承时:抓一张牌、死亡时:若具有传承，抓一张牌'],
       [8, 20, '受到传承时:抓一张牌、死亡时:若具有传承，抓一张牌'],
@@ -256,7 +256,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heiyesheshou.jpg', import.meta.url),
     data: [
       [12, 10, '命中英雄:【洞察1】，随机敌军受到5点伤害'],
       [13, 12, '命中英雄:【洞察1】，随机敌军受到5点伤害'],
@@ -274,7 +274,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heishuikuaijianshou.jpg', import.meta.url),
     data: [
       [10, 5, '【先攻】、登场:吸取敌方英雄6点生命'],
       [11, 6, '【先攻】、登场:吸取敌方英雄7点生命'],
@@ -292,7 +292,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/wangmingzhitu.jpg', import.meta.url),
     data: [
       [14, 4, '【洞察1】、【暴露1】、对英雄伤害+5'],
       [16, 4, '【洞察1】、【暴露1】、对英雄伤害+5'],
@@ -310,7 +310,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heiyetuxi.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、对随机单位造成32点伤害'],
       [0, 0, '【洞察1】、对随机单位造成35点伤害'],
@@ -328,7 +328,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/liansuodianguang.jpg', import.meta.url),
     data: [
       [0, 0, '目标受到15点伤害，相邻敌军受到9点伤害'],
       [0, 0, '目标受到18点伤害，相邻敌军受到10点伤害'],
@@ -346,7 +346,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/huojixieling.jpg', import.meta.url),
     data: [
       [0, 0, '回合结束:召唤9/20血炎焦木-lv12'],
       [0, 0, '回合结束:召唤10/23血炎焦木-lv13'],
@@ -364,7 +364,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/anchaoshushi.jpg', import.meta.url),
     data: [
       [8, 10, '死亡、回合结束获得《暗潮涌动》-lv5'],
       [9, 11, '死亡、回合结束获得《暗潮涌动》-lv6'],
@@ -382,7 +382,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/qiexiaoxueren.jpg', import.meta.url),
     data: [
       [11, 15, '【守军】、【荆棘】、登场：冰封脚下'],
       [12, 17, '【守军】、【荆棘】、登场：冰封脚下'],
@@ -400,7 +400,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/zhuanjixuezhe.jpg', import.meta.url),
     data: [
       [9, 13, '回合开始:每使用过一个法术或传记，随机友军+1/+5、初次使用传记:抽一张牌、【洞察1】'],
       [9, 16, '回合开始:每使用过一个法术或传记，随机友军+1/+5、初次使用传记:抽一张牌、【洞察1】'],
@@ -418,7 +418,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/rexuekuanggong.jpg', import.meta.url),
     data: [
       [10, 20, '【洞察1】、回合结束、死亡时:向敌方英雄投掷铁镐'],
       [11, 24, '【洞察1】、回合结束、死亡时:向敌方英雄投掷铁镐'],
@@ -436,7 +436,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/xujiubaotu.jpg', import.meta.url),
     data: [
       [7, 22, '回合结束:若英雄生命高于敌方，自身+5/+5，获得【磐龙】'],
       [8, 25, '回合结束:若英雄生命高于敌方，自身+5/+5，获得【磐龙】'],
@@ -454,7 +454,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/jiaotingxuezhe.jpg', import.meta.url),
     data: [
       [10, 18, '回合开始:随机四芒帝国友军和隐秘友军+2/+6，获得【护甲1】'],
       [12, 20, '回合开始:随机四芒帝国友军和隐秘友军+2/+7，获得【护甲1】'],
@@ -472,7 +472,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heijinguizishou.jpg', import.meta.url),
     data: [
       [21, 16, '【迟缓】、【践踏】、对英雄伤害+3'],
       [23, 18, '【迟缓】、【践踏】、对英雄伤害+4'],
@@ -490,7 +490,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/shawanluotuo.jpg', import.meta.url),
     data: [
       [3, 21, '法力上限+1、登场:两个其他友军+2/+3'],
       [3, 25, '法力上限+1、登场:两个其他友军+2/+3'],
@@ -508,7 +508,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/haiyanpaijipao.jpg', import.meta.url),
     data: [
       [0, 30, '【守军】、【协战8】、回合开始:炮击敌军横排随机区域'],
       [0, 35, '【守军】、【协战9】、回合开始:炮击敌军横排随机区域'],
@@ -526,7 +526,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heiqijianduishuishou.jpg', import.meta.url),
     data: [
       [10, 20, '攻击前:若英雄生命高于敌方，自身+2/+4'],
       [11, 24, '攻击前:若英雄生命高于敌方，自身+2/+4'],
@@ -544,7 +544,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/molifengbao.jpg', import.meta.url),
     data: [
       [0, 0, '对横排所有敌军造成18点伤害、65%几率获得《真理石碎片》'],
       [0, 0, '对横排所有敌军造成19点伤害、70%几率获得《真理石碎片》'],
@@ -562,7 +562,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/bufajiaoyi.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、英雄生命-2，抽两张牌、敌方英雄生命-15'],
       [0, 0, '【洞察1】、英雄生命-2，抽两张牌、敌方英雄生命-17'],
@@ -580,7 +580,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heishishangren.jpg', import.meta.url),
     data: [
       [7, 19, '【魔防5】、攻击前：人数多于敌方，吸取敌方英雄7点生命'],
       [8, 19, '【魔防5】、攻击前：人数多于敌方，吸取敌方英雄8点生命'],
@@ -598,7 +598,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/lueduocaoren.jpg', import.meta.url),
     data: [
       [0, 13, '登场：敌方受到12点伤害、每当一个敌军死亡：随机友军攻击+4'],
       [0, 15, '登场：敌方受到13点伤害、每当一个敌军死亡：随机友军攻击+4'],
@@ -616,7 +616,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/jierinangua.jpg', import.meta.url),
     data: [
       [0, 0, '全体友军+3/+4、英雄生命+12'],
       [0, 0, '全体友军+3/+4、英雄生命+15'],
@@ -634,7 +634,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/xujiuzuihan.jpg', import.meta.url),
     data: [
       [11, 23, '登场、每当一个敌军死亡时:酒瓶投掷敌方横排随机区域（11点伤害）'],
       [12, 26, '登场、每当一个敌军死亡时:酒瓶投掷敌方横排随机区域（12点伤害）'],
@@ -652,7 +652,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/xinlingfengbao.jpg', import.meta.url),
     data: [
       [0, 0, '目标区域敌军吹回手上（敌军等级<=12）、敌方玩家弃一张牌'],
       [0, 0, '目标区域敌军吹回手上（敌军等级<=13）、敌方玩家弃一张牌'],
@@ -670,7 +670,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/nanguadashen.jpg', import.meta.url),
     data: [
       [10, 26, '登场:将南瓜扔向随机敌军，10点伤害'],
       [11, 29, '登场:将南瓜扔向随机敌军，11点伤害'],
@@ -688,7 +688,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/yaoraonvwu.jpg', import.meta.url),
     data: [
       [14, 14, '攻击前:本回合你使用过法术，随机敌军回手，自身攻击+5，若是传记，另一友军+5/+5'],
       [15, 15, '攻击前:本回合你使用过法术，随机敌军回手，自身攻击+6，若是传记，另一友军+6/+6'],
@@ -706,7 +706,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heiqijianduifeifushou.jpg', import.meta.url),
     data: [
       [12, 27, '攻击前:若英雄生命高于敌方，向对面横排投掷飞斧，12点伤害'],
       [13, 31, '攻击前:若英雄生命高于敌方，向对面横排投掷飞斧，13点伤害'],
@@ -724,7 +724,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/dianguangshushi.jpg', import.meta.url),
     data: [
       [11, 9, '登场：敌方随机位置坠落闪电（11点伤害）、攻击前：人数高于对手，坠落闪电'],
       [12, 10, '登场：敌方随机位置坠落闪电（12点伤害）、攻击前：人数高于对手，坠落闪电'],
@@ -742,7 +742,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/equantufu.jpg', import.meta.url),
     data: [
       [8, 26, '登场:召唤2个3/3凶恶幼犬-lv9'],
       [10, 28, '登场:召唤2个3/3凶恶幼犬-lv10'],
@@ -760,7 +760,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/zhuanji_fengbaozhiye.jpg', import.meta.url),
     data: [
       [0, 0, '敌方生命-12、获得【传记·抢滩登陆】'],
       [0, 0, '敌方生命-13、获得【传记·抢滩登陆】'],
@@ -778,7 +778,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/zhuanji_qiangtandenglu.jpg', import.meta.url),
     data: [
       [0, 0, '掠夺敌方英雄12点生命、获得【传记·残酷掠夺】'],
       [0, 0, '掠夺敌方英雄13点生命、获得【传记·残酷掠夺】'],
@@ -796,7 +796,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/zhuanji_cankulueduo.jpg', import.meta.url),
     data: [
       [0, 0, '掠夺敌方英雄12点生命、若你的生命高于对手:召唤水手-lv12'],
       [0, 0, '掠夺敌方英雄13点生命、若你的生命高于对手:召唤水手-lv13'],
@@ -814,7 +814,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/zousikuangtu.jpg', import.meta.url),
     data: [
       [9, 4, '【洞察1】、登场:召唤18/28珍奇兽-lv12'],
       [10, 5, '【洞察1】、登场:召唤20/30珍奇兽-lv13'],
@@ -832,7 +832,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/yiyuxunshoushi.jpg', import.meta.url),
     data: [
       [13, 14, '【洞察1】、唤醒其他迟缓友军、登场:本回合隐形'],
       [15, 15, '【洞察1】、唤醒其他迟缓友军、登场:本回合隐形'],
@@ -850,7 +850,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/haiyanjingwei.jpg', import.meta.url),
     data: [
       [8, 13, '登场:【枪击】、攻击前:友军多于敌军则【枪击】，无敌军则枪击英雄'],
       [9, 14, '登场:【枪击】、攻击前:友军多于敌军则【枪击】，无敌军则枪击英雄'],
@@ -868,7 +868,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/honghailiemoren.jpg', import.meta.url),
     data: [
       [13, 7, '【洞察1】、【先攻】、攻击前:本回合你每使用过一个法术或传记，随机敌军生命-3，自身攻击+3'],
       [14, 8, '【洞察1】、【先攻】、攻击前:本回合你每使用过一个法术或传记，随机敌军生命-4，自身攻击+3'],
@@ -886,7 +886,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/haishencifu.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、随机友军+8/+8获得【回命】、抽一张牌、无友军则再抽一张牌并且【洞察1】'],
       [0, 0, '【洞察1】、随机友军+9/+9获得【回命】、抽一张牌、无友军则再抽一张牌并且【洞察1】'],
@@ -904,7 +904,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/xingfukongjian.jpg', import.meta.url),
     data: [
       [3, 25, '登场:随机另一友军+3/+3，获得【回命】、回合结束:若英雄生命高于敌方，抽一张牌'],
       [4, 28, '登场:随机另一友军+3/+4，获得【回命】、回合结束:若英雄生命高于敌方，抽一张牌'],
@@ -922,7 +922,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/wuqingduomingke.jpg', import.meta.url),
     data: [
       [11, 11, '【洞察1】、【二连击】、敌方英雄受伤时:攻击+1'],
       [12, 12, '【洞察1】、【二连击】、敌方英雄受伤时:攻击+1'],
@@ -940,7 +940,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/shenshanlaowu.jpg', import.meta.url),
     data: [
       [12, 18, '登场:隐形3回合、攻击前:本回合每使用过一个法术，吸取敌方英雄12点生命'],
       [13, 20, '登场:隐形3回合、攻击前:本回合每使用过一个法术，吸取敌方英雄13点生命'],
@@ -958,7 +958,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heishuifuji.jpg', import.meta.url),
     data: [
       [0, 0, '随机敌军-8/-8（无视神佑、魔免）、召唤黑水快剑手-lv12'],
       [0, 0, '随机敌军-9/-9（无视神佑、魔免）、召唤黑水快剑手-lv13'],
@@ -976,7 +976,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/hanyedengling.jpg', import.meta.url),
     data: [
       [23, 2, '【魔免】、对手不能回复生命、登场:冰封脚下'],
       [26, 2, '【魔免】、对手不能回复生命、登场:冰封脚下'],
@@ -994,7 +994,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/fengmoyoushou.jpg', import.meta.url),
     data: [
       [10, 10, '【法力封锁2】、受到传承:成长为封魔巨兽-lv12、死亡:获得封魔巨兽-lv12'],
       [11, 11, '【法力封锁2】、受到传承:成长为封魔巨兽-lv13、死亡:获得封魔巨兽-lv13'],
@@ -1012,7 +1012,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/chenguangmochong.jpg', import.meta.url),
     data: [
       [11, 7, '【魔防10】、登场、命中英雄:手上一张卡牌法力-1'],
       [12, 8, '【魔防11】、登场、命中英雄:手上一张卡牌法力-1'],
@@ -1030,7 +1030,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/haidaochuanzhang.jpg', import.meta.url),
     data: [
       [16, 30, '攻击前:若友军多于敌军:全军+1/+3，全体敌军-1/-0'],
       [18, 33, '攻击前:若友军多于敌军:全军+1/+3，全体敌军-1/-0'],
@@ -1048,7 +1048,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/lianjinshushi.jpg', import.meta.url),
     data: [
       [11, 25, '攻击前:随机敌军-6/-6，否则随机友军+6/+6'],
       [12, 28, '攻击前:随机敌军-7/-7，否则随机友军+7/+7'],
@@ -1066,7 +1066,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/dongwuxuejia.jpg', import.meta.url),
     data: [
       [15, 30, '登场:蛮石和禅意友军本回合获得【神佑】、回合开始:随机蛮石和禅意友军+5/+5'],
       [17, 33, '登场:蛮石和禅意友军本回合获得【神佑】、回合开始:随机蛮石和禅意友军+6/+6'],
@@ -1084,7 +1084,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heijinzhashushi.jpg', import.meta.url),
     data: [
       [10, 10, '【迟缓】、对手法力上限-1、登场:吹回随机敌军、攻击前:75%几率，吹回随机敌军'],
       [11, 12, '【迟缓】、对手法力上限-1、登场:吹回随机敌军、攻击前:75%几率，吹回随机敌军'],
@@ -1102,7 +1102,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/jiaoxienixi.jpg', import.meta.url),
     data: [
       [0, 0, '吸取敌方英雄6点生命、随机6个敌军-6/-0、随机6个友军+6/+0'],
       [0, 0, '吸取敌方英雄10点生命、随机6个敌军-6/-0、随机6个友军+6/+0'],
@@ -1120,7 +1120,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/panshigongjiang.jpg', import.meta.url),
     data: [
       [12, 28, '回合开始:若英雄生命高于敌方，随机友军+6/+6，获得【磐龙】'],
       [14, 32, '回合开始:若英雄生命高于敌方，随机友军+6/+7，获得【磐龙】'],
@@ -1138,7 +1138,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/nuyiheiyuan.jpg', import.meta.url),
     data: [
       [27, 50, '场上人数高于敌方时，才可以攻击'],
       [30, 55, '场上人数高于敌方时，才可以攻击'],
@@ -1156,7 +1156,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/honghailinghangyuan.jpg', import.meta.url),
     data: [
       [13, 13, '【洞察1】、【先攻】、攻击前：全体先攻友军+4/+2'],
       [14, 16, '【洞察1】、【先攻】、攻击前：全体先攻友军+4/+2'],
@@ -1174,7 +1174,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/zaitaozhongfan.jpg', import.meta.url),
     data: [
       [19, 36, '【磐龙】、登场：敌方召唤2/1警卫lv1、回合结束：若本回合有2个单位死亡，自身+6/+6获得【践踏】'],
       [20, 40, '【磐龙】、登场：敌方召唤2/1警卫lv1、回合结束：若本回合有2个单位死亡，自身+7/+7获得【践踏】'],
@@ -1192,7 +1192,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/dixinmaoxianjia.jpg', import.meta.url),
     data: [
       [18, 28, '【法力封锁2】、攻击前:每使用过一个法术或传记，自身+2/+5，使用传记:获得【回命】'],
       [20, 30, '【法力封锁2】、攻击前:每使用过一个法术或传记，自身+2/+5，使用传记:获得【回命】'],
@@ -1210,7 +1210,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/guizuyunshuxiang.jpg', import.meta.url),
     data: [
       [16, 25, '登场:英雄生命+25，随机另一友军+3/+6、若有帝国或蛮石友军在场，抓一张牌'],
       [18, 30, '登场:英雄生命+30，随机另一友军+4/+6、若有帝国或蛮石友军在场，抓一张牌'],
@@ -1228,7 +1228,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heiqijianduishuangqiangke.jpg', import.meta.url),
     data: [
       [19, 19, '登场:射击随机敌军，12点伤害、攻击前:若英雄生命高于敌方，射击随机2个敌军，6点伤害'],
       [21, 21, '登场:射击随机敌军，13点伤害、攻击前:若英雄生命高于敌方，射击随机2个敌军，7点伤害'],
@@ -1246,7 +1246,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/xingchenyunluo.jpg', import.meta.url),
     data: [
       [0, 0, '目标区域坠落24点伤害，随机7个区域坠落3点伤害'],
       [0, 0, '目标区域坠落29点伤害，随机7个区域坠落3点伤害'],
@@ -1264,7 +1264,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/wanshengjiemishu.jpg', import.meta.url),
     data: [
       [0, 66, '法力上限+1、【磐龙】、回合结束:获得《节日南瓜》-lv12'],
       [0, 72, '法力上限+1、【磐龙】、回合结束:获得《节日南瓜》-lv13'],
@@ -1282,7 +1282,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/lieridajishi.jpg', import.meta.url),
     data: [
       [15, 18, '回合开始：英雄生命高于对手，坠落闪电、攻击前：人数高于对手，投射火球'],
       [16, 21, '回合开始：英雄生命高于对手，坠落闪电、攻击前：人数高于对手，投射火球'],
@@ -1300,7 +1300,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/gangfukaishanzhe.jpg', import.meta.url),
     data: [
       [10, 40, '【磐龙】、回合开始、回合结束:轰炸敌方随机区域10点伤害'],
       [11, 45, '【磐龙】、回合开始、回合结束:轰炸敌方随机区域11点伤害'],
@@ -1318,7 +1318,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heiqijianduichuanzhang.jpg', import.meta.url),
     data: [
       [11, 36, '回合开始:吸取对手11点生命、攻击前:若英雄生命高于敌方，吸取随机敌军7点攻击'],
       [12, 42, '回合开始:吸取对手12点生命、攻击前:若英雄生命高于敌方，吸取随机敌军7点攻击'],
@@ -1336,7 +1336,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/fengmojushou.jpg', import.meta.url),
     data: [
       [18, 36, '【迟缓】、【磐龙】、【魂歌】、敌方法力上限-2'],
       [20, 40, '【迟缓】、【磐龙】、【魂歌】、敌方法力上限-2'],
@@ -1354,7 +1354,7 @@ export default [
     quality: '橙',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/leilamijuan.jpg', import.meta.url),
     data: [
       [0, 0, '获得3张《蕾拉火弹》-lv12、70%获得《真理残片》'],
       [0, 0, '获得3张《蕾拉火弹》-lv13、75%获得《真理残片》'],
@@ -1372,7 +1372,7 @@ export default [
     quality: '橙',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/huajianshenshi_xiang.jpg', import.meta.url),
     data: [
       [10, 10, '【先攻】、【回命】、【协战4】'],
       [11, 11, '【先攻】、【回命】、【协战5】'],
@@ -1390,7 +1390,7 @@ export default [
     quality: '橙',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/haiyan_baoli.jpg', import.meta.url),
     data: [
       [11, 11, '登场:召唤8/8水手-lv11、攻击前:随机敌军受到11点伤害、回合结束:自身回手'],
       [13, 13, '登场:召唤9/9水手-lv12、攻击前:随机敌军受到13点伤害、回合结束:自身回手'],
@@ -1408,7 +1408,7 @@ export default [
     quality: '橙',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/huanlegechangdedaiwei.jpg', import.meta.url),
     data: [
       [13, 14, '【魂音】、回合开始:手上一张卡牌法力-1，若人数多于对手，全体友军+1/+3'],
       [15, 15, '【魂音】、回合开始:手上一张卡牌法力-1，若人数多于对手，全体友军+1/+4'],
@@ -1426,7 +1426,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/mokahuanshushi_meiji.jpg', import.meta.url),
     data: [
       [9, 19, '充能:随机敌军-3/-3，命中英雄:你抓一张牌，对手弃掉一张牌，若对手无手牌，则随机敌军-9/-9'],
       [10, 21, '充能:随机敌军-4/-4，命中英雄:你抓一张牌，对手弃掉一张牌，若对手无手牌，则随机敌军-10/-10'],
@@ -1444,7 +1444,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/chiying_aixier.jpg', import.meta.url),
     data: [
       [15, 7, '【洞察2】、【连击】、【魔防50】、回合开始：若生命高于对手，获得【隐形】1回合；若人数多于对手，攻击+1'],
       [16, 9, '【洞察2】、【连击】、【魔防60】、回合开始：若生命高于对手，获得【隐形】1回合；若人数多于对手，攻击+1'],
@@ -1462,7 +1462,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/gangzhipaoxiao_buruien.jpg', import.meta.url),
     data: [
       [15, 15, '【护甲7】、【践踏】、登场:横排敌军受到10点伤害、攻击前:友军多于敌军，自身+2/+4'],
       [17, 17, '【护甲8】、【践踏】、登场:横排敌军受到11点伤害、攻击前:友军多于敌军，自身+2/+6'],
@@ -1480,7 +1480,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/liehuo_leila.jpg', import.meta.url),
     data: [
       [27, 15, '登场:获得2张《蕾拉火弹》-lv12、回合结束、命中英雄:获得《蕾拉火弹》-lv12'],
       [32, 16, '登场:获得3张《蕾拉火弹》-lv13、回合结束、命中英雄:获得《蕾拉火弹》-lv13'],
@@ -1498,7 +1498,7 @@ export default [
     quality: '橙',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/tiantanggang/heijinsandaimu_meisen.jpg', import.meta.url),
     data: [
       [18, 36, '【磐龙】、攻击前:消灭对面首位敌军、命中英雄时:75%几率，敌军受到20点伤害'],
       [20, 40, '【磐龙】、攻击前:消灭对面首位敌军、命中英雄时:75%几率，敌军受到24点伤害'],
