@@ -4,7 +4,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/haiguzhanshi.jpg', import.meta.url),
     data: [
       [12, 1, '/'],
       [14, 1, '/'],
@@ -22,7 +22,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/dongshi.jpg', import.meta.url),
     data: [
       [10, 10, '死亡:冰封自身位置'],
       [11, 12, '死亡:冰封自身位置'],
@@ -40,7 +40,7 @@ export default [
     quality: '白',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/huangwutengwan.jpg', import.meta.url),
     data: [
       [0, 1, '【守军】、【魔免】、【隐形】'],
       [0, 1, '【守军】、【魔免】、【隐形】'],
@@ -58,7 +58,7 @@ export default [
     quality: '白',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/kulousheshou.jpg', import.meta.url),
     data: [
       [14, 1, '死亡:对随机敌军造成6点伤害'],
       [16, 1, '死亡:对随机敌军造成6点伤害'],
@@ -76,7 +76,7 @@ export default [
     quality: '白',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/shiqian.jpg', import.meta.url),
     data: [
       [17, 18, '死亡:冰封自身位置，英雄生命+17'],
       [19, 19, '死亡:冰封自身位置，英雄生命+19'],
@@ -94,7 +94,7 @@ export default [
     quality: '白',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/fushengxiegu.jpg', import.meta.url),
     data: [
       [18, 3, '死亡:召唤一个12/1骸骨战士-lv12'],
       [20, 3, '死亡:召唤一个14/1骸骨战士-lv13'],
@@ -112,7 +112,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/kulouquan.jpg', import.meta.url),
     data: [
       [10, 1, '死亡:随机友军攻击+7'],
       [11, 1, '死亡:随机友军攻击+8'],
@@ -130,7 +130,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/bingyuanpushi.jpg', import.meta.url),
     data: [
       [9, 3, '【迟缓】、脚下冰封则失去迟缓、死亡:75%移回玩家手上'],
       [10, 3, '【迟缓】、脚下冰封则失去迟缓、死亡:80%移回玩家手上'],
@@ -148,7 +148,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/zhanchangyiji.jpg', import.meta.url),
     data: [
       [0, 1, '死亡:抽一张牌、随机友军+8/+8'],
       [0, 1, '死亡:抽一张牌、随机友军+9/+9'],
@@ -166,7 +166,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/zhuanhuayishi.jpg', import.meta.url),
     data: [
       [0, 0, '牺牲目标友军，抽一张牌、召唤17/18尸嵌lv12'],
       [0, 0, '牺牲目标友军，抽一张牌、召唤19/19尸嵌lv13'],
@@ -184,7 +184,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/fushengshihai.jpg', import.meta.url),
     data: [
       [8, 8, '死亡:召唤一个12/1骸骨战士-lv12'],
       [9, 9, '死亡:召唤一个13/1骸骨战士-lv13'],
@@ -202,7 +202,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/dongshenkuangxinzhe.jpg', import.meta.url),
     data: [
       [13, 10, '每当一个生物死亡:自身攻击+1'],
       [14, 12, '每当一个生物死亡:自身攻击+1'],
@@ -220,7 +220,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/shihunguyao.jpg', import.meta.url),
     data: [
       [12, 16, '每当一个敌军死亡:自身+2/+3'],
       [13, 19, '每当一个敌军死亡:自身+2/+3'],
@@ -238,7 +238,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/hantiejunshi.jpg', import.meta.url),
     data: [
       [16, 4, '登场:冰封相邻随机位置'],
       [17, 5, '【洞察1】、登场:冰封相邻随机位置'],
@@ -256,7 +256,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/wenyibingchong.jpg', import.meta.url),
     data: [
       [7, 14, '对玩家伤害+13、登场:冰封随机友方位置，英雄生命-5'],
       [8, 16, '对玩家伤害+14、登场:冰封随机友方位置，英雄生命-6'],
@@ -274,7 +274,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/hanbingmoqiang.jpg', import.meta.url),
     data: [
       [0, 33, '登场:冰封对面横排随机位置、死亡:冰封自身位置，若已冰封则抓一张牌'],
       [0, 38, '登场:冰封对面横排随机位置、死亡:冰封自身位置，若已冰封则抓一张牌'],
@@ -292,7 +292,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/handongjiangzhi.jpg', import.meta.url),
     data: [
       [0, 0, '冰封目标区域、抓一张牌、英雄生命+18、65%获得《真理碎片》'],
       [0, 0, '冰封目标区域、抓一张牌、英雄生命+21、70%获得《真理碎片》'],
@@ -310,7 +310,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/guqiang.jpg', import.meta.url),
     data: [
       [3, 26, '【守军】、【荆棘】、每当一个友军死亡:自身+2/+10'],
       [4, 27, '【守军】、【荆棘】、每当一个友军死亡:自身+2/+11'],
@@ -328,7 +328,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/yinlengmuxue.jpg', import.meta.url),
     data: [
       [0, 25, '死亡:召唤17/18尸嵌-lv12'],
       [0, 28, '死亡:召唤19/19尸嵌-lv13'],
@@ -346,7 +346,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/hanfengcaoren.jpg', import.meta.url),
     data: [
       [0, 14, '【洞察1】、【传承4】、登场：冰封相邻随机位置，横排敌军-4/-4'],
       [0, 16, '【洞察1】、【传承5】、登场：冰封相邻随机位置，横排敌军-4/-4'],
@@ -364,7 +364,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/zhaohuanzhen_kulouquan.jpg', import.meta.url),
     data: [
       [0, 0, '目标位置召唤10/1骷髅犬lv12，并获得一只到手上'],
       [0, 0, '目标位置召唤11/1骷髅犬lv13，并获得一只到手上'],
@@ -382,7 +382,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/yandongkuxingseng.jpg', import.meta.url),
     data: [
       [9, 18, '【洞察1】、登场:随机敌军攻击-2x/-2x(x为敌方冰封数量)、敌方法力上限-1'],
       [10, 20, '【洞察1】、登场:随机敌军攻击-2x/-2x(x为敌方冰封数量)、敌方法力上限-1'],
@@ -400,7 +400,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/hanbingjishi.jpg', import.meta.url),
     data: [
       [8, 14, '攻击前:随机敌军-3/-2，冰封其位置'],
       [9, 15, '攻击前:随机敌军-3/-2，冰封其位置'],
@@ -418,7 +418,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/jidikuangxinzhe.jpg', import.meta.url),
     data: [
       [15, 12, '登场:牺牲一个相邻友军，随机敌军-60/-60'],
       [16, 14, '登场:牺牲一个相邻友军，随机敌军-70/-70'],
@@ -436,7 +436,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/shenmiaojishi.jpg', import.meta.url),
     data: [
       [8, 14, '【洞察1】、攻击前:吸取生命，等同自身攻击'],
       [9, 16, '【洞察1】、攻击前:吸取生命，等同自身攻击'],
@@ -454,7 +454,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/shituzhengzhao.jpg', import.meta.url),
     data: [
       [0, 0, '冰封友方目标区域，召唤两个10/10冻尸-lv12'],
       [0, 0, '冰封友方目标区域，召唤两个11/12冻尸-lv13'],
@@ -472,7 +472,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/linghunchouqu.jpg', import.meta.url),
     data: [
       [0, 0, '目标敌军-35/-35，全场每有一处冰封，你的生命便+3'],
       [0, 0, '目标敌军-40/-40，全场每有一处冰封，你的生命便+3'],
@@ -490,7 +490,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/shenmiaomoxiang.jpg', import.meta.url),
     data: [
       [25, 40, '【守军】、登场：冰封友方随机位置、受到传承：失去【守军】'],
       [27, 45, '【守军】、登场：冰封友方随机位置、受到传承：失去【守军】'],
@@ -508,7 +508,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/dunjiakulouyao.jpg', import.meta.url),
     data: [
       [10, 10, '【护甲3】、死亡:随机友军+10/+10，并且护甲+3'],
       [11, 11, '【护甲3】、死亡:随机友军+11/+11，并且护甲+3'],
@@ -526,7 +526,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/juewangzhidi.jpg', import.meta.url),
     data: [
       [0, 0, '荒芜一个敌方区域，随机敌军攻击-17并获得沉默'],
       [0, 0, '荒芜一个敌方区域，随机敌军攻击-19并获得沉默'],
@@ -544,7 +544,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/wushengbianyi.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+14/+15并受到沉默、抽一张牌'],
       [0, 0, '目标友军+16/+16并受到沉默、抽一张牌'],
@@ -562,7 +562,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/sihanlieshou.jpg', import.meta.url),
     data: [
       [6, 29, '登场:冰封随机敌军位置，该敌军攻击-5，本回合不能攻击'],
       [7, 32, '登场:冰封随机敌军位置，该敌军攻击-6，本回合不能攻击'],
@@ -580,7 +580,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/haiguqianxian.jpg', import.meta.url),
     data: [
       [0, 0, '召唤两个12/1骸骨战士-lv12、随机友军攻击+3、获得《真理碎片'],
       [0, 0, '召唤两个13/1骸骨战士-lv13、随机友军攻击+3、获得《真理碎片'],
@@ -598,7 +598,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/mangufashi.jpg', import.meta.url),
     data: [
       [12, 16, '登场、英雄获得生命时：随机敌军-4/-4'],
       [14, 18, '登场、英雄获得生命时：随机敌军-4/-4'],
@@ -616,7 +616,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/bingyuanpaoxiaozhe.jpg', import.meta.url),
     data: [
       [17, 17, '登场:友方每有一处冰封，自身+3/+3'],
       [20, 20, '登场:友方每有一处冰封，自身+3/+3'],
@@ -634,7 +634,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/bumianxueya.jpg', import.meta.url),
     data: [
       [12, 8, '登场:敌方每有一处冰封，自身攻击+5，若自身位置已冰封，则获得【穿透】'],
       [15, 9, '登场:敌方每有一处冰封，自身攻击+5，若自身位置已冰封，则获得【穿透】'],
@@ -652,7 +652,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/zhuanji_xueyuliesong.jpg', import.meta.url),
     data: [
       [0, 0, '冰封随机区域，随机敌军-8/-8，获得【传记·猛兽哮谷】'],
       [0, 0, '冰封随机区域，随机敌军-9/-9，获得【传记·猛兽哮谷】'],
@@ -670,7 +670,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/zhuanji_mengshouxiaogu.jpg', import.meta.url),
     data: [
       [0, 0, '召唤冰原咆哮者-lv12'],
       [0, 0, '召唤冰原咆哮者-lv13'],
@@ -688,7 +688,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/lindongxiezhoushi.jpg', import.meta.url),
     data: [
       [8, 15, '登场:随机敌军攻击-5、回合开始:随机位置冰封'],
       [9, 17, '登场:随机敌军攻击-6、回合开始:随机位置冰封'],
@@ -706,7 +706,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/dongyeshizhe.jpg', import.meta.url),
     data: [
       [13, 14, '【洞察2】、双方英雄法力上限-1'],
       [15, 15, '【洞察2】、双方英雄法力上限-1'],
@@ -724,7 +724,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/muyuanfengheshi.jpg', import.meta.url),
     data: [
       [4, 14, '回合开始：随机敌军-2/-1、回合结束：若本回合有2个单位死亡，召唤17/18尸嵌-lv12'],
       [5, 15, '回合开始：随机敌军-2/-1、回合结束：若本回合有2个单位死亡，召唤19/19尸嵌-lv13'],
@@ -742,7 +742,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/canposhenmiao.jpg', import.meta.url),
     data: [
       [0, 40, '【守军】、回合结束:若本回合有2个单位死亡，升级为0/40极地神庙-lv12'],
       [0, 45, '【守军】、回合结束:若本回合有2个单位死亡，升级为0/45极地神庙-lv13'],
@@ -760,7 +760,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/jidishenmiao.jpg', import.meta.url),
     data: [
       [0, 40, '【守军】、回合开始时:召唤10/10冻尸-lv12、回合结束:若本回合有2个单位死亡，升级为0/40王座神庙-lv12'],
       [0, 45, '【守军】、回合开始时:召唤11/12冻尸-lv13、回合结束:若本回合有2个单位死亡，升级为0/45王座神庙-lv13'],
@@ -778,7 +778,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/wangzuoshenmiao.jpg', import.meta.url),
     data: [
       [0, 40, '【守军】、回合开始:召唤8/14神庙祭师-lv12、友军死亡时:自身生命+6'],
       [0, 45, '【守军】、回合开始:召唤9/16神庙祭师-lv13、友军死亡时:自身生命+7'],
@@ -796,7 +796,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/kebucisuizhe.jpg', import.meta.url),
     data: [
       [21, 6, '登场:魔防+30持续1回合，若自己位置已冰封，则自身攻击+8，并获得【践踏】'],
       [23, 7, '登场:魔防+35持续1回合，若自己位置已冰封，则自身攻击+9，并获得【践踏】'],
@@ -814,7 +814,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/hanmangdaoke.jpg', import.meta.url),
     data: [
       [11, 19, '【二连击】、登场:冰封随机相邻区域、攻击前:英雄受到伤害，等同于场上冰封数'],
       [12, 20, '【二连击】、登场:冰封随机相邻区域、攻击前:英雄受到伤害，等同于场上冰封数'],
@@ -832,7 +832,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/jiyeyinhun.jpg', import.meta.url),
     data: [
       [22, 5, '【洞察1】、【隐形】、【穿透】'],
       [24, 6, '【洞察1】、【隐形】、【穿透】、【魔防1】'],
@@ -850,7 +850,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/hanbingguqiang.jpg', import.meta.url),
     data: [
       [0, 0, '目标区域召唤3/26骨墙lv12，它额外+5/+5冰封脚下，获得【磐龙】'],
       [0, 0, '目标区域召唤4/27骨墙lv13，它额外+5/+5冰封脚下，获得【磐龙】'],
@@ -868,7 +868,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/dongyeteshi.jpg', import.meta.url),
     data: [
       [15, 11, '【法力封锁2】、登场:冰封脚下、每当一个地狱或冬神友军死亡时:敌方一张手牌法力+1'],
       [17, 12, '【法力封锁2】、登场:冰封脚下、每当一个地狱或冬神友军死亡时:敌方一张手牌法力+1'],
@@ -886,7 +886,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/dongmuqishi.jpg', import.meta.url),
     data: [
       [18, 18, '【护甲4】、登场:横排所有敌军-5/-5'],
       [20, 20, '【护甲5】、登场:横排所有敌军-6/-6'],
@@ -904,7 +904,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/lengkuchongche.jpg', import.meta.url),
     data: [
       [13, 43, '【迟缓】、【践踏】、每有一个敌军死亡，自身+4/+4，攻击大于15，获得【磐龙】'],
       [15, 45, '【迟缓】、【磐龙】、【践踏】、每有一个敌军死亡，自身+4/+5'],
@@ -922,7 +922,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/lengxuezhaohuanshi.jpg', import.meta.url),
     data: [
       [9, 14, '每当一个敌军死亡:召唤10/10冻尸-lv12'],
       [11, 14, '每当一个敌军死亡:召唤11/12冻尸-lv13'],
@@ -940,7 +940,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/jidibingfengzhe.jpg', import.meta.url),
     data: [
       [14, 44, '【守军】、回合开始时:随机敌方区域投掷冰弹，并且冰封该地区'],
       [15, 50, '【守军】、回合开始时:随机敌方区域投掷冰弹，并且冰封该地区'],
@@ -958,7 +958,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/buxiushuangjianshi.jpg', import.meta.url),
     data: [
       [12, 6, '登场:每有一个友方冰封，自身攻击+4、死亡:若自身区域已冰封，自身回手牌'],
       [14, 6, '登场:每有一个友方冰封，自身攻击+4、死亡:若自身区域已冰封，自身回手牌'],
@@ -976,7 +976,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/zhuanhuashitu.jpg', import.meta.url),
     data: [
       [0, 0, '随机敌军-15/-15，冰封其位置，召唤13/13尸嵌-lv9'],
       [0, 0, '随机敌军-16/-16，冰封其位置，召唤14/15尸嵌-lv10'],
@@ -994,7 +994,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/xueyinzhanglaoling.jpg', import.meta.url),
     data: [
       [17, 19, '登场：冰封相邻随机位置、受到传承：随机敌军-12/-12（无视神佑、魔免）'],
       [19, 20, '登场：冰封相邻随机位置、受到传承：随机敌军-13/-13（无视神佑、魔免）'],
@@ -1012,7 +1012,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/bingfengjiachong.jpg', import.meta.url),
     data: [
       [14, 24, '【护甲3】、【魔防5】、受到传承：额外+4/+4，获得【磐龙】、攻击前：脚下有冰封，向前方喷吐冰毒'],
       [15, 25, '【护甲4】、【魔防5】、受到传承：额外+4/+4，获得【磐龙】、攻击前：脚下有冰封，向前方喷吐冰毒'],
@@ -1030,7 +1030,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/xieehuashen.jpg', import.meta.url),
     data: [
       [13, 13, '每当一个炼狱或冬神友军死亡时：长刀投掷英（12点伤害）'],
       [14, 15, '每当一个炼狱或冬神友军死亡时：长刀投掷英（14点伤害）'],
@@ -1048,7 +1048,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/yongyewuyao.jpg', import.meta.url),
     data: [
       [13, 13, '登场:荒芜随机区域，消灭随机敌军（敌军等级<=13）'],
       [15, 14, '登场:荒芜随机区域，消灭随机敌军（敌军等级<=14）'],
@@ -1066,7 +1066,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/dongmudoushi.jpg', import.meta.url),
     data: [
       [11, 21, '【护甲5】、【二连击】、登场回合开始:友方每有一处冰封，自身+1/+2，护甲+2'],
       [13, 23, '【护甲6】、【二连击】、登场回合开始:友方每有一处冰封，自身+1/+2，护甲+2'],
@@ -1084,7 +1084,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/haigudujun.jpg', import.meta.url),
     data: [
       [18, 16, '【护甲3】、每当一个敌军死亡:随机友军攻击+7、护甲+2'],
       [19, 17, '【护甲3】、每当一个敌军死亡:随机友军攻击+8、护甲+2'],
@@ -1102,7 +1102,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/dongshenhuxiao.jpg', import.meta.url),
     data: [
       [0, 0, '抓两张牌，冰封2个随机区域，随机冬神友军+7/+7、全场每有一处冰封，英雄生命+4'],
       [0, 0, '抓两张牌，冰封2个随机区域，随机冬神友军+7/+7、全场每有一处冰封，英雄生命+5'],
@@ -1120,7 +1120,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/zhoushakuli.jpg', import.meta.url),
     data: [
       [8, 39, '任意生物死亡:攻击+5，攻击前:吞噬一个相邻友军，连击次数+1'],
       [10, 43, '任意生物死亡:攻击+5，攻击前:吞噬一个相邻友军，连击次数+1'],
@@ -1138,7 +1138,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/shenshanxueguai.jpg', import.meta.url),
     data: [
       [23, 33, '【魔免】、攻击前:随机一个蛮石、一个冬神友军+5/+5、登场回合结束:冰封脚下'],
       [26, 35, '【魔免】、攻击前:随机一个蛮石、一个冬神友军+5/+5、登场回合结束:冰封脚下'],
@@ -1156,7 +1156,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/shitujunwang.jpg', import.meta.url),
     data: [
       [12, 23, '回合开始:随机敌军-7/-7，冰封其位置、回合结束:复活一个本回合死亡的敌军，到己方场上'],
       [13, 25, '回合开始:随机敌军-8/-8，冰封其位置、回合结束:复活一个本回合死亡的敌军，到己方场上'],
@@ -1174,7 +1174,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/binghoushou.jpg', import.meta.url),
     data: [
       [20, 29, '【磐龙】、攻击前:敌方每有一处冰封，自身+1/+3'],
       [22, 30, '【磐龙】、攻击前:敌方每有一处冰封，自身+1/+3'],
@@ -1192,7 +1192,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/bingheshiji.jpg', import.meta.url),
     data: [
       [0, 0, '所有单位-16/-16、全场每有一处冰封，再-1/-1（无视神佑和魔免）'],
       [0, 0, '【洞察1】、所有单位-18/-18、全场每有一处冰封，再-1/-1（无视神佑和魔免）'],
@@ -1210,7 +1210,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/bingyishou.jpg', import.meta.url),
     data: [
       [24, 65, '【磐龙】、登场:全场每有一处冰封，英雄生命+7'],
       [25, 70, '【磐龙】、登场:全场每有一处冰封，英雄生命+8'],
@@ -1228,7 +1228,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/dongshenxieshi.jpg', import.meta.url),
     data: [
       [20, 20, '登场:召唤两个12/1骸骨战士-lv12、每当一个单位死亡:自身攻击+2'],
       [23, 23, '登场:召唤两个14/1骸骨战士-lv13、每当一个单位死亡:自身攻击+2'],
@@ -1246,7 +1246,7 @@ export default [
     quality: '紫',
     cost: 8,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/binglong.jpg', import.meta.url),
     data: [
       [27, 17, '【践踏】、登场:获得【魔免】1回合，全场每有一处冰封，自身+3/+2、攻击前:所有敌军-3/-3'],
       [33, 18, '【践踏】、登场:获得【魔免】1回合，全场每有一处冰封，自身+3/+3、攻击前:所有敌军-3/-3'],
@@ -1264,7 +1264,7 @@ export default [
     quality: '紫',
     cost: 8,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/bingyuangongchengshou.jpg', import.meta.url),
     data: [
       [25, 25, '【磐龙】、【践踏】、登场:友方每有一处冰封，自身+3/+11'],
       [30, 30, '【磐龙】、【践踏】、登场:友方每有一处冰封，自身+3/+12'],
@@ -1282,7 +1282,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/zhuanji_huangwuzhidi.jpg', import.meta.url),
     data: [
       [0, 0, '荒芜一个敌方区域，召唤尸嵌-lv12，获得【传记·荒芜之师】'],
       [0, 0, '荒芜一个敌方区域，召唤尸嵌-lv13，获得【传记·荒芜之师】'],
@@ -1300,7 +1300,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/zhuanji_huangwuzhishi.jpg', import.meta.url),
     data: [
       [0, 0, '全场每有一个魔免单位，则召唤一个骸骨战士-lv12'],
       [0, 0, '全场每有一个魔免单位，则召唤一个骸骨战士-lv13'],
@@ -1318,7 +1318,7 @@ export default [
     quality: '橙',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/hanfengxueren.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+15/+10、获得【先攻】、【践踏】、冰封自身位置'],
       [0, 0, '目标友军+16/+12、获得【先攻】、【践踏】、冰封自身位置'],
@@ -1336,7 +1336,7 @@ export default [
     quality: '橙',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/huangwubingwu_ye.jpg', import.meta.url),
     data: [
       [16, 16, '登场:荒芜随机区域，回手随机敌军（敌军等级<=16）、攻击前:场上每有一个守军，自身攻击+2'],
       [18, 18, '登场:荒芜随机区域，回手随机敌军（敌军等级<=17）、攻击前:场上每有一个守军，自身攻击+2'],
@@ -1354,7 +1354,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/buxizhiling.jpg', import.meta.url),
     data: [
       [17, 1, '死亡:随机位置重生自己，等级-1'],
       [19, 1, '死亡:随机位置重生自己，等级-1'],
@@ -1372,7 +1372,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/hanfengmojiang_saigusi.jpg', import.meta.url),
     data: [
       [21, 15, '【先攻】、【践踏】、【护甲7】'],
       [24, 16, '【先攻】、【践踏】、【护甲8】'],
@@ -1390,7 +1390,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/yongyenvwang.jpg', import.meta.url),
     data: [
       [12, 8, '【魔免】、【传承4】、敌方法力-1、登场和受到传承时：女王隐形2回合、回合开始：随机敌军-x/-x，冰封脚下，眩晕1回合（x为自身的传承）'],
       [15, 10, '【魔免】、【传承4】、敌方法力-1、登场和受到传承时：女王隐形2回合、回合开始：随机敌军-x/-x，冰封脚下，眩晕1回合（x为自身的传承）'],
@@ -1408,7 +1408,7 @@ export default [
     quality: '橙',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/wangzuowuyao.jpg', import.meta.url),
     data: [
       [13, 39, '登场:随机敌军-8/-8、友军死亡时:随机敌军-3/-3、敌军死亡时:随机友军+3/+3'],
       [15, 42, '登场:随机敌军-9/-9、友军死亡时:随机敌军-3/-3、敌军死亡时:随机友军+3/+3'],
@@ -1426,7 +1426,7 @@ export default [
     quality: '橙',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/dongshenhuashen.jpg', import.meta.url),
     data: [
       [9, 32, '登场:友方每有一处冰封，自身+3/+11、回合结束:敌方每有一处冰封，你便吸取对手5点生命'],
       [10, 36, '登场:友方每有一处冰封，自身+4/+11、回合结束:敌方每有一处冰封，你便吸取对手5点生命'],
@@ -1444,7 +1444,7 @@ export default [
     quality: '橙',
     cost: 8,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/dongshenshitu/bingshan_yatelasi.jpg', import.meta.url),
     data: [
       [25, 100, '【磐龙】、登场:冰封7个区域，所有单位本回合不能攻击'],
       [30, 110, '【磐龙】、登场:冰封7个区域，所有单位本回合不能攻击'],

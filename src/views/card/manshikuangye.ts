@@ -4,7 +4,7 @@ export default [
     quality: '白',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/caoyuanlang.jpg', import.meta.url),
     data: [
       [9, 4, '/'],
       [10, 4, '/'],
@@ -22,7 +22,7 @@ export default [
     quality: '白',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/banmaoyouzhu.jpg', import.meta.url),
     data: [
       [9, 9, '死亡:英雄生命+9'],
       [10, 10, '死亡:英雄生命+10'],
@@ -40,7 +40,7 @@ export default [
     quality: '白',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/manhuashu.jpg', import.meta.url),
     data: [
       [0, 0, '目标单位+10/+10'],
       [0, 0, '目标单位+11/+11'],
@@ -58,7 +58,7 @@ export default [
     quality: '白',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/zaishengshirenmo.jpg', import.meta.url),
     data: [
       [6, 20, '回合结束:若本回合受到过伤害，自身+4/+6'],
       [7, 21, '回合结束:若本回合受到过伤害，自身+4/+7'],
@@ -76,7 +76,7 @@ export default [
     quality: '白',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/changmaoxiang.jpg', import.meta.url),
     data: [
       [18, 32, '/'],
       [20, 35, '/'],
@@ -94,7 +94,7 @@ export default [
     quality: '蓝',
     cost: 0,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/yubenjingtoue.jpg', import.meta.url),
     data: [
       [4, 11, '【洞察1】、【迟缓】、命中英雄:抓一张牌，并且【洞察1】'],
       [5, 12, '【洞察1】、【迟缓】、命中英雄:抓一张牌，并且【洞察1】'],
@@ -112,7 +112,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/manshixuexi.jpg', import.meta.url),
     data: [
       [8, 8, '当己方英雄恢复生命时：自身攻击+5'],
       [9, 9, '当己方英雄恢复生命时：自身攻击+6'],
@@ -130,7 +130,7 @@ export default [
     quality: '蓝',
     cost: 1,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/chilaidebuji.jpg', import.meta.url),
     data: [
       [0, 0, '目标友军+8/+8，若该生物具有迟缓，则获得【践踏】、抽一张牌'],
       [0, 0, '目标友军+9/+9，若该生物具有迟缓，则获得【践踏】、抽一张牌'],
@@ -148,7 +148,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/kuangyejishi.jpg', import.meta.url),
     data: [
       [3, 13, '【洞察1】、你得法力上限+1、洞察时:英雄生命+7'],
       [4, 14, '【洞察1】、你得法力上限+1、洞察时:英雄生命+8'],
@@ -166,7 +166,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/xulisheshou.jpg', import.meta.url),
     data: [
       [6, 17, '登场，回合结束:射击敌方英雄'],
       [7, 18, '登场，回合结束:射击敌方英雄'],
@@ -184,7 +184,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/chimanyeren.jpg', import.meta.url),
     data: [
       [17, 17, '【迟缓】、洞察时:自身+3/+3'],
       [19, 19, '【迟缓】、洞察时:自身+3/+4'],
@@ -202,7 +202,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/tanshifeishu.jpg', import.meta.url),
     data: [
       [6, 20, '当己方英雄恢复生命:自身+2/+5，魔防+2'],
       [7, 23, '当己方英雄恢复生命:自身+2/+5，魔防+2'],
@@ -220,7 +220,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/manshichuanshanshu.jpg', import.meta.url),
     data: [
       [8, 15, '【护甲3】、当己方英雄恢复生命:自身攻击+3，护甲+1'],
       [10, 16, '【护甲3】、当己方英雄恢复生命:自身攻击+4，护甲+1'],
@@ -238,7 +238,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/shirupozhu.jpg', import.meta.url),
     data: [
       [0, 0, '目标单位+8/+14，并获得【践踏】'],
       [0, 0, '目标单位+9/+15，并获得【践踏】'],
@@ -252,11 +252,11 @@ export default [
     ]
   },
   {
-    name: '蛮野仙人掌',
+    name: '蛮石仙人掌',
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/manshixianrenzhang.jpg', import.meta.url),
     data: [
       [4, 18, '【守军】、【荆棘】、死亡:抽一张牌'],
       [4, 21, '【守军】、【荆棘】、死亡:抽一张牌'],
@@ -274,7 +274,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/gaoyuanweishi.jpg', import.meta.url),
     data: [
       [12, 20, '【洞察1】、【迟缓】、回合结束：若本回合受到过伤害，自身+3/+5，【洞察1】'],
       [13, 22, '【洞察1】、【迟缓】、回合结束：若本回合受到过伤害，自身+3/+6，【洞察1】'],
@@ -288,11 +288,11 @@ export default [
     ]
   },
   {
-    name: '盘旋秃鹫',
+    name: '盘旋秃鹰',
     quality: '蓝',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/panxuantuying.jpg', import.meta.url),
     data: [
       [12, 8, '命中英雄:【洞察1】、洞察时:自身攻击+4'],
       [13, 9, '命中英雄:【洞察1】、洞察时:自身攻击+4'],
@@ -310,7 +310,7 @@ export default [
     quality: '蓝',
     cost: 2,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/shabaoshilian.jpg', import.meta.url),
     data: [
       [0, 0, '全体生物受到1点伤害，随机友军+4/+11，抽一张牌'],
       [0, 0, '全体生物受到1点伤害，随机友军+5/+12，抽一张牌'],
@@ -328,7 +328,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/xunluchihou.jpg', import.meta.url),
     data: [
       [11, 7, '登场:射击随机敌方，7点伤害、洞察时:射击随机敌军，5点伤害'],
       [13, 8, '登场:射击随机敌方，8点伤害、洞察时:射击随机敌军，5点伤害'],
@@ -346,7 +346,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/xuanhuawuzhe.jpg', import.meta.url),
     data: [
       [12, 8, '登场:相邻随机友军+9/+0，魔防+4'],
       [13, 10, '登场:相邻随机友军+10/+0，魔防+4'],
@@ -364,7 +364,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/xunjiechangmaoshou.jpg', import.meta.url),
     data: [
       [10, 20, '命中英雄:对随机敌军投掷长矛，5点伤害，两次效果'],
       [12, 22, '命中英雄:对随机敌军投掷长矛，5点伤害，两次效果'],
@@ -382,7 +382,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/houpihema.jpg', import.meta.url),
     data: [
       [12, 32, '【洞察1】、【迟缓】、回合结束:若本回合受到过伤害，自身生命+6'],
       [13, 35, '【洞察1】、【迟缓】、回合结束:若本回合受到过伤害，自身生命+7'],
@@ -400,7 +400,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/mianbaoshu.jpg', import.meta.url),
     data: [
       [0, 35, '【守军】、【磐龙】、法力上限+1'],
       [0, 40, '【守军】、【磐龙】、法力上限+1'],
@@ -418,7 +418,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/shirenhua.jpg', import.meta.url),
     data: [
       [0, 35, '回合结束:若本回合曾受到伤害，则自身+7/+7'],
       [0, 40, '回合结束:若本回合曾受到伤害，则自身+8/+8'],
@@ -436,7 +436,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/tianjiangsuishi.jpg', import.meta.url),
     data: [
       [0, 0, '目标区域坠落25点伤害，全场生物受到1点伤害'],
       [0, 0, '目标区域坠落30点伤害，全场生物受到1点伤害'],
@@ -454,7 +454,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/jiminqueying.jpg', import.meta.url),
     data: [
       [7, 14, '【洞察1】、洞察时：自身+2/+3，魔防+2'],
       [8, 16, '【洞察1】、洞察时：自身+2/+3，魔防+3'],
@@ -472,7 +472,7 @@ export default [
     quality: '蓝',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/xueyuhaoniu.jpg', import.meta.url),
     data: [
       [24, 20, '【迟缓】、【魔防7】、场上有冰封则失去【迟缓'],
       [26, 23, '【迟缓】、【魔防7】、场上有冰封则失去【迟缓'],
@@ -490,7 +490,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/huangyezansongren.jpg', import.meta.url),
     data: [
       [8, 22, '回合开始:另一个友军+6/+0，魔防+3'],
       [10, 24, '回合开始:另一个友军+7/+0，魔防+3'],
@@ -508,7 +508,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/yuanyekuangzhanshi.jpg', import.meta.url),
     data: [
       [16, 16, '【洞察1】、【践踏】、【魔防3】'],
       [18, 18, '【洞察1】、【践踏】、【魔防3】'],
@@ -526,7 +526,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/jushouliehu.jpg', import.meta.url),
     data: [
       [17, 19, '登场:英雄生命+7、死亡:英雄生命+7'],
       [19, 21, '登场:英雄生命+8、死亡:英雄生命+8'],
@@ -544,7 +544,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/shengmingyuanli.jpg', import.meta.url),
     data: [
       [0, 0, '【洞察1】、目标单位+16/+16'],
       [0, 0, '【洞察1】、目标单位+17/+17，魔防+4'],
@@ -562,7 +562,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/qiangxingbulie.jpg', import.meta.url),
     data: [
       [0, 0, '对目标敌军造成120点伤害、己方英雄生命+30'],
       [0, 0, '对目标敌军造成140点伤害、己方英雄生命+33'],
@@ -580,7 +580,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/kuangyemanzu.jpg', import.meta.url),
     data: [
       [13, 26, '回合结束:若本回合受到过伤害，则自身+5/+5，获得【磐龙】'],
       [15, 29, '回合结束:若本回合受到过伤害，则自身+5/+5，获得【磐龙】'],
@@ -598,7 +598,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/fuchoushirenhua.jpg', import.meta.url),
     data: [
       [12, 30, '回合结束：若本回合受到过伤害，则撕咬前方敌军或玩家'],
       [13, 33, '回合结束：若本回合受到过伤害，则撕咬前方敌军或玩家'],
@@ -616,7 +616,7 @@ export default [
     quality: '蓝',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/xueyuanyeren.jpg', import.meta.url),
     data: [
       [23, 23, '【迟缓】、【回命】、【洞察1】、场上有冰封则失去【迟缓】'],
       [25, 25, '【迟缓】、【回命】、【洞察1】、场上有冰封则失去【迟缓】'],
@@ -634,7 +634,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/guwututeng.jpg', import.meta.url),
     data: [
       [0, 40, '【洞察1】、回合开始:其他全体友军+3/+1，魔防+1'],
       [0, 45, '【洞察1】、回合开始:其他全体友军+3/+1，魔防+1'],
@@ -652,7 +652,7 @@ export default [
     quality: '蓝',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/mimangjuren.jpg', import.meta.url),
     data: [
       [25, 40, '【洞察1】、【迟缓】、【魔防7】'],
       [27, 42, '【洞察1】、【迟缓】、【魔防8】'],
@@ -670,7 +670,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/fengkuangjishi.jpg', import.meta.url),
     data: [
       [16, 5, '法力上限+1、死亡:英雄生命-6'],
       [18, 5, '法力上限+1、死亡:英雄生命-7'],
@@ -688,7 +688,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/wuweiliehu.jpg', import.meta.url),
     data: [
       [10, 16, '【洞察1】、命中英雄时:再攻击一次'],
       [11, 18, '【洞察1】、命中英雄时:再攻击一次'],
@@ -706,7 +706,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/xuexitouling.jpg', import.meta.url),
     data: [
       [13, 9, '英雄回复生命时:向敌方随机位置投掷长矛(等于攻击力)'],
       [14, 10, '英雄回复生命时:向敌方随机位置投掷长矛(等于攻击力)'],
@@ -724,7 +724,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/baonuyeren.jpg', import.meta.url),
     data: [
       [11, 15, '【践踏】、回合开始：每有1点剩余法力，自身+2/+2'],
       [13, 16, '【践踏】、回合开始：每有1点剩余法力，自身+2/+2'],
@@ -742,7 +742,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/youdicaoren.jpg', import.meta.url),
     data: [
       [0, 24, '回合结束：若本回合受到过伤害，抽一张牌，英雄生命+9，【洞察1】'],
       [0, 28, '回合结束：若本回合受到过伤害，抽一张牌，英雄生命+10，【洞察1】'],
@@ -760,7 +760,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/xueyuanlangnv.jpg', import.meta.url),
     data: [
       [14, 10, '命中英雄:召唤4/3草原狼-lv6、攻击前:场上有冰封，另一友军攻击+4'],
       [15, 11, '命中英雄:召唤4/3草原狼-lv6、攻击前:场上有冰封，另一友军攻击+5'],
@@ -778,7 +778,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/langyuejishi.jpg', import.meta.url),
     data: [
       [16, 15, '回合结束:召唤6/4草原狼-lv9'],
       [18, 16, '回合结束:召唤7/4草原狼-lv10'],
@@ -796,7 +796,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/huangyuanzhizhe.jpg', import.meta.url),
     data: [
       [9, 15, '回合开始:所有迟缓友军+2/+8，随机另一友军+2/+2，失去迟缓'],
       [10, 17, '回合开始:所有迟缓友军+2/+9，随机另一友军+2/+2，失去迟缓'],
@@ -814,7 +814,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/didongjuhuan.jpg', import.meta.url),
     data: [
       [10, 22, '【回命】、英雄恢复生命时:自身+3/+3'],
       [11, 24, '【回命】、英雄恢复生命时:自身+3/+4'],
@@ -832,7 +832,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/feishuwanyan.jpg', import.meta.url),
     data: [
       [0, 0, '回合结束:召唤2个6/20贪食肥鼠-lv12、英雄生命+7'],
       [0, 0, '回合结束:召唤2个7/23贪食肥鼠-lv13、英雄生命+8'],
@@ -850,7 +850,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/huolixianrenzhang.jpg', import.meta.url),
     data: [
       [6, 45, '【守军】、【荆棘】、每当一个生物死亡:65%几率英雄生命+12'],
       [7, 47, '【守军】、【荆棘】、每当一个生物死亡:65%几率英雄生命+13'],
@@ -868,7 +868,7 @@ export default [
     quality: '紫',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/shengshoujishi.jpg', import.meta.url),
     data: [
       [13, 15, '回合开始：相邻一个友军获得【践踏】1回合、攻击前：全体践踏友军+3/+5'],
       [15, 17, '回合开始：相邻一个友军获得【践踏】1回合、攻击前：全体践踏友军+4/+5'],
@@ -886,7 +886,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/xiangyashaonv.jpg', import.meta.url),
     data: [
       [4, 4, '【洞察1】、回合结束:召唤18/32长毛象-lv12'],
       [4, 5, '【洞察1】、回合结束:召唤20/35长毛象-lv13'],
@@ -904,7 +904,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/yuanlijishi.jpg', import.meta.url),
     data: [
       [19, 26, '攻击前:每有1点法力，随机友军+2/+3'],
       [20, 30, '攻击前:每有1点法力，随机友军+2/+3'],
@@ -922,7 +922,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/jimanjuhan.jpg', import.meta.url),
     data: [
       [15, 35, '【迟缓】、【磐龙】、英雄恢复生命时:自身+8/+8'],
       [16, 40, '【迟缓】、【磐龙】、英雄恢复生命时:自身+8/+8'],
@@ -940,7 +940,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/feifukuangren.jpg', import.meta.url),
     data: [
       [10, 25, '回合开始:向对面横排，投掷飞斧，65%几率，再投掷一次'],
       [11, 28, '回合开始:向对面横排，投掷飞斧，65%几率，再投掷一次'],
@@ -958,7 +958,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/shuangmaoqishi.jpg', import.meta.url),
     data: [
       [19, 19, '【迟缓】、登场、攻击前:向敌方随机位置投掷长矛、场上有冰封则失去【迟缓】'],
       [21, 21, '【迟缓】、登场、攻击前:向敌方随机位置投掷长矛、场上有冰封则失去【迟缓】'],
@@ -976,7 +976,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/fennukuangzhanshi.jpg', import.meta.url),
     data: [
       [14, 36, '回合结束:若本回合受到过伤害，攻击+14、攻击高于30:获得【磐龙】'],
       [15, 40, '回合结束:若本回合受到过伤害，攻击+15、攻击高于30:获得【磐龙】'],
@@ -994,7 +994,7 @@ export default [
     quality: '紫',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/niujiaotuteng.jpg', import.meta.url),
     data: [
       [0, 22, '登场:召唤雪域牦牛-lv12、回合开始:其他友军攻击+3'],
       [0, 24, '登场:召唤雪域牦牛-lv13、回合开始:其他友军攻击+3'],
@@ -1012,7 +1012,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/shifutouling.jpg', import.meta.url),
     data: [
       [16, 22, '【践踏】、登场:相邻随机友军+7/+7并获得【践踏】'],
       [18, 25, '【践踏】、登场:相邻随机友军+8/+8并获得【践踏】'],
@@ -1030,7 +1030,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/feifunvhao.jpg', import.meta.url),
     data: [
       [12, 36, '回合开始、攻击前、死亡:向敌方横排投掷飞斧(12点伤害)'],
       [14, 38, '回合开始、攻击前、死亡:向敌方横排投掷飞斧(14点伤害)'],
@@ -1048,7 +1048,7 @@ export default [
     quality: '紫',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/jianyidajisi.jpg', import.meta.url),
     data: [
       [20, 33, '【磐龙】、回合结束：若本回合受到过伤害，全体友军+3/+4'],
       [22, 40, '【磐龙】、回合结束：若本回合受到过伤害，全体友军+3/+4'],
@@ -1066,7 +1066,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/huangyuanniutouguai.jpg', import.meta.url),
     data: [
       [25, 35, '回合结束:若本回合受到伤害，则自身得+5/+15，获得【践踏】'],
       [27, 39, '回合结束:若本回合受到伤害，则自身得+6/+16，获得【践踏】'],
@@ -1084,7 +1084,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/zabanyezhuwang.jpg', import.meta.url),
     data: [
       [21, 21, '登场:召唤8/8斑毛幼猪-lv12、死亡:英雄生命+40'],
       [23, 23, '登场:召唤10/10斑毛幼猪-lv13、死亡:英雄生命+45'],
@@ -1102,7 +1102,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/dazuiqiuzhang.jpg', import.meta.url),
     data: [
       [23, 23, '【回命】、攻击前:召唤4/4蛮石血蜥-lv8'],
       [25, 25, '【回命】、攻击前:召唤5/5蛮石血蜥-lv9'],
@@ -1120,7 +1120,7 @@ export default [
     quality: '紫',
     cost: 6,
     type: 2,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/yuanlisuxing.jpg', import.meta.url),
     data: [
       [0, 0, '目标单位+24/+24，获得【磐龙】、另一友军+6/+6并获得【磐龙】'],
       [0, 0, '目标单位+26/+26，获得【磐龙】、另一友军+7/+7并获得【磐龙】'],
@@ -1138,7 +1138,7 @@ export default [
     quality: '紫',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/manshiduyanjuren.jpg', import.meta.url),
     data: [
       [22, 55, '【迟缓】、登场、攻击前:向敌方横排投掷巨石，22点伤害'],
       [24, 65, '【迟缓】、登场、攻击前:向敌方横排投掷巨石，25点伤害'],
@@ -1156,7 +1156,7 @@ export default [
     quality: '紫',
     cost: 8,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/tanshibailong.jpg', import.meta.url),
     data: [
       [22, 60, '登场、英雄获得生命:喷吐7个火球到敌方随机区域，各6点伤害'],
       [24, 66, '登场、英雄获得生命:喷吐7个火球到敌方随机区域，各6点伤害'],
@@ -1174,7 +1174,7 @@ export default [
     quality: '紫',
     cost: 2,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/zhuanji_yemanhuayuan.jpg', import.meta.url),
     data: [
       [0, 0, '回合结束:召唤噬人花-lv12、获得【传记·伤痛记忆】'],
       [0, 0, '回合结束:召唤噬人花-lv13、获得【传记·伤痛记忆】'],
@@ -1192,7 +1192,7 @@ export default [
     quality: '紫',
     cost: 1,
     type: 3,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/zhuanji_shangtongjiyi.jpg', import.meta.url),
     data: [
       [0, 0, '随机友军+10/-1，获得【践踏】和【盘龙】'],
       [0, 0, '随机友军+11/-1，获得【践踏】和【盘龙】'],
@@ -1210,7 +1210,7 @@ export default [
     quality: '橙',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/tuoniaowang_huoli.jpg', import.meta.url),
     data: [
       [18, 26, '【迟缓】、具有迟缓的其他友军，失去迟缓、命中英雄:另一友军+13/+13，无友军:抓一张牌'],
       [20, 30, '【迟缓】、具有迟缓的其他友军，失去迟缓、命中英雄:另一友军+15/+15，无友军:抓一张牌'],
@@ -1228,7 +1228,7 @@ export default [
     quality: '橙',
     cost: 3,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/kuangyeyouxia_dayu.jpg', import.meta.url),
     data: [
       [11, 17, '【践踏】、登场、命中时:射击敌方随机区域、回合结束:55%几率射击'],
       [12, 18, '【践踏】、登场、命中时:射击敌方随机区域、回合结束:60%几率射击'],
@@ -1246,7 +1246,7 @@ export default [
     quality: '橙',
     cost: 4,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/bierbili.jpg', import.meta.url),
     data: [
       [26, 26, '【践踏】、【迟缓】、【魔防10】、有践踏友军在场，他失去【迟缓】；有迟缓友军在场，他获得【磐龙】'],
       [29, 29, '【践踏】、【迟缓】、【魔防11】、有践踏友军在场，他失去【迟缓】；有迟缓友军在场，他获得【磐龙】'],
@@ -1264,7 +1264,7 @@ export default [
     quality: '橙',
     cost: 5,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/xueyinliefu_kai.jpg', import.meta.url),
     data: [
       [15, 29, '回合开始:其他所有友军本回合获得【回命】、英雄恢复生命:自身+6/+6、获得【践踏】'],
       [17, 32, '回合开始:其他所有友军本回合获得【回命】、英雄恢复生命:自身+7/+7、获得【践踏】'],
@@ -1282,7 +1282,7 @@ export default [
     quality: '橙',
     cost: 6,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/manguhandishou.jpg', import.meta.url),
     data: [
       [30, 70, '【迟缓】、【践踏】、【魔防25】、登场:其他迟缓、践踏友军获得生命+15，并获得【磐龙】'],
       [35, 75, '【迟缓】、【践踏】、【魔防30】、登场:其他迟缓、践踏友军获得生命+16，并获得【磐龙】'],
@@ -1300,7 +1300,7 @@ export default [
     quality: '橙',
     cost: 7,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/yuanyedajishi_luma.jpg', import.meta.url),
     data: [
       [15, 50, '登场:另一友军+15/15，获得【践踏】、回合结束:另一友军+6/+6，获得【践踏】'],
       [16, 60, '登场:另一友军+16/16，获得【践踏】、回合结束:另一友军+7/+7，获得【践踏】'],
@@ -1318,7 +1318,7 @@ export default [
     quality: '橙',
     cost: 8,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/huangyuanbaojun_xueyan.jpg', import.meta.url),
     data: [
       [40, 52, '【践踏】、【连击】、【磐龙】、【魂歌】、登场若有冰封:获得【回命】2回合'],
       [45, 56, '【践踏】、【连击】、【磐龙】、【魂歌】、登场若有冰封:获得【回命】2回合'],
@@ -1336,7 +1336,7 @@ export default [
     quality: '橙',
     cost: 9,
     type: 1,
-    img: '',
+    img: new URL('@/assets/zhongzu/manshikuangye/yangyanjulong.jpg', import.meta.url),
     data: [
       [60, 60, '登场:焚烧全体敌军18点伤害、攻击前:烈焰吐息横排敌军15点伤害'],
       [66, 66, '登场:焚烧全体敌军18点伤害、攻击前:烈焰吐息横排敌军16点伤害'],
