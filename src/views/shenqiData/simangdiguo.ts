@@ -3,7 +3,7 @@ export default [
         name: '公民之剑',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/gongminzhijian.jpg', import.meta.url),
         data: [
             ['【回合6】全体友军攻击+1'],
             ['【回合6】全体友军+1/+1'],
@@ -23,7 +23,7 @@ export default [
         name: '执政官长剑',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/zhizhengguanchangjian.jpg', import.meta.url),
         data: [
             ['【回合4结束】前排随机位置召唤【盾甲禁卫-lv2】'],
             ['【回合4结束】前排随机位置召唤【盾甲禁卫-lv3】'],
@@ -43,7 +43,7 @@ export default [
         name: '聚能之剑',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/junengzhijian.jpg', import.meta.url),
         data: [
             ['【回合3结束】中排随机位置召唤【帝国后勤官-lv1】'],
             ['【回合3结束】中排随机位置召唤【帝国后勤官-lv2】'],
@@ -63,7 +63,7 @@ export default [
         name: '激昂权杖',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/jiangquanzhang.jpg', import.meta.url),
         data: [
             ['【回合4】随机友军攻击+1，并失去【守军】和【迟缓】'],
             ['【回合4】随机友军攻击+2，并失去【守军】和【迟缓】'],
@@ -83,7 +83,7 @@ export default [
         name: '遗迹宝剑',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/yijibaojian.jpg', import.meta.url),
         data: [
             ['【回合5】随机友军+1/+1，获得【回命】'],
             ['【回合5】随机友军+2/+2，获得【回命】'],
@@ -103,7 +103,7 @@ export default [
         name: '天命链锤',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/tianminglianchui.jpg', import.meta.url),
         data: [
             ['【回合5】随机友军+1/+1，获得【护甲2】'],
             ['【回合5】随机友军+2/+2，获得【护甲2】'],
@@ -123,7 +123,7 @@ export default [
         name: '克敌巨剑',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/kedijujian.jpg', import.meta.url),
         data: [
             ['【回合6】随机友军+3/+3，1个敌军【眩晕】1回合'],
             ['【回合6】随机友军+3/+3，2个敌军【眩晕】1回合'],
@@ -143,7 +143,7 @@ export default [
         name: '光芒长杖',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/guangmangchangzhang.jpg', import.meta.url),
         data: [
             ['【回合4】后排位置召唤【圣光主教-lv1】'],
             ['【回合4】后排位置召唤【圣光主教-lv2】'],
@@ -163,7 +163,7 @@ export default [
         name: '禁卫之矛',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/jinweizhimao.jpg', import.meta.url),
         data: [
             ['【回合5】召唤【禁卫指挥官-lv1】'],
             ['【回合5】召唤【禁卫指挥官-lv2】'],
@@ -183,7 +183,7 @@ export default [
         name: '正义审判',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/zhengyishenpan.jpg', import.meta.url),
         data: [
             ['【回合5】随机敌军-2/-2并眩晕，全体友军攻击+1'],
             ['【回合5】随机敌军-3/-3并眩晕，全体友军攻击+1'],
@@ -203,7 +203,7 @@ export default [
         name: '荣耀命运权杖',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/rongyaomingyunquanzhang.jpg', import.meta.url),
         data: [
             ['【回合5结束】获得【皇家狮鹫-lv2】，吹回随机敌军'],
             ['【回合5结束】获得【皇家狮鹫-lv3】，吹回随机敌军'],
@@ -223,7 +223,7 @@ export default [
         name: '锻金锤',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/duanjinchui.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【钢铁大师-lv2】'],
             ['【回合3】召唤【钢铁大师-lv3】'],
@@ -243,7 +243,7 @@ export default [
         name: '遗迹地图',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/yijiditu.jpg', import.meta.url),
         data: [
             ['【回合2结束】获得【增援战线-lv2】'],
             ['【回合2结束】获得【增援战线-lv3】'],
@@ -263,7 +263,7 @@ export default [
         name: '耐力护符',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/nailihufu.jpg', import.meta.url),
         data: [
             ['【回合5结束】英雄生命+8'],
             ['【回合5结束】英雄生命+10'],
@@ -283,7 +283,7 @@ export default [
         name: '正义勋章',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/zhengyixunzhang.jpg', import.meta.url),
         data: [
             ['【回合4】随机友军生命+2，护甲+1'],
             ['【回合3】随机友军生命+3，护甲+1'],
@@ -303,7 +303,7 @@ export default [
         name: '韧皮箭囊',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/renpijiannang.jpg', import.meta.url),
         data: [
             ['【回合4】后排位置召唤【塔楼弓手-lv1】'],
             ['【回合4】后排位置召唤【塔楼弓手-lv2】'],
@@ -323,7 +323,7 @@ export default [
         name: '帝国征兵令',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/diguozhengbingling.jpg', import.meta.url),
         data: [
             ['【回合1结束】前排随机位置召唤【防御工事-lv3】'],
             ['【回合1结束】前排随机位置召唤【防御工事-lv4】'],
@@ -343,7 +343,7 @@ export default [
         name: '光明徽记',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/guangminghuiji.jpg', import.meta.url),
         data: [
             ['【回合3结束】获得【光明惩戒-lv3】'],
             ['【回合3结束】获得【光明惩戒-lv4】'],
@@ -363,7 +363,7 @@ export default [
         name: '征收官之帽',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/zhengshouguanzhimao.jpg', import.meta.url),
         data: [
             ['【回合5】召唤【圣殿卫士-lv1】、【警卫-lv1】'],
             ['【回合5】召唤【圣殿卫士-lv2】、【警卫-lv2】'],
@@ -383,7 +383,7 @@ export default [
         name: '振励军号',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/zhenlijunhao.jpg', import.meta.url),
         data: [
             ['【回合4】全体友军+1/+1，失去【守军】和【迟缓】'],
             ['【回合4】全体友军+2/+1，失去【守军】和【迟缓】'],
@@ -403,7 +403,7 @@ export default [
         name: '圣堂铁砧',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/shengtengtiezhen.jpg', import.meta.url),
         data: [
             ['【回合2】前排位置召唤【圣堂门卫-lv1】'],
             ['【回合2】前排位置召唤【圣堂门卫-lv3】'],
@@ -423,7 +423,7 @@ export default [
         name: '天堂守护',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/tiantangshouhu.jpg', import.meta.url),
         data: [
             ['【回合6】前排随机位置召唤【荣光堡垒-lv1】'],
             ['【回合6】前排随机位置召唤【荣光堡垒-lv2】'],
@@ -443,7 +443,7 @@ export default [
         name: '天使面容',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/tianshimianrong.jpg', import.meta.url),
         data: [
             ['【回合5】2个友军+1/+2，本回合获得【神佑】、【回命】'],
             ['【回合5】2个友军+1/+4，本回合获得【神佑】、【回命】'],
@@ -463,7 +463,7 @@ export default [
         name: '圣洁纹章',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/simangdiguo/shengjiewenzhang.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【白袍主教-lv2】'],
             ['【回合3】召唤【白袍主教-lv3】'],
