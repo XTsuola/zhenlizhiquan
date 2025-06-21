@@ -1,36 +1,43 @@
 <template>
     <div class="home">
         <div class="zhongzu simangdiguo">
+            <div><img class=img src="@/assets/fengmian/simangdiguo.jpg" /></div>
             <div>四芒帝国</div>
             <div class="center" @click="goCard(1)">部下</div>
             <div class="center" @click="goShenqi(1)">神器</div>
         </div>
         <div class="zhongzu yinmizhe">
+            <div><img class=img src="@/assets/fengmian/yinmizhe.jpg" /></div>
             <div>隐秘者</div>
             <div class="center" @click="goCard(2)">部下</div>
             <div class="center" @click="goShenqi(2)">神器</div>
         </div>
         <div class="zhongzu chanyigu">
+            <div><img class=img src="@/assets/fengmian/chanyigu.jpg" /></div>
             <div>禅意谷</div>
             <div class="center" @click="goCard(3)">部下</div>
             <div class="center" @click="goShenqi(3)">神器</div>
         </div>
         <div class="zhongzu tiantanggang">
+            <div><img class=img src="@/assets/fengmian/tiantanggang.jpg" /></div>
             <div>天堂港</div>
             <div class="center" @click="goCard(4)">部下</div>
             <div class="center" @click="goShenqi(4)">神器</div>
         </div>
         <div class="zhongzu lianyushenyuan">
+            <div><img class=img src="@/assets/fengmian/lianyushenyuan.jpg" /></div>
             <div>炼狱深渊</div>
             <div class="center" @click="goCard(5)">部下</div>
             <div class="center" @click="goShenqi(5)">神器</div>
         </div>
         <div class="zhongzu manshikuangye">
+            <div><img class=img src="@/assets/fengmian/manshikuangye.jpg" /></div>
             <div>蛮石旷野</div>
             <div class="center" @click="goCard(6)">部下</div>
             <div class="center" @click="goShenqi(6)">神器</div>
         </div>
         <div class="zhongzu dongshenshitu">
+            <div><img class=img src="@/assets/fengmian/dongshenshitu.jpg" /></div>
             <div>冬神使徒</div>
             <div class="center" @click="goCard(7)">部下</div>
             <div class="center" @click="goShenqi(7)">神器</div>
@@ -103,15 +110,22 @@ function goShenqi(id: number) {
         align-items: center;
         padding: 0 20px;
         margin-bottom: 10px;
+        img {
+            height: 4em;
+            border-radius: 50%;
+            border: 1px solid #ffffff;
+        }
     }
 }
 
 .center {
-    height: 100%;
-    width: 80px;
+    height: 80%;
+    width: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
 }
 
 .simangdiguo {

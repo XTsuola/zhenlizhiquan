@@ -3,7 +3,7 @@ export default [
         name: '聚魂法球',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/juhunfaqiu.jpg', import.meta.url),
         data: [
             ['【回合3】前排随机位置召唤【复生尸骸-lv1】'],
             ['【回合3】前排随机位置召唤【复生尸骸-lv2】'],
@@ -23,7 +23,7 @@ export default [
         name: '冰魄弓',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/bingpogong.jpg', import.meta.url),
         data: [
             ['【回合7】召唤2个【骷髅射手-lv1】'],
             ['【回合7】召唤2个【骷髅射手-lv2】'],
@@ -43,7 +43,7 @@ export default [
         name: '聚能匕首',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/junengbishou.jpg', import.meta.url),
         data: [
             ['【回合3】冰封友方随机位置，随机友军+1/+1'],
             ['【回合3】冰封友方随机位置，随机友军+1/+3'],
@@ -63,7 +63,7 @@ export default [
         name: '祭品匕首',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/jipinbishou.jpg', import.meta.url),
         data: [
             ['【回合1结束】前排位置召唤【阴冷墓穴-lv1】'],
             ['【回合1结束】前排位置召唤【阴冷墓穴-lv2】'],
@@ -83,7 +83,7 @@ export default [
         name: '寒晶大剑',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/hanjingdajian.jpg', import.meta.url),
         data: [
             ['【回合3结束】召唤【冬神狂信者-lv1】'],
             ['【回合3结束】召唤【冬神狂信者-lv2】'],
@@ -103,7 +103,7 @@ export default [
         name: '绿宝石匕首',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/lvbaoshibishou.jpg', import.meta.url),
         data: [
             ['【回合4结束】召唤【冷酷冲车-lv1】'],
             ['【回合4结束】召唤【冷酷冲车-lv2】'],
@@ -123,7 +123,7 @@ export default [
         name: '冬幕镰爪',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/dongmulianzhua.jpg', import.meta.url),
         data: [
             ['【回合5】召唤【冬幕斗士-lv1】'],
             ['【回合5】召唤【冬幕斗士-lv2】'],
@@ -143,7 +143,7 @@ export default [
         name: '冰峰之刃',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/bingfengzhiren.jpg', import.meta.url),
         data: [
             ['【回合2】冰封友方随机位置，获得【冰峰甲虫-lv2】'],
             ['【回合2】冰封友方随机位置，获得【冰峰甲虫-lv3】'],
@@ -163,7 +163,7 @@ export default [
         name: '灵火法杖',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/linghuofazhang.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【蛮骨法师-lv1】'],
             ['【回合3】召唤【蛮骨法师-lv2】'],
@@ -183,7 +183,7 @@ export default [
         name: '艾格朗尼，冬神之指',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/aigelangni_dongshenzhizhi.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【极地冰封者-lv1】'],
             ['【回合4】召唤【极地冰封者-lv2】'],
@@ -203,7 +203,7 @@ export default [
         name: '冰河法珠',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/binghefazhu.jpg', import.meta.url),
         data: [
             ['【回合6】2个敌军-1/-1，友方每有1块冰，随机冬神友军攻击+1'],
             ['【回合6】2个敌军-2/-2，友方每有1块冰，随机冬神友军攻击+1'],
@@ -223,7 +223,7 @@ export default [
         name: '骸斩',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/haizhan.jpg', import.meta.url),
         data: [
             ['【回合3】后排位置召唤【邪恶化身-lv1】'],
             ['【回合3】后排位置召唤【邪恶化身-lv2】'],
@@ -243,7 +243,7 @@ export default [
         name: '寒晶吊坠',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/hanjingdiaozhui.jpg', import.meta.url),
         data: [
             ['【回合4】本回合不能攻击，冰封脚下'],
             ['【回合4】随机敌军攻击-1，本回合不能攻击，冰封脚下'],
@@ -263,7 +263,7 @@ export default [
         name: '寒晶充能石',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/hanjingchongnengshi.jpg', import.meta.url),
         data: [
             ['【回合3】前排随机位置召唤【寒冰魔墙-lv1】'],
             ['【回合3】前排随机位置召唤【寒冰魔墙-lv2】'],
@@ -283,7 +283,7 @@ export default [
         name: '寒铁盔',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/hantiekui.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【寒铁军士-lv1】'],
             ['【回合3】召唤【寒铁军士-lv1】'],
@@ -303,7 +303,7 @@ export default [
         name: '冰霜战旗',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/bingshuangzhanqi.jpg', import.meta.url),
         data: [
             ['【回合2结束】前排位置召唤【战场遗迹-lv1】'],
             ['【回合2结束】前排位置召唤【战场遗迹-lv2】'],
@@ -323,7 +323,7 @@ export default [
         name: '巫妖魂器',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/wuyaohunqi.jpg', import.meta.url),
         data: [
             ['【回合4结束】召唤【严寒苦行僧-lv1】'],
             ['【回合4结束】召唤【严寒苦行僧-lv2】'],
@@ -343,7 +343,7 @@ export default [
         name: '《亡魂之书》',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/wanghunzhishu.jpg', import.meta.url),
         data: [
             ['【回合2结束】获得2张【骷髅犬-lv1】'],
             ['【回合2结束】获得2张【骷髅犬-lv2】'],
@@ -363,7 +363,7 @@ export default [
         name: '冰晶雕像',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/bingjingdiaoxiang.jpg', import.meta.url),
         data: [
             ['【回合1结束】获得【神庙祭师-lv2】'],
             ['【回合1结束】获得【神庙祭师-lv3】'],
@@ -383,7 +383,7 @@ export default [
         name: '雪隐珠',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/xueyinzhu.jpg', import.meta.url),
         data: [
             ['【回合3结束】中排位置召唤【雪隐长老灵-lv3】'],
             ['【回合3结束】中排位置召唤【雪隐长老灵-lv4】'],
@@ -403,7 +403,7 @@ export default [
         name: '仪式兽骨',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/yishishougu.jpg', import.meta.url),
         data: [
             ['【回合2结束】前排位置召唤2个【骨墙-lv1】'],
             ['【回合2结束】前排位置召唤2个【骨墙-lv2】'],
@@ -423,7 +423,7 @@ export default [
         name: '永夜之拥',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/yongyezhiyong.jpg', import.meta.url),
         data: [
             ['【回合6】随机友军+3/+3，获得【魔免】、【践踏】，并且冰封脚下'],
             ['【回合6】随机友军+4/+4，获得【魔免】、【践踏】，并且冰封脚下'],
@@ -443,7 +443,7 @@ export default [
         name: '严冬之兆',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/yandongzhizhao.jpg', import.meta.url),
         data: [
             ['【回合2】后排随机位置召唤【凛冬邪咒师-lv1】'],
             ['【回合2】后排随机位置召唤【凛冬邪咒师-lv2】'],
@@ -463,7 +463,7 @@ export default [
         name: '缝魂者',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/dongshenshitu/fenghunzhe.jpg', import.meta.url),
         data: [
             ['【回合2】后排位置召唤【墓园缝合师-lv2】'],
             ['【回合2】后排位置召唤【墓园缝合师-lv3】'],
