@@ -3,7 +3,7 @@ export default [
         name: '富饶权杖',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/furaoquanzhang.jpg', import.meta.url),
         data: [
             ['【回合6】随机友军+2/+1'],
             ['【回合6】随机友军+3/+2'],
@@ -23,7 +23,7 @@ export default [
         name: '酋长战斧',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/qiuzhangzhanfu.jpg', import.meta.url),
         data: [
             ['【回合4】随机迟缓友军+2/+2'],
             ['【回合4】随机迟缓友军+3/+3'],
@@ -43,7 +43,7 @@ export default [
         name: '聚能之斧',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/junengzhifu.jpg', import.meta.url),
         data: [
             ['【回合5】随机友军攻击+3'],
             ['【回合5】随机友军攻击+4'],
@@ -63,7 +63,7 @@ export default [
         name: '隼之弓',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/sunzhigong.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【机敏雀鹰-lv1】'],
             ['【回合3】召唤【机敏雀鹰-lv2】'],
@@ -83,7 +83,7 @@ export default [
         name: '好运之弓',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/haoyunzhigong.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【蓄力射手-lv2】'],
             ['【回合4】召唤【蓄力射手-lv3】'],
@@ -103,7 +103,7 @@ export default [
         name: '探险家之斧',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/tanxianjiazhifu.jpg', import.meta.url),
         data: [
             ['【回合3结束】召唤【草原狼-lv1】，并获得【草原狼-lv1】'],
             ['【回合3结束】召唤【草原狼-lv2】，并获得【草原狼-lv2】'],
@@ -123,7 +123,7 @@ export default [
         name: '半兽人岩锤',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/banshourenyanchui.jpg', import.meta.url),
         data: [
             ['【回合5】随机友军+2/+2，获得【磐龙】'],
             ['【回合5】随机友军+3/+3，获得【磐龙】'],
@@ -143,7 +143,7 @@ export default [
         name: '大祭司短棍',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/dajisiduangun.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【坚毅大祭司-lv1】'],
             ['【回合4】召唤【坚毅大祭司-lv2】'],
@@ -163,7 +163,7 @@ export default [
         name: '圣兽权杖',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/shengshouquanzhang.jpg', import.meta.url),
         data: [
             ['【回合2】中排位置召唤【圣兽祭师-lv1】'],
             ['【回合2】中排位置召唤【圣兽祭师-lv2】'],
@@ -183,7 +183,7 @@ export default [
         name: '塔林，先民之怒',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/talin_xianminzhinu.jpg', import.meta.url),
         data: [
             ['【回合6】随机友军+3/+4，全场敌方生物受到2点伤害'],
             ['【回合6】随机友军+4/+6，全场敌方生物受到2点伤害'],
@@ -203,7 +203,7 @@ export default [
         name: '贪婪长弓',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/tanlanchanggong.jpg', import.meta.url),
         data: [
             ['【回合6结束】召唤【贪食白龙-lv3】'],
             ['【回合6结束】召唤【贪食白龙-lv4】'],
@@ -223,7 +223,7 @@ export default [
         name: '原野呼唤',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/yuanyehuhuan.jpg', import.meta.url),
         data: [
             ['【回合4结束】后排位置召唤【象牙少女-lv1】'],
             ['【回合4结束】后排位置召唤【象牙少女-lv2】'],
@@ -243,7 +243,7 @@ export default [
         name: '好运木雕',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/haoyunmudiao.jpg', import.meta.url),
         data: [
             ['【回合2结束】召唤【贪食肥鼠-lv1】'],
             ['【回合2结束】召唤【贪食肥鼠-lv2】'],
@@ -263,7 +263,7 @@ export default [
         name: '角斗士徽记',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/juedoushihuiji.jpg', import.meta.url),
         data: [
             ['【回合2结束】获得【痴蛮野人-lv1】'],
             ['【回合2结束】获得【痴蛮野人-lv2】'],
@@ -283,7 +283,7 @@ export default [
         name: '兽骨戒',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/shougujie.jpg', import.meta.url),
         data: [
             ['【回合4】中排随机位置召唤【噬人花-lv1】'],
             ['【回合4】中排随机位置召唤【噬人花-lv2】'],
@@ -303,7 +303,7 @@ export default [
         name: '高原角笛',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/gaoyuanjiaodi.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【高原守卫-lv1】'],
             ['【回合3】召唤【高原守卫-lv2】'],
@@ -323,7 +323,7 @@ export default [
         name: '部族图腾',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/buzututeng.jpg', import.meta.url),
         data: [
             ['【回合4】后排随机位置召唤【旷野祭师-lv1】'],
             ['【回合4】后排随机位置召唤【旷野祭师-lv3】'],
@@ -343,7 +343,7 @@ export default [
         name: '雄鹰头饰',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/xiongyingtoushi.jpg', import.meta.url),
         data: [
             ['【回合6】伤害随机敌军3次（伤害1、1、3）'],
             ['【回合6】伤害随机敌军3次（伤害2、2、3）'],
@@ -363,7 +363,7 @@ export default [
         name: '兽王披风',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/shouwangpifeng.jpg', import.meta.url),
         data: [
             ['【回合2结束】随机友军+1/+2'],
             ['【回合2结束】随机友军+2/+2'],
@@ -383,7 +383,7 @@ export default [
         name: '羊骨头饰',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/yanggutoushi.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【荒原智者-lv2】'],
             ['【回合3】召唤【荒原智者-lv3】'],
@@ -403,7 +403,7 @@ export default [
         name: '荆棘冠冕',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/jingjiguanmian.jpg', import.meta.url),
         data: [
             ['【回合3】随机友军获得【荆棘】'],
             ['【回合3】随机友军攻击+1，并获得【荆棘】'],
@@ -423,7 +423,7 @@ export default [
         name: '祖灵之拥',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/zulingzhiyong.jpg', import.meta.url),
         data: [
             ['【回合5】获得【蛮石独眼巨人-lv3】，敌方坠落巨石（7点伤害）'],
             ['【回合5】获得【蛮石独眼巨人-lv4】，敌方坠落巨石（8点伤害）'],
@@ -443,7 +443,7 @@ export default [
         name: '赤怒',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/chinu.jpg', import.meta.url),
         data: [
             ['【回合3】获得【势如破竹-lv1】，随机友军+1/+1'],
             ['【回合3】获得【势如破竹-lv2】，随机友军+1/+3'],
@@ -463,7 +463,7 @@ export default [
         name: '源力之石',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/manshikuangye/yuanlizhishi.jpg', import.meta.url),
         data: [
             ['【回合4】随机友军+3/+3'],
             ['【回合4】随机友军+4/+5'],
