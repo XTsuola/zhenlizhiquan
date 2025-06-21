@@ -3,7 +3,7 @@ export default [
         name: '铜钱宝剑',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/tongqianbaojian.jpg', import.meta.url),
         data: [
             ['【回合5结束】获得【铁山靠-lv2】'],
             ['【回合4结束】获得【铁山靠-lv3】'],
@@ -23,7 +23,7 @@ export default [
         name: '道心浮尘',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/daoxinfuchen.jpg', import.meta.url),
         data: [
             ['【回合5】吹回随机敌军。'],
             ['【回合5】随机友军攻击+1，吹回随机敌军'],
@@ -43,7 +43,7 @@ export default [
         name: '聚能之矛',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/junengzhimao.jpg', import.meta.url),
         data: [
             ['【回合6】随机友军+1/+1，随机敌军-1/-1'],
             ['【回合5】随机友军+2/+1，随机敌军-1/-1'],
@@ -63,7 +63,7 @@ export default [
         name: '寒霜剑',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/hanshuangjian.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【雪狐剑客-lv1】'],
             ['【回合4】召唤【雪狐剑客-lv2】'],
@@ -83,7 +83,7 @@ export default [
         name: '桃木剑',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/taomujian.jpg', import.meta.url),
         data: [
             ['【回合3结束】获得【卜命道长-lv1】'],
             ['【回合3结束】获得【卜命道长-lv2】'],
@@ -103,7 +103,7 @@ export default [
         name: '钻石长枪',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/zuanshichangqiang.jpg', import.meta.url),
         data: [
             ['【回合5】随机友军获得【连击】'],
             ['【回合5】随机友军攻击+1，获得【连击】'],
@@ -123,7 +123,7 @@ export default [
         name: '神机木拐',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/shenjimuguai.jpg', import.meta.url),
         data: [
             ['【回合2】召唤并获得【箭竹守卫-lv1】'],
             ['【回合2】召唤并获得【箭竹守卫-lv2】'],
@@ -143,7 +143,7 @@ export default [
         name: '风影匕',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/fengyingbi.jpg', import.meta.url),
         data: [
             ['【回合3】中排位置召唤【赏金刺客-lv1】'],
             ['【回合3】中排位置召唤【赏金刺客-lv2】'],
@@ -160,10 +160,30 @@ export default [
         ]
     },
     {
+        name: '隐者长棍',
+        quality: '紫',
+        type: 1,
+        img: new URL('@/assets/shenqi/chanyigu/yinzhechanggun.jpg', import.meta.url),
+        data: [
+            ['【回合3结束】中排位置召唤【渡船隐士-lv1】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv2】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv3】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv4】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv5】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv6】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv7】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv9】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv11】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv13】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv15】'],
+            ['【回合3结束】中排位置召唤【渡船隐士-lv17】']
+        ]
+    },
+    {
         name: '无极盘龙棍',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/wujipanlonggun.jpg', import.meta.url),
         data: [
             ['【回合3】后排随机位置召唤【驱魔道人-lv3】'],
             ['【回合3】后排随机位置召唤【驱魔道人-lv4】'],
@@ -183,7 +203,7 @@ export default [
         name: '玉虚神剑',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/yuxushenjian.jpg', import.meta.url),
         data: [
             ['【回合6】坠落4把宝剑（4点伤害）'],
             ['【回合6】坠落4把宝剑（5点伤害）'],
@@ -203,7 +223,7 @@ export default [
         name: '裂风',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/liefeng.jpg', import.meta.url),
         data: [
             ['【回合4】后排位置召唤【御风武者-lv1】'],
             ['【回合4】后排位置召唤【御风武者-lv2】'],
@@ -223,7 +243,7 @@ export default [
         name: '风水罗盘',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/fengshuiluopan.jpg', import.meta.url),
         data: [
             ['【回合5】随机友军+1/+2，并失去【迟缓】或【守军】'],
             ['【回合5】随机友军+2/+3，并失去【迟缓】或【守军】'],
@@ -243,7 +263,7 @@ export default [
         name: '恢复之戒',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/huifuzhijie.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【松柏隐者-lv1】'],
             ['【回合4】召唤【松柏隐者-lv2】'],
@@ -263,7 +283,7 @@ export default [
         name: '掌柜算盘',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/zhangguisuanpan.jpg', import.meta.url),
         data: [
             ['【回合5】召唤【幽谷粮仓-lv1】，敌方生命+5'],
             ['【回合5】召唤【幽谷粮仓-lv2】，敌方生命+6'],
@@ -283,7 +303,7 @@ export default [
         name: '葫芦酒壶',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/hulujiuhu.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【醉道人-lv1】'],
             ['【回合4】召唤【醉道人-lv2】'],
@@ -303,7 +323,7 @@ export default [
         name: '黄金虎符',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/huangjinhufu.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【黑竹守卫-lv1】'],
             ['【回合3】召唤【黑竹守卫-lv2】'],
@@ -323,7 +343,7 @@ export default [
         name: '翡翠玉佩',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/feicuiyupei.jpg', import.meta.url),
         data: [
             ['【回合4结束】获得【蟠桃会-lv1】'],
             ['【回合3结束】获得【蟠桃会-lv2】'],
@@ -343,7 +363,7 @@ export default [
         name: '沉香药囊',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/chenxiangyaonang.jpg', import.meta.url),
         data: [
             ['【回合5】随机友军攻击+1，获得【先攻】'],
             ['【回合5】随机友军攻击+2，获得【先攻】'],
@@ -363,7 +383,7 @@ export default [
         name: '聚宝盆',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/jubaopen.jpg', import.meta.url),
         data: [
             ['【回合4结束】前排位置召唤【摇钱尊者-lv1】'],
             ['【回合4结束】前排位置召唤【摇钱尊者-lv2】'],
@@ -380,10 +400,10 @@ export default [
         ]
     },
     {
-        name: '聚宝盆',
+        name: '飞狐令',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/feihuling.jpg', import.meta.url),
         data: [
             ['【回合1】获得【雪山飞狐-lv4】'],
             ['【回合1】获得【雪山飞狐-lv6】'],
@@ -403,7 +423,7 @@ export default [
         name: '腾云青龙铠',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/tengyunqinglongkai.jpg', import.meta.url),
         data: [
             ['【回合5】随机友军+1/+1，并获得【神佑】'],
             ['【回合5】随机友军+2/+1，并获得【神佑】'],
@@ -423,7 +443,7 @@ export default [
         name: '白鬃破军胄',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/baizongpojunzhou.jpg', import.meta.url),
         data: [
             ['【回合3】后排随机位置召唤【执剑道者-lv1】'],
             ['【回合3】后排随机位置召唤【执剑道者-lv2】'],
@@ -443,7 +463,7 @@ export default [
         name: '厨神金锅',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/chanyigu/chushenjinguo.jpg', import.meta.url),
         data: [
             ['【回合5】后排位置召唤【味仙居掌厨-lv1】'],
             ['【回合5】后排位置召唤【味仙居掌厨-lv2】'],
