@@ -3,7 +3,7 @@ export default [
         name: '炼金师长杖',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/lianjinshichangzhang.jpg', import.meta.url),
         data: [
             ['【回合5结束】前排随机位置召唤【预言系教授-lv1】'],
             ['【回合5结束】前排随机位置召唤【预言系教授-lv2】'],
@@ -23,7 +23,7 @@ export default [
         name: '魔晶仪式匕首',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/mojingyishibishou.jpg', import.meta.url),
         data: [
             ['【回合6】召唤2只【邪月蝙蝠-lv1】'],
             ['【回合5】召唤2只【邪月蝙蝠-lv1】'],
@@ -43,7 +43,7 @@ export default [
         name: '聚能权杖',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/junengquanzhang.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【雷火工组-lv1】'],
             ['【回合4】召唤【雷火工组-lv2】'],
@@ -63,7 +63,7 @@ export default [
         name: '银蛇长杖',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/yinshechangzhang.jpg', import.meta.url),
         data: [
             ['【回合3结束】召唤并获得【幻想蛇-lv1】'],
             ['【回合3结束】召唤并获得【幻想蛇-lv2】'],
@@ -83,7 +83,7 @@ export default [
         name: '寻宝短杖',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/xunbaoduanzhang.jpg', import.meta.url),
         data: [
             ['【回合3】随机友军攻击+1，获得【穿透】'],
             ['【回合3】随机友军攻击+1/+2，获得【穿透】'],
@@ -103,7 +103,7 @@ export default [
         name: '华秘宝轮',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/huamibaolun.jpg', import.meta.url),
         data: [
             ['【回合6】你每有1点剩余法力，随机友军+1/+1，吸取敌方英雄1点生命'],
             ['【回合6】你每有1点剩余法力，随机友军+1/+1，吸取敌方英雄2点生命'],
@@ -123,7 +123,7 @@ export default [
         name: '星界银剑',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/xingjieyinjian.jpg', import.meta.url),
         data: [
             ['【回合1结束】获得【破魔系教授-lv2】'],
             ['【回合1结束】获得【破魔系教授-lv4】'],
@@ -143,7 +143,7 @@ export default [
         name: '脉冲袖箭',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/maichongxiujian.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【学仆-脉冲型-lv1】'],
             ['【回合4】召唤【学仆-脉冲型-lv2】'],
@@ -163,7 +163,7 @@ export default [
         name: '御魔法球',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/yumofaqiu.jpg', import.meta.url),
         data: [
             ['【回合3】随机友军+1/+1，魔防+3'],
             ['【回合3】随机友军+1/+2，魔防+4'],
@@ -183,7 +183,7 @@ export default [
         name: '无尽奥秘之杖',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/wujinaomizhizhang.jpg', import.meta.url),
         data: [
             ['【回合5】复制随机友军到手牌，2个敌军攻击-1'],
             ['【回合5】复制随机友军到手牌，2个敌军攻击-2'],
@@ -203,7 +203,7 @@ export default [
         name: '魔钢秘斧',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/mogangmifu.jpg', import.meta.url),
         data: [
             ['【回合7】召唤【魔钢-lv2】'],
             ['【回合7】召唤【魔钢-lv3】'],
@@ -223,7 +223,7 @@ export default [
         name: '雷拳',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/leiquan.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【魔像-术法风暴-lv2】'],
             ['【回合4】召唤【魔像-术法风暴-lv3】'],
@@ -243,7 +243,7 @@ export default [
         name: '寻宝装置',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/xunbaozhuangzhi.jpg', import.meta.url),
         data: [
             ['【回合1结束】获得【隐秘核心-lv1】'],
             ['【回合1结束】获得【隐秘核心-lv2】'],
@@ -263,7 +263,7 @@ export default [
         name: '裁判官之戒',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/caipanguanzhijie.jpg', import.meta.url),
         data: [
             ['【回合5】随机敌军攻击-1，受到【沉默】'],
             ['【回合5】随机敌军攻击-2，受到【沉默】'],
@@ -283,7 +283,7 @@ export default [
         name: '充能装置',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/chongnengzhuangzhi.jpg', import.meta.url),
         data: [
             ['【回合1结束】获得【邪月猫妖-lv3】'],
             ['【回合1结束】获得【邪月猫妖-lv4】'],
@@ -303,7 +303,7 @@ export default [
         name: '御魔卷轴',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/yumojuanzhou.jpg', import.meta.url),
         data: [
             ['【回合2结束】获得【御魔术-lv1】'],
             ['【回合2结束】获得【御魔术-lv2】'],
@@ -323,7 +323,7 @@ export default [
         name: '观星者',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/guanxingzhe.jpg', import.meta.url),
         data: [
             ['【回合3结束】召唤【方尖魔碑-lv1】'],
             ['【回合3结束】召唤【方尖魔碑-lv2】'],
@@ -343,7 +343,7 @@ export default [
         name: '命运水晶球',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/mingyunshuijingqiu.jpg', import.meta.url),
         data: [
             ['【回合4】随机友军+1/+1，获得【隐形】'],
             ['【回合4】随机友军+2/+2，获得【隐形】'],
@@ -363,7 +363,7 @@ export default [
         name: '纯净紫钻',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/chunjingzizuan.jpg', import.meta.url),
         data: [
             ['【回合4结束】召唤【幻域秘树-lv2】'],
             ['【回合4结束】召唤【幻域秘树-lv3】'],
@@ -383,7 +383,7 @@ export default [
         name: '魔像核心',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/moxianghexin.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【魔像-御咒铁卫-lv2】'],
             ['【回合3】召唤【魔像-御咒铁卫-lv3】'],
@@ -403,7 +403,7 @@ export default [
         name: '遥控装置',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/yaokongzhuangzhi.jpg', import.meta.url),
         data: [
             ['【回合3】后排位置召唤【学仆-猛禽型-lv1】'],
             ['【回合3】后排位置召唤【学仆-猛禽型-lv2】'],
@@ -423,7 +423,7 @@ export default [
         name: '晚星',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/wanxing.jpg', import.meta.url),
         data: [
             ['【回合2结束】获得【白首魔根-lv3】'],
             ['【回合2结束】获得【白首魔根-lv4】'],
@@ -443,7 +443,7 @@ export default [
         name: '夜空之歌',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/yekongzhige.jpg', import.meta.url),
         data: [
             ['【回合5结束】召唤【睿智史芬斯-lv1】'],
             ['【回合5结束】召唤【睿智史芬斯-lv2】'],
@@ -463,7 +463,7 @@ export default [
         name: '方舟密钥',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/yinmizhe/fangzhoumiyao.jpg', import.meta.url),
         data: [
             ['【回合6】中排位置召唤【米拉方舟-lv2】'],
             ['【回合6】中排位置召唤【米拉方舟-lv3】'],
