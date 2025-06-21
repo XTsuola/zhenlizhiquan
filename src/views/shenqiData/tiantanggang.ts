@@ -3,7 +3,7 @@ export default [
         name: '掠夺弯刀',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/lueduowandao.jpg', import.meta.url),
         data: [
             ['【回合5】召唤【沙漠骆驼-lv1】'],
             ['【回合5】召唤【沙漠骆驼-lv2】'],
@@ -23,7 +23,7 @@ export default [
         name: '黑旗铁钩',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/heiqitiegou.jpg', import.meta.url),
         data: [
             ['【回合4】吸取敌方英雄4生命'],
             ['【回合4】吸取敌方英雄5生命'],
@@ -43,7 +43,7 @@ export default [
         name: '聚能火枪',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/junenghuoqiang.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【邪月小魔女-lv1】'],
             ['【回合4】召唤【邪月小魔女-lv3】'],
@@ -63,7 +63,7 @@ export default [
         name: '矿工锄',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/kuanggongchu.jpg', import.meta.url),
         data: [
             ['【回合3结束】后排位置召唤【热血矿工-lv1】'],
             ['【回合3结束】后排位置召唤【热血矿工-lv2】'],
@@ -83,7 +83,7 @@ export default [
         name: '航海家火枪',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/hanghaijiahuoqiang.jpg', import.meta.url),
         data: [
             ['【回合3】随机敌军受到2点伤害'],
             ['【回合3】随机敌军受到3点伤害'],
@@ -103,7 +103,7 @@ export default [
         name: '船长双刀',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/chuanzhangshuangdao.jpg', import.meta.url),
         data: [
             ['【回合1】后排随机位置召唤【亡命之徒-lv1】'],
             ['【回合1】后排随机位置召唤【亡命之徒-lv2】'],
@@ -123,7 +123,7 @@ export default [
         name: '荣耀刺剑',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/rongyaocijian.jpg', import.meta.url),
         data: [
             ['【回合3】获得【先攻】和【回命】'],
             ['【回合3】随机友军攻击+1，获得【先攻】和【回命】'],
@@ -143,7 +143,7 @@ export default [
         name: '黑旗长刀',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/heiqichangdao.jpg', import.meta.url),
         data: [
             ['【回合5】召唤【黑旗舰队船长-lv1】'],
             ['【回合5】召唤【黑旗舰队船长-lv2】'],
@@ -163,7 +163,7 @@ export default [
         name: '黑金指虎',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/heijinzhihu.jpg', import.meta.url),
         data: [
             ['【回合3结束】召唤【在逃重犯-lv3】'],
             ['【回合3结束】召唤【在逃重犯-lv4】'],
@@ -183,7 +183,7 @@ export default [
         name: '美酒与风暴',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/meijiuyufengbao.jpg', import.meta.url),
         data: [
             ['【回合6结束】抽2张牌'],
             ['【回合6结束】抽2张牌，随机敌军受到2点伤害'],
@@ -203,7 +203,7 @@ export default [
         name: '海洋之星',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/haiyangzhixing.jpg', import.meta.url),
         data: [
             ['【回合7】消灭随机敌军，敌方英雄生命-13'],
             ['【回合7】消灭随机敌军，敌方英雄生命-20'],
@@ -223,7 +223,7 @@ export default [
         name: '红海魔爪',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/honghaimozhao.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【红海领航员-lv2】'],
             ['【回合4】召唤【红海领航员-lv3】'],
@@ -243,7 +243,7 @@ export default [
         name: '航海家指南针',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/hanghaijiazhinanzhen.jpg', import.meta.url),
         data: [
             ['【回合5结束】敌方玩家弃掉1张牌'],
             ['【回合5结束】敌方玩家弃掉1张牌，受到2点伤害'],
@@ -263,7 +263,7 @@ export default [
         name: '活力盾牌',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/huolidunpai.jpg', import.meta.url),
         data: [
             ['【回合4结束】召唤【黑旗舰队飞斧手-lv1】'],
             ['【回合4结束】召唤【黑旗舰队飞斧手-lv2】'],
@@ -283,7 +283,7 @@ export default [
         name: '镶金烟斗',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/xiangjinyandou.jpg', import.meta.url),
         data: [
             ['【回合2结束】获得【珍奇兽-lv1】'],
             ['【回合2结束】获得【珍奇兽-lv3】'],
@@ -303,7 +303,7 @@ export default [
         name: '铁镣铐',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/tieliaokao.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【奴役黑猿-lv1】'],
             ['【回合4】召唤【奴役黑猿-lv2】'],
@@ -320,10 +320,10 @@ export default [
         ]
     },
     {
-        name: '黑旗舰船长帽',
+        name: '黑旗船长帽',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/heiqichuanzhangmao.jpg', import.meta.url),
         data: [
             ['【回合5结束】获得3张【排箭攻击-lv1】'],
             ['【回合5结束】获得3张【排箭攻击-lv2】'],
@@ -343,7 +343,7 @@ export default [
         name: '黄金玫瑰',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/huangjinmeigui.jpg', import.meta.url),
         data: [
             ['【回合4】中排随机位置召唤【幸福空间-lv1】'],
             ['【回合4】中排随机位置召唤【幸福空间-lv2】'],
@@ -363,7 +363,7 @@ export default [
         name: '黑旗号角',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/heiqihaojiao.jpg', import.meta.url),
         data: [
             ['【回合3】前排随机位置召唤【斑毛幼猪-lv1】'],
             ['【回合3】前排随机位置召唤【斑毛幼猪-lv2】'],
@@ -383,7 +383,7 @@ export default [
         name: '逆旅披风',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/nilvpifeng.jpg', import.meta.url),
         data: [
             ['【回合2结束】后排位置召唤【无情夺命客-lv1】'],
             ['【回合2结束】后排位置召唤【无情夺命客-lv2】'],
@@ -403,7 +403,7 @@ export default [
         name: '草人玩偶',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/caorenwanou.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【掠夺草人-lv1】'],
             ['【回合3】召唤【掠夺草人-lv2】'],
@@ -423,7 +423,7 @@ export default [
         name: '斗士之舞',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/doushizhiwu.jpg', import.meta.url),
         data: [
             ['【回合4结束】获得1张传说卡，或抓1张牌'],
             ['【回合4结束】英雄生命+5，获得1张传说卡，或抓1张牌'],
@@ -443,7 +443,7 @@ export default [
         name: '海洋之耀',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/haiyangzhiyao.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【红海猎魔人-lv2】'],
             ['【回合3】召唤【红海猎魔人-lv3】'],
@@ -463,7 +463,7 @@ export default [
         name: '灼日',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/tiantanggang/zhuori.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【烈日大祭师-lv2】'],
             ['【回合4】召唤【烈日大祭师-lv3】'],
