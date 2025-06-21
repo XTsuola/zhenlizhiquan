@@ -47,7 +47,41 @@ const routeList: any = [
     name: 'yinmizhe',
     component: () => import('@/views/zhongzu/yinmizhe.vue')
   },
-
+  {
+    path: '/sqchanyigu',
+    name: 'sqchanyigu',
+    component: () => import('@/views/shenqi/chanyigu.vue')
+  },
+  {
+    path: '/sqsimangdiguo',
+    name: 'sqsimangdiguo',
+    component: () => import('@/views/shenqi/simangdiguo.vue')
+  },
+  {
+    path: '/sqdongshenshitu',
+    name: 'sqdongshenshitu',
+    component: () => import('@/views/shenqi/dongshenshitu.vue')
+  },
+  {
+    path: '/sqtiantanggang',
+    name: 'sqtiantanggang',
+    component: () => import('@/views/shenqi/tiantanggang.vue')
+  },
+  {
+    path: '/sqlianyushenyuan',
+    name: 'sqlianyushenyuan',
+    component: () => import('@/views/shenqi/lianyushenyuan.vue')
+  },
+  {
+    path: '/sqmanshikuangye',
+    name: 'sqmanshikuangye',
+    component: () => import('@/views/shenqi/manshikuangye.vue')
+  },
+  {
+    path: '/sqyinmizhe',
+    name: 'sqyinmizhe',
+    component: () => import('@/views/shenqi/yinmizhe.vue')
+  },
   {
     path: '/:pathMatch(.*)*',
     name: 'notfound',

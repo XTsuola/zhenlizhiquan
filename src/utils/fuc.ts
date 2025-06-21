@@ -67,3 +67,37 @@ export const costList = [
     value: 0
   }
 ];
+
+export const typeList = [
+  {
+    label: '全部',
+    value: ''
+  },
+  {
+    label: '武器',
+    value: 1
+  },
+  {
+    label: '宝物',
+    value: 2
+  }
+];
+
+export const qualityList2 = [
+  {
+    label: '全部',
+    value: ''
+  },
+  {
+    label: '橙',
+    value: '橙'
+  },
+  {
+    label: '紫',
+    value: '紫'
+  },
+  {
+    label: '蓝',
+    value: '蓝'
+  }
+];

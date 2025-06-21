@@ -49,7 +49,7 @@
 <script lang="ts" setup>
 import { ref, reactive, onMounted } from "vue";
 import { qualityList, costList } from "@/utils/fuc"
-import Detail from "../model/detail.vue";
+import Detail from "../model/detailCard.vue";
 import cardData from "../card/manshikuangye";
 import router from "@/router";
 

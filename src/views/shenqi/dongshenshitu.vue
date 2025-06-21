@@ -2,14 +2,14 @@
     <div class="search">
         <div class="search_select">
             <a-select v-model:value="formState.quality" style="width: 100%;" placeholder="请选择品质">
-                <a-select-option v-for="item in qualityList" :key="item.value" :value="item.value">{{
+                <a-select-option v-for="item in qualityList2" :key="item.value" :value="item.value">{{
                     item.label
                 }}</a-select-option>
             </a-select>
         </div>
         <div class="search_select">
-            <a-select v-model:value="formState.cost" style="width: 100%;" placeholder="请选择费用">
-                <a-select-option v-for="item in costList" :key="item.value" :value="item.value">{{
+            <a-select v-model:value="formState.type" style="width: 100%;" placeholder="请选择类型">
+                <a-select-option v-for="item in typeList" :key="item.value" :value="item.value">{{
                     item.label
                 }}</a-select-option>
             </a-select>
@@ -20,7 +20,7 @@
             <a-input v-model:value="formState.name" placeholder="请输入名称" />
         </div>
         <div class="search_btn">
-            <a-button style="margin-right: 12px;" type="primary" @click="search">查询</a-button>
+            <a-button style="margin-right: 8px;" type="primary" @click="search">查询</a-button>
             <a-button style="margin-right: 8px;" @click="reset">清空</a-button>
             <a-button @click="goBack">返回</a-button>
         </div>
@@ -48,9 +48,9 @@
 </template>
 <script lang="ts" setup>
 import { ref, reactive, onMounted } from "vue";
-import { qualityList, costList } from "@/utils/fuc"
-import Detail from "../model/detailCard.vue";
-import cardData from "../card/yinmizhe";
+import { qualityList2, typeList } from "@/utils/fuc"
+import Detail from "../model/detailShenqi.vue";
+import shenqiData from "../shenqiData/dongshenshitu";
 import router from "@/router";
 
 const formState = reactive({
@@ -59,10 +59,9 @@ const formState = reactive({
     cost: undefined
 });
 const detailData = reactive({
-    zhongzu: "隐秘",
+    zhongzu: "冬神",
     name: '',
     quality: '',
-    cost: null,
     type: null,
     img: '',
     data: []
@@ -91,15 +90,15 @@ const columns = ref<any>([
 ]);
 
 function getList() {
-    let allData = cardData;
+    let allData = shenqiData;
     if (formState.name) {
         allData = allData.filter((item: any) => item.name.includes(formState.name));
     }
     if (formState.quality) {
         allData = allData.filter((item: any) => item.quality == formState.quality);
     }
-    if (formState.cost != undefined && formState.cost != "") {
-        allData = allData.filter((item: any) => item.cost == formState.cost);
+    if (formState.type != undefined && formState.type != "") {
+        allData = allData.filter((item: any) => item.type == formState.type);
     }
     data.value = allData;
 }
@@ -110,7 +109,7 @@ function search() {
 
 function reset() {
     formState.name = "";
-    formState.quality = formState.cost = undefined;
+    formState.quality = formState.type = undefined;
     getList();
 }
 
@@ -121,7 +120,6 @@ function goBack() {
 function showDetail(record: any) {
     visible.value = true;
     detailData.name = record.name;
-    detailData.cost = record.cost;
     detailData.img = record.img;
     detailData.type = record.type;
     detailData.quality = record.quality;
