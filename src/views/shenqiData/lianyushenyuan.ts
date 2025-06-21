@@ -3,7 +3,7 @@ export default [
         name: '猩红镰刀',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/xinghongliandao.jpg', import.meta.url),
         data: [
             ['【回合4】敌方英雄生命-4'],
             ['【回合4】敌方英雄生命-6'],
@@ -23,7 +23,7 @@ export default [
         name: '督军魔锤',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/dujunmochui.jpg', import.meta.url),
         data: [
             ['【回合4】坠落3个小火球，每个1点伤害'],
             ['【回合4】坠落4个小火球，每个1点伤害'],
@@ -43,7 +43,7 @@ export default [
         name: '聚能长鞭',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/junengchangbian.jpg', import.meta.url),
         data: [
             ['【回合5】下路随机位置召唤【贪食之翼-lv1】'],
             ['【回合4】下路随机位置召唤【贪食之翼-lv1】'],
@@ -63,7 +63,7 @@ export default [
         name: '剧毒之刃',
         quality: '蓝',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/juduzhiren.jpg', import.meta.url),
         data: [
             ['【回合2结束】召唤【毒液甲虫-lv1】'],
             ['【回合2结束】召唤【毒液甲虫-lv2】'],
@@ -83,7 +83,7 @@ export default [
         name: '恶鬼匕首',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/eguibishou.jpg', import.meta.url),
         data: [
             ['【回合5】2个随机友军攻击+1'],
             ['【回合5】2个随机友军攻击+2'],
@@ -103,7 +103,7 @@ export default [
         name: '历劫拳套',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/lijiequantao.jpg', import.meta.url),
         data: [
             ['【回合5结束】获得2张【炎球-lv3】'],
             ['【回合5结束】获得2张【炎球-lv4】'],
@@ -123,7 +123,7 @@ export default [
         name: '破面血矛',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/pomianxuemao.jpg', import.meta.url),
         data: [
             ['【回合5】敌方弃掉1张牌，随机敌军受到2点伤害，敌方无手牌则伤害加倍'],
             ['【回合5】敌方弃掉1张牌，随机敌军受到3点伤害，敌方无手牌则伤害加倍'],
@@ -143,7 +143,7 @@ export default [
         name: '恶鬼钢叉',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/eguigangcha.jpg', import.meta.url),
         data: [
             ['【回合2结束】获得【红海使魔-lv1】'],
             ['【回合2结束】获得【红海使魔-lv3】'],
@@ -163,7 +163,7 @@ export default [
         name: '炼狱长鞭',
         quality: '紫',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/lianyuchangbian.jpg', import.meta.url),
         data: [
             ['【回合4】你的英雄生命-3，召唤【地狱三头犬-lv2】'],
             ['【回合4】你的英雄生命-3，召唤【地狱三头犬-lv3】'],
@@ -183,7 +183,7 @@ export default [
         name: '加哈什，烈焰魔心',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/jiahashen_lieyanmoxin.jpg', import.meta.url),
         data: [
             ['【回合6】敌方坠落3个陨石，每个5点伤害'],
             ['【回合6】敌方坠落3个陨石，每个6点伤害'],
@@ -203,7 +203,7 @@ export default [
         name: '恐惧收割者',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/kongjushougezhe.jpg', import.meta.url),
         data: [
             ['【回合1结束】获得【绝望镰魔-lv4】，敌方英雄生命-4'],
             ['【回合1结束】获得【绝望镰魔-lv5】，敌方英雄生命-5'],
@@ -223,7 +223,7 @@ export default [
         name: '刹血',
         quality: '橙',
         type: 1,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/shaxue.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【嗜血破面-lv2】'],
             ['【回合3】召唤【嗜血破面-lv3】'],
@@ -243,7 +243,7 @@ export default [
         name: '恶鬼火炬',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/eguihuoju.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【血焰焦木-lv1】'],
             ['【回合4】召唤【血焰焦木-lv2】'],
@@ -263,7 +263,7 @@ export default [
         name: '黄金酒杯',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/huangjinjiubei.jpg', import.meta.url),
         data: [
             ['【回合3结束】前排随机位置召唤【邪眼魔-lv1】'],
             ['【回合3结束】前排随机位置召唤【邪眼魔-lv2】'],
@@ -283,7 +283,7 @@ export default [
         name: '邪能之戒',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/xienengzhijie.jpg', import.meta.url),
         data: [
             ['【回合4】召唤【猩红仆从-lv1】'],
             ['【回合4】召唤【猩红仆从-lv2】'],
@@ -303,7 +303,7 @@ export default [
         name: '爆燃戒指',
         quality: '蓝',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/baoranjiezhi.jpg', import.meta.url),
         data: [
             ['【回合2结束】获得【狂暴炎球-lv2】'],
             ['【回合2结束】获得【狂暴炎球-lv3】'],
@@ -323,7 +323,7 @@ export default [
         name: '燃魂戒指',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/ranhunjiezhi.jpg', import.meta.url),
         data: [
             ['【回合5结束】获得2张【落雷击-lv1】'],
             ['【回合5结束】获得2张【落雷击-lv2】'],
@@ -343,7 +343,7 @@ export default [
         name: '恶魔冠冕',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/emoguanmian.jpg', import.meta.url),
         data: [
             ['【回合4结束】召唤【凝血之池-lv1】'],
             ['【回合4结束】召唤【凝血之池-lv2】'],
@@ -363,7 +363,7 @@ export default [
         name: '阴影罩帽',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/yinyingzhaomao.jpg', import.meta.url),
         data: [
             ['【回合1】获得【狱铠战魂-lv4】'],
             ['【回合1】获得【狱铠战魂-lv5】'],
@@ -383,7 +383,7 @@ export default [
         name: '致命蝎毒',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/zhimingxiedu.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【渴血毒甲蝎-lv3】'],
             ['【回合3】召唤【渴血毒甲蝎-lv4】'],
@@ -403,7 +403,7 @@ export default [
         name: '冥河铸币',
         quality: '紫',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/minghezhubi.jpg', import.meta.url),
         data: [
             ['【回合1】召唤【冥河守卫-lv1】'],
             ['【回合1】召唤【冥河守卫-lv2】'],
@@ -423,7 +423,7 @@ export default [
         name: '炎狱战铠',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/yanyuzhankai.jpg', import.meta.url),
         data: [
             ['【回合6】召唤【黑岩裂缝-lv1】'],
             ['【回合6】召唤【黑岩裂缝-lv2】'],
@@ -443,7 +443,7 @@ export default [
         name: '恶魔凝视',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/emoningshi.jpg', import.meta.url),
         data: [
             ['【回合6】召唤【地狱屠夫-lv1】'],
             ['【回合6】召唤【地狱屠夫-lv2】'],
@@ -463,7 +463,7 @@ export default [
         name: '灵魂牢笼',
         quality: '橙',
         type: 2,
-        img: "",
+        img: new URL('@/assets/shenqi/lianyushenyuan/linghunlaolong.jpg', import.meta.url),
         data: [
             ['【回合3】召唤【铸甲熔岩魔-lv3】'],
             ['【回合3】召唤【铸甲熔岩魔-lv4】'],
